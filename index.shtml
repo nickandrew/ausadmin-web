@@ -24,6 +24,7 @@
 <table cellpadding=5 cellspacing=0 width=100% border=0>
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Overview</b></font></td>
+</tr>
 <tr>
   <td>
     <p>The aus.* newsgroup administration is a volunteer effort to maintain
@@ -56,9 +57,11 @@
     </ul>
 
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Documentation and FAQs</b></font></td>
+</tr>
 <tr>
   <td><br><ul>
     <li><a href="Faq/ausadmin.html">Who or what is ausadmin?</a></br>
@@ -74,9 +77,11 @@
     </ul>
     <br>
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Newsgroup descriptions</b></font></td>
+</tr>
 <tr>
   <td>
   <a href="/cgi-bin/treehtml.pl">aus.* newsgroup tree</a>
@@ -86,42 +91,51 @@
     <!--#exec cmd="../bin/charters.cmd" -->
    </ul><br>
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Newsgroup creation schedule</b></font></td>
+</tr>
 <tr>
   <td><br><ul>
       <li><i>Work in progress</i>
     </ul>
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Newsgroup deletion 
 	schedule</b></font></td>
+</tr>
 <tr>
   <td><br>
    <ul>
     <!--#exec cmd="../bin/deletions.cmd" -->
    </ul><br>
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Vote Results</b></font></td>
+</tr>
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 0"-->
+	<!--#exec cmd="../bin/vote-list.cmd 0" -->
 	</ul></p>
   </td>
+</tr>
 
 <tr bgcolor="#000000">
   <td><font size=+1 color="#66cc66" face=sans-serif><b>Votes Currently Running</b></font></td>
+</tr>
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 1"-->
+	<!--#exec cmd="../bin/vote-list.cmd 1" -->
 	</ul></p>
   </td>
+</tr>
 
 
 <tr bgcolor="#000000">
@@ -129,9 +143,21 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 2"-->
+	<!--#exec cmd="../bin/vote-list.cmd 2" -->
 	</ul></p>
   </td>
+</tr>
+
+<tr bgcolor="#000000">
+  <td><font size=+1 color="#66cc66" face=sans-serif><b>Ausadmin TODO list</b></font></td>
+</tr>
+<tr>
+  <td>
+	<p>
+	<!--#exec cmd="../bin/shtml/wip.pl" -->
+	</p>
+  </td>
+</tr>
 
 
 </table>
