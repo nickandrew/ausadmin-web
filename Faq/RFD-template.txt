@@ -1,6 +1,6 @@
 From: Your Name <your@e-mail.address>
 Subject: RFD: aus.group.name
-Newsgroups: news.announce.newgroups,news.groups,add.more.groups.here
+Newsgroups: aus.net.news,aus.general,add.more.groups.here
 
                      REQUEST FOR DISCUSSION (RFD)
                    unmoderated group aus.group.name
@@ -37,7 +37,7 @@ Moderator:  Some Moderator <someone@somewhere.org>
 
 END MODERATOR INFO.
 
-PROPOSER: [Name of the proposer]
+PROPOSER: [Name and E-mail address of the proposer]
 
 PROCEDURE:
 
@@ -54,8 +54,7 @@ All discussion of this proposal should be posted to aus.net.news.
 
 This RFD attempts to comply fully with the Usenet newsgroup creation
 guidelines outlined at http://aus.news-admin.org/Faq/aus_faq.  Please
-refer to that document (available in news.announce.newgroups) if you
-have any questions about the process.
+refer to that document if you have any questions about the process.
 
 DISTRIBUTION:
 
