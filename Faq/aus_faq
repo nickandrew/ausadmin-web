@@ -117,6 +117,10 @@ This name exceeds the 14 character limit in one section. The 14
 character limit is set by some older computer systems, and is an
 unfortunate anachronism, but one we have to live with.
 
+[ We are looking to see if it is now safe to relax this rule on the
+assumption that any 14 character limited system wouldn't be able to
+handle todays traffic. -- David]
+
 People are going to argue about the name; this is because the
 name is usually all that people have to go by. Even though
 you're going to provide a one-line description of the group,
@@ -128,6 +132,10 @@ You can E-mail news@aus.news-admin.org at any time for advice
 regarding choosing a name for your newsgroup. The aus.* news
 hierarchy administrator's principal responsibility is ensuring
 that newsgroup names are chosen wisely.
+
+At this point you will also need to look into a description line.  The
+description and the newsgroup name shouldn't be more then 80
+characters long.
 
 
 2. Moderation and other stuff
@@ -162,16 +170,18 @@ like this will usually suffice:
 
 You should include the following information:
 
-	1. The group name.
-	2. A one-line description.
-	3. A charter. See 'How to create a newsgroup' in news.answers.
-	4. Whether or not it ought to be moderated.
-	5. Whether or not crossposting is allowed (e.g. crosspost limit).
-        6. Whether binary and/or HTML postings are allowed
+       1.  The group name.
+       2.  A one-line description.
+       3.  A charter. See 'How to create a newsgroup' in news.answers.
+       4.  An estimate of expected traffic for this group and the current
+           traffic on the net related to this topic.
+       5.  Whether or not it ought to be moderated.
+       6.  Whether or not crossposting is allowed (e.g. crosspost limit).
+       7.  Whether binary and/or HTML postings are allowed
 (Note there is very strong opposition to binary newsgroups)
-        7. Cancellation policy for spam and other disallowed postings.
-	8. Any standard formats for Subject: lines.
-	9. Any other rules that you think fit (eg., in some cases,
+       8.  Cancellation policy for spam and other disallowed postings.
+       9.  Any standard formats for Subject: lines.
+       10. Any other rules that you think fit (eg., in some cases,
            followups may be forbidden).
 
 The aus.* hierarchy administrator will review your proposal and either
@@ -191,7 +201,15 @@ public debate.
 People will respond to your proposal in a variety of ways. Expect
 negative criticism. Some of it will come from people who read like
 overbearing arseholes; some will come from quite reasonable human
-beings. Try to be patient, and listen to what they have to say. You
+beings.
+
+The newsgroup name and the expected traffic are two of the most
+importent things that are going to discussed at this point.  Ausadmin
+and the people in aus.net.news are going to be looking for a everdence
+that this newsgroup is going to get enought traffic to be a healthy
+group.
+
+Try to be patient, and listen to what they have to say. You
 may find that they are making sense. At this point, you might consider
 better group names (if suggested), moderation or not, changes to the
 newsgroup's charter, or maybe even whether or not the whole thing was a
@@ -204,7 +222,7 @@ you think, and the other is what other people think.  If you can't be
 dissuaded from a bad proposal by sound arguments, fine. Go ahead and
 take it to the next step. In general, however, if few other people
 are convinced by your arguments in favour of the newsgroup, it won't
-propagate, and you'll end up wasting your time. (See point 6.)
+propagate, and you'll end up wasting your time. (See point 7.)
 
 
 5. Voting for the group
@@ -212,8 +230,8 @@ propagate, and you'll end up wasting your time. (See point 6.)
 
 [ This part is probably going to change a little -- nick@aus.news-admin.org ]
 
-The next step is to write to ausadmin@aus.news-admin.org and ask them
-to send out a CFVs.
+The next step is 21 days after the posting of the first RFD to write to 
+ausadmin@aus.news-admin.org and ask them to send out a CFV.  
 
 Voting in the aus.* hierarchy is done through E-mail, and votes are
 tallied automatically so it is important for voters to follow the
@@ -227,11 +245,18 @@ after some votes have been run -- nick@aus.news-admin.org ]
 [Note: these parameters are still experimental but they have been
 adjusted after some  votes where run -- dformosa@aus.news-admin.org]
 
+It's requested that people refrean from discussing the newsgroup after
+the CFV has been posted.  The newsgroup should have been discussed in
+the RFD period.  Ausadmin may regard discussion in this period as a grose
+abuse of the voting proccess.
+
 When a vote completes the results of the vote are posted by Ausadmin
 to aus.net.news. If there are no significant problems with the result
 (e.g. no accusations of fraudulent voting) then Ausadmin issues the
 appropriate control messages to request news administrators to create
 the newsgroup.
+
+
 
 6. Creating the new group
    ----------------------
@@ -284,14 +309,19 @@ on their own system. news@aus.news-admin.org is happy to send out
 admins come to trust that address, the newsgroup propagation will
 improve.
 
-6. What we do to people who don't follow the guidelines
+7. What we do to people who don't follow the guidelines
    ----------------------------------------------------
 
 If you ignore these guidelines, or fail to be swayed by 
 sound arguments in phase 4, the absolute worst that can happen
 is that some annoyed folk may attempt to remove your group
-immediately (see note 8); but the likeliest thing that will
-happen is that your new group will not propagate. (You may
+immediately (see note 9); but the likeliest thing that will
+happen is that your new group will not propagate.
+
+In the case of vote forgery or other abuses of the voting systems the
+admin may reverse or disregard votes and/or results.
+
+ (You may
 also get abusive e-mail and acquire a reputation as a dickhead.)
 The least that will happen is that your group may propagate to
 some extent, but will end up carrying zero traffic. Also, bear
@@ -302,7 +332,8 @@ newsgroups to be created at their site. This means that
 some groups won't be carried at some sites, no matter what.
 
 
-7. Epilogue
+
+8. Epilogue
    --------
 
 Some newsgroups go on to greatness. Others languish in mediocrity. A few
@@ -311,7 +342,7 @@ traffic for months on end, you might consider removing it. Discuss this
 in aus.net.news first, however.
 
 
-8. An Historical Note
+9. An Historical Note
    ------------------
 
 A few years back, some folks got into a prolonged newgroup/rmgroup
@@ -325,7 +356,7 @@ be repeated over and over whenever anyone suggests a new newsgroup:
 	"It isn't important, it's only zeroes and ones."
 
 
-9. FAQ Availability
+10. FAQ Availability
    ----------------
 
 This FAQ is also available on the WWW:
