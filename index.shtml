@@ -86,17 +86,7 @@ of Australian newsgroups as a national resource.</p>
   <td><font size=+1 color=#ff00aa><b>Current activities</b></font></td>
 <tr>
   <td><br><ul>
-    <li>Examining current aus.* structure
-    <li>Setting up this web site and associated domain
-    <li>Creating mailing list for aus.* news admins
-    <li>Getting added to the global list of hierarchy maintainers
-    <li>Contacting all aus.* news admins to modify control files to accept
-our newgroup and rmgroup requests
-    <li>Evaluating initial newsgroup proposals:
-    <ul>
-      <li><b>aus.java</b> (Eric Eide &lt;epaeei@epa.ericsson.se&gt;, 1998-03-30)
-      <li><b>aus.art</b> (David Simpson &lt;simpsond@tig.com.au&gt;, 1998-03-30)
-    </ul>
+    <!--#exec cmd="../bin/wip.cmd" -->
    </ul>
   </td>
 
