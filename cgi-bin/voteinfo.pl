@@ -77,7 +77,7 @@ if ($doc eq 'rfd' && -f "$ng/rfd") {
 
 if ($doc eq 'cfv' && -f "$ng/posted.cfv") {
 	# Output the signed call for votes
-	output("$ng/rfd");
+	output("$ng/posted.cfv");
 	exit(0);
 }
 
