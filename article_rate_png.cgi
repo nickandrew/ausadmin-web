@@ -16,7 +16,7 @@ my $type = $cgi->param('type') || 'day';
 $newsgroup =~ s,/,,g;
 $newsgroup =~ s/\.\.*/./g;
 
-my $path = "$ENV{AUSADMIN_HOME}/Mrtg/$newsgroup-$type.png";
+my $path = "Mrtg/arrival/$newsgroup-$type.png";
 
 if (!open(F, "<$path")) {
 	print <<EOF;
