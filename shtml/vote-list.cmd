@@ -9,6 +9,7 @@ $HREF="/cgi-bin/voteinfo?newsgroup=";
 
 # Run with $ARGV[0] == 0 => vote completed
 # Run with $ARGV[0] == 1 => vote still running
+# Run with $ARGV[0] == 2 => rfd received, no vote yet
 
 chdir( "../vote" );
 if ( open( LSOUTPUT, "ls -dw1 *.*|" ) ) {
@@ -29,16 +30,17 @@ else {
 sub CheckGroup {
 	if ( open( CONFIGFILE, "$_[0]/endtime.cfg") ) {
 		chomp( $_ = <CONFIGFILE> );
-		$VE = $_;
+		my $VE = $_;
 		close( CONFIGFILE );
-	}
-	else {
-		return 0;
-	}
-	if ( $VE > time ) {
-		return 1;
-	}
-	else {
+		if ( $VE > time ) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
+	} elsif (-f "$_[0]/rfd") {
+		return 2;
+	} else {
 		return 0;
 	}
 }
