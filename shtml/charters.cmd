@@ -10,28 +10,31 @@ chdir "Charters";
 # }
 
 $count = 0;
-for $fn (<*>) {
+foreach my $fn (<*>) {
+	next if ($fn !~ /^[a-z0-9.-]+$/);
+
 	open(F, "<$fn") || next;
 	$count++;
-	undef %data;
+	my %data;
 
 	while (<F>) {
 		chop;
 		last if (/^$/);
-		($key, $value) = ($_ =~ /([^:]*):\s+(.*)/);
+		my($key, $value) = ($_ =~ /([^:]*):\s+(.*)/);
 		last if ($key eq "");
 #		print "key: $key, value: /$value/\n";
 		$data{$key} = $value;
 	}
 
 	close(F);
-	$key = $fn;
+#	my $key = $fn;
+
 	if ($data{Link} eq "") {
 		print "<li><a href=\"Charters/$fn\">$fn</a>\n";
 		next;
 	}
 
-	$name = $fn;
+	my $name = $fn;
 	if ($data{Name} ne "") {
 		$name = $data{Name};
 	}
