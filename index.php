@@ -1,9 +1,7 @@
 <?php
-	global $AUSADMIN_HOME;
 
-	$AUSADMIN_HOME = '/home/ausadmin';
-
-	require_once('subs.inc');
+	require_once('lib/setup.inc');
+	require_once('lib/subs.inc');
 
 	# Get a list of "existing" newsgroups
 
@@ -27,7 +25,8 @@
  <tr>
   <td bgcolor="#ffffe0" width="100" valign="top">
    <font size="-1">
-    <?php require("ausadmin_hdr.inc") ?>
+    <?php require("lib/ausadmin_hdr.inc") ?>
+    <?php require("lib/proposals.inc") ?>
     <?php print_group_list("Newsgroups:", $array); ?>
    </font>
   </td>

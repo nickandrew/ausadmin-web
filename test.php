@@ -3,7 +3,7 @@
 
 	$AUSADMIN_HOME = '/home/ausadmin';
 
-	require_once('subs.inc');
+	require_once('lib/subs.inc');
 
 	# Get the newsgroup name
 	$x = apache_lookup_uri($REQUEST_URI);
@@ -61,7 +61,7 @@
    <tr>
     <td width="080" valign="top">
      <font size=-1>
-      <?php require("ausadmin_hdr.inc"); ?>
+      <?php require("lib/ausadmin_hdr.inc"); ?>
       <?php
       # Were there any votes associated with this newsgroup?
         if ($vote_dirs) {
