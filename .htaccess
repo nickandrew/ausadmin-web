@@ -1,3 +1,7 @@
-Options Includes
+Options +Includes +ExecCGI
 AddHandler server-parsed .shtml
 AddType text/html .shtml
+
+# I have no idea if these can do anything useful to make PHP execute as user
+# AddHandler cgi-script .cgi .sh .pl .php
+# Action text/x-httpd-php4 /usr/bin/php4
