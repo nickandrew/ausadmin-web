@@ -6,9 +6,11 @@
 
 use CGI qw/:standard/;
 
+my $AUSADMIN_HOME = "/home/ausadmin";
+
 my $query = new CGI();
 
-if (!-d "../vote") {
+if (!-d "$AUSADMIN_HOME/vote") {
 	# barf - KLUDGE
 	print "Content-Type: text/plain\n";
 	print "\n";
@@ -17,7 +19,7 @@ if (!-d "../vote") {
 	exit(2);
 }
 
-chdir("../vote");
+chdir("$AUSADMIN_HOME/vote");
 
 print "Content-Type: text/plain\n";
 print "\n";

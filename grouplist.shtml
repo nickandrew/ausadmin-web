@@ -6,7 +6,7 @@
 <!-- $Date$ -->
 <body bgcolor=#ffffff vlink=#336633 link=#6666cc> 
 <pre>
-<!--#exec cmd="../bin/grouplist.cmd" -->
+<!--#exec cmd="/home/ausadmin/bin/shtml/grouplist.cmd" -->
 </pre>
 </body>
 </html>

@@ -5,8 +5,9 @@
 # $Revision$
 # $Date$
 
+my $AUSADMIN_HOME = "/home/ausadmin";
 
-chdir "../data";
+chdir "$AUSADMIN_HOME/data";
 
 if (! -f "ausgroups") {
 	print "Content-type: text/plain\n";
@@ -18,7 +19,7 @@ if (! -f "ausgroups") {
 @out = stat("ausgroups.html");
 
 if (! -f "ausgroups.html" || $in[9] > $out[9]) {
-	system "../bin/grouptree.pl";
+	system "$AUSADMIN_HOME/bin/grouptree.pl";
 	if ($? > 0) {
 		print "Content-type: text/plain\n";
 		print "Status: 500 Generator broken\n\n";
