@@ -14,9 +14,9 @@ about aus.* in the web site:
 
 Procedures exist for creating new newsgroups in other hierarchies. The
 rules for creating new newsgroups in all other hierarchies except alt
-are particularly detailed, and can be found in regular postings in
-the newsgroup news.announce.newusers. You can also find much relevant
-information in the USENET FAQ repository at:
+are particularly detailed, and can be found in regular postings in the
+newsgroup news.announce.newusers or news.groups. You can also find much
+relevant information in the USENET FAQ repository at:
 
 	ftp://rtfm.mit.edu/pub/usenet/
 
@@ -32,7 +32,7 @@ for other peoples' newsgroups before making your own proposal.
 
 Newsgroups exist primarily as a place for groups of people to discuss
 things of importance to them. It is therefore important to consider
-the topic of your newsgroup. Is it something which only a handful of
+the topic of the newsgroup. Is it something which only a handful of
 people may wish to discuss - in which case a mailing list may be a more
 appropriate forum, more personal and has greater potential to keep the
 subscribers involved.
@@ -137,7 +137,7 @@ unfortunate anachronism, but one we have to live with.
 
 [ We are looking to see if it is now safe to relax this rule on the
 assumption that any 14 character limited system wouldn't be able to
-handle today's traffic. -- David]
+handle today's traffic. --David]
 
 People are going to argue about the name; this is because the
 name is usually all that people have to go by. Even though
@@ -182,7 +182,10 @@ is not an effective tool for censorship.
 3. Proposing the new group
    -----------------------
 
-Write an RFD (Request for Discussion) and E-mail it to news@aus.news-admin.org
+Discuss your ideas with ausadmin@aus.news-admin.org first. If
+your proposal sounds like a goer, fill in the template at
+http://aus.news-admin.org/Faq/RFD-template.txt and email it to
+ausadmin@aus.news-admin.org.
 
 Please note that ausadmin is a volunteer position and has a life
 beyond processing your request, whatever it is. Consequently there
@@ -192,12 +195,11 @@ discussion, 5 days result discussion period). If things go slower
 than you like, don't get abusive or officious - if you do, ausadmin
 may consider you a dickhead and ignore your messages.
 
-
-You can get a template for an RFD online at:
+You can get a template for a proposal online at:
         http://aus.news-admin.org/Faq/RFD-template.txt
 
-Ensure that your subject line includes the new group's name. Something
-like this will usually suffice:
+Ensure that your subject line in email to ausadmin includes the new
+group's name. Something like this will usually suffice:
 
 	Subject: RFD: aus.foo
 
@@ -228,10 +230,11 @@ before you try to write your own.
 
 Ausadmin will review your proposal and discuss it with you before
 accepting or rejecting it.  It is most important that you e-mail your
-RFD to news@aus.news-admin.org and not post it to USENET because ausadmin
+RFD to ausadmin@aus.news-admin.org and not post it to USENET because ausadmin
 posts the approved RFD and also requires it for the link on the website
 which shows this group is being discussed. You may need to alter your
-proposal several times to satisfy the concerns raised by ausadmin.
+proposal several times to satisfy the concerns raised by ausadmin
+before your proposal is posted publically.
 
 Once your RFD is approved, ausadmin will post it to aus.net.news and any
 relevant existing newsgroups which you have specified in your proposal's
@@ -270,7 +273,7 @@ pass the vote, and you'll end up wasting your time. (See point 7.)
 If you revise your proposal as a result of the public discussion
 on aus.net.news, send the revision to ausadmin for updating of
 the website. If the revision is substantial then ask ausadmin to
-post a new RFD message.
+post a new RFD message and allow a few more days for discussion.
 
 5. Voting for the group
 -----------------------
@@ -292,8 +295,8 @@ the vote end time.
 
 It's requested that people refrain from discussing the newsgroup after
 the CFV has been posted.  The newsgroup should have been discussed in
-the RFD period.  Ausadmin may regard discussion made during the voting
-period as a gross abuse of the voting process.
+the RFD period.  You should also not promote your proposal during the
+voting period, nor advise people only how to vote "YES".
 
 When a vote completes the results of the vote are posted by Ausadmin
 to aus.net.news. There follows a 5-day period for public examination
@@ -311,7 +314,7 @@ the second failure, it's 6 months.
 
 While the vote is running, you can ask ausadmin to cancel the vote.
 If a vote is cancelled, the waiting period mentioned in the previous
-paragraph does not apply.
+paragraph may apply.
 
 If an ausadmin system failure affects the vote (e.g. lost votes or
 procedural error) then ausadmin may choose whether to go ahead with
@@ -322,9 +325,16 @@ the vote or cancel it, or to assume a particular outcome of the vote.
 
 Creating a newsgroup successfully requires the newsgroup to be created
 on a majority of news servers which participate in the aus.* hierarchy.
+Ausadmin sends a special control message which requests all servers
+to create the group. Some servers process these messages automatically;
+others ignore them and groups are created manually by the local news
+administrator.
+
 Ultimately it's the decision of the news administrator on each individual
-news server whether or not to create a newsgroup; fortunately there are
-some tools to help automate this process.
+news server whether or not to create a newsgroup on their server; this
+is beyond the control of ausadmin and so from time to time, "followup
+action" will be required by the proponent, or ausadmin, or USENET users
+to ask news admins to create the group locally.
 
 The primary method of requesting that a newsgroup be created or removed
 is the "control message". In particular, "newgroup" and "rmgroup" are
@@ -339,20 +349,18 @@ to act responsibly. One such is David Lawrence (tale@uunet.net, now
 group-admin@isc.org) who is the person generally trusted to perform
 newsgroup addition and removal for the international newsgroups.
 
-These days (i.e. 1998) many idiots post forged newgroup and rmgroup
-control messages to USENET; this has resulted in the use of digital
-certification technology by trusted parties to prove that they are
-the issuers of requests. This is known as PGPverify and it is
-used in the international newsgroup hierarchies (comp.*, rec.* etc.)
-and in many regional hierarchies.
+Ausadmin uses a system called PGPverify to digitally sign control
+messages sent by it. News administrators can, and should, set
+their systems to trust only control messages posted by ausadmin
+for activities which affect aus.* newsgroups.
 
 The Australian hierarchy has not used PGPverify until the handover of
-the administrator responsibility to Nick Andrew <nick@zeta.org.au>,
+the administrator responsibility to Nick Andrew <ausadmin@aus.news-admin.org>,
 rather, two addresses were commonly accepted as being trustworthy
 issuers of requests: kre@munnari.oz.au and revdoc@uow.edu.au. These
 two persons are no longer involved in newsgroup creation or deletion;
-the responsibility is now (as of 1998-04-02) generally entrusted to
-Nick Andrew <nick@zeta.org.au>.
+the responsibility is (as of 1998-04-02) generally entrusted to
+Nick Andrew (aka <nick@tull.net>).
 
 For a group creation to be successful, many USENET sites must accept
 the newgroup message which ausadmin sends, or the news administrator
