@@ -21,7 +21,7 @@
 
 <table cellpadding=5 cellspacing=0 width=100% border=0>
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>Overview</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>Overview</b></font></td>
 <tr>
   <td>
     <p>The aus.* newsgroup administration is a volunteer effort to maintain
@@ -58,7 +58,7 @@ of Australian newsgroups as a national resource.</p>
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>FAQs</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>FAQs</b></font></td>
 <tr>
   <td><br><ul>
     <li><a href="Faq/aus_faq">Creating aus.* newsgroups</a></br>
@@ -71,7 +71,7 @@ of Australian newsgroups as a national resource.</p>
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>aus.* newsgroup browser</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>aus.* newsgroup browser</b></font></td>
 <tr>
   <td>
   <a href="/cgi-bin/treehtml.pl">aus.* newsgroup tree</a>
@@ -83,7 +83,7 @@ of Australian newsgroups as a national resource.</p>
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>Current activities</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>Current activities</b></font></td>
 <tr>
   <td><br><ul>
     <li>Examining current aus.* structure
@@ -101,7 +101,7 @@ our newgroup and rmgroup requests
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>Newsgroup creation schedule</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>Newsgroup creation schedule</b></font></td>
 <tr>
   <td><br><ul>
       <li>None at present
@@ -109,7 +109,7 @@ our newgroup and rmgroup requests
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>Newsgroup deletion schedule</b></font></td>
+  <td><font size=+1 color=#ff00aa><b>Newsgroup deletion schedule</b></font></td>
 <tr>
   <td><br>
    <ul>
