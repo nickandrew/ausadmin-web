@@ -6,7 +6,7 @@ $Date$
 
 This document describes a procedure for creating a new newsgroup within
 the aus hierarchy. It is written for the person who has an idea for a
-newsgroup and wants to "make it happen" (the proponent). The organisation
+newsgroup and wants to "make it happen" (the proposer). The organisation
 which oversees this process has documented this and other information
 about aus.* in the web site:
 
@@ -21,7 +21,7 @@ information in the USENET FAQ repository at:
 	ftp://rtfm.mit.edu/pub/usenet/
 
 USENET group creation policy recommends that before attempting to have
-a newsgroup created, the proponent should have a firm understanding of
+a newsgroup created, the proposer should have a firm understanding of
 the USENET culture and the process of discussing and then voting on a
 new newsgroup. The preferred way to do this is to read aus.net.news for
 about 6 months and participate in the discussion and voting processes
@@ -43,6 +43,10 @@ be appropriate in such a circumstance. Newsgroups are not generally
 created to be mouthpieces for some organisation. There are lots of other
 techniques available, like web chat rooms where access can be controlled
 or discussions can be integrated with other facilities.
+
+Newsgroups are also not intended to be used only by people who hold
+some particular opinion. In other words, the topic of the newsgroup
+is all-important, and not the likely audience.
 
 Is your topic related to some current affairs, e.g. the fall of the Berlin
 Wall, or another Clinton Sex Scandal? A newsgroup on such a topic could be
@@ -78,10 +82,10 @@ a newsgroup in public.
 1. Picking a name
    --------------
 
-This really is amazingly important. A badly chosen name can
-arouse an astonishing amount of ire in other news users. A
-really bad name can cause software failures. To avoid
-annoying too many people, here are some suggestions:
+This really is amazingly important. A badly chosen name can arouse an
+astonishing amount of ire in other news users. A really bad name can
+cause software failures. To avoid annoying too many people, here are
+some suggestions:
 
 	Try to be consistent with existing newsgroup names.
 	Use nouns where possible.
@@ -110,13 +114,20 @@ been placed outside the aus.ads.* sub-hierarchy.
 
 	aus.dancing.morris
 
-This is another badly chosen name. It creates a sub-hierarchy
-(aus.dancing.*) for just one group. Usually, in cases like this,
-the group is too specific, and you would be better starting
-with a more general group (ie., aus.dancing), and splitting it
-later, if the traffic on morris dancing becomes sufficient.  Unless
-there is a an overwhelming reason ausadmin will not create new
-sub-hierarchies.
+This is another badly chosen name. The reason is that there is
+no existing hierarchy aus.dancing, and this proposal would
+create a sub-hierarchy (aus.dancing.*) for just one group,
+leaving no place to discuss other forms of dance. You would be
+better starting with a more general group (i.e. aus.dancing)
+and proposing a subgroup aus.dancing.morris sometime later, if
+the traffic on morris dancing becomes sufficient.
+
+Unless there is a a compelling reason to do otherwise, ausadmin
+will refuse to accept proposals for names like aus.dancing.morris
+where aus.dancing does not already exist and there are no existing
+groups named aus.dancing.something. In other words, ausadmin prefers
+more general groups to be created first, and when need arises these
+general groups can be subdivided into more specific groups.
 
 	aus.yachting-and-boarding
 
@@ -135,7 +146,7 @@ many sites won't include it in their newsgroups file, which
 throws the full weight of defining the group onto a rather
 cryptic jumble of letters. So take your time on this one.
 
-You can E-mail news@aus.news-admin.org at any time for advice
+You can E-mail ausadmin@aus.news-admin.org at any time for advice
 regarding choosing a name for your newsgroup. The aus.* news
 hierarchy administrator's principal responsibility is ensuring
 that newsgroup names are chosen wisely.
@@ -173,6 +184,15 @@ is not an effective tool for censorship.
 
 Write an RFD (Request for Discussion) and E-mail it to news@aus.news-admin.org
 
+Please note that ausadmin is a volunteer position and has a life
+beyond processing your request, whatever it is. Consequently there
+may be delays in answering your email or in the timing of things
+happening which are listed in this document (e.g. 21 days for RFD
+discussion, 5 days result discussion period). If things go slower
+than you like, don't get abusive or officious - if you do, ausadmin
+may consider you a dickhead and ignore your messages.
+
+
 You can get a template for an RFD online at:
         http://aus.news-admin.org/Faq/RFD-template.txt
 
@@ -191,25 +211,32 @@ You should include the following information:
        5.  Whether or not it ought to be moderated.
        6.  Whether or not crossposting is allowed (e.g. crosspost limit).
        7.  Whether binary and/or HTML postings are allowed
-	   (Note there is very strong opposition to binary newsgroups)
+	   (Note there is very strong opposition to both binary newsgroups
+	   and HTML posting; if you allow either of these, expect to justify
+	   your decision)
        8.  Cancellation policy for spam and other disallowed postings.
        9.  Any standard formats for Subject: lines.
        10. Any other rules that you think fit (e.g., in some cases,
            followups may be forbidden).
 
-The aus.* hierarchy administrator will review your proposal and either
-accept or reject it.  It is most important that you post your RFD to
-news@aus.news-admin.org before you post it publicly; your RFD is
-needed by ausadmin to generate the future CFV. If you've checked out
-the newsgroup name with news@aus.news-admin.org in advance your
-proposal will usually be accepted unless the administrator would like
-to suggest some improvements in the format or content of the RFD.
+Ausadmin has received a few proposals recently which were little more
+than the RFD template with a newsgroup name substituted in. It's not
+ausadmin's role to do your homework - if you don't make a reasonable
+attempt at addressing all of the above points, ausadmin may well
+ignore your message. Always read several RFDs from successful groups
+before you try to write your own.
 
-Once your RFD is approved, post it to aus.net.news, aus.general and
-any relevant existing newsgroups for public debate. Discussion should
-take place in aus.net.news, so include the following line in the headers:
-Followup-To: aus.net.news
-and make a note in the RFD that you have directed followups to that group.
+Ausadmin will review your proposal and discuss it with you before
+accepting or rejecting it.  It is most important that you e-mail your
+RFD to news@aus.news-admin.org and not post it to USENET because ausadmin
+posts the approved RFD and also requires it for the link on the website
+which shows this group is being discussed. You may need to alter your
+proposal several times to satisfy the concerns raised by ausadmin.
+
+Once your RFD is approved, ausadmin will post it to aus.net.news and any
+relevant existing newsgroups which you have specified in your proposal's
+DISTRIBUTION section for public debate. Discussion should take place in
+aus.net.news, and the ausadmin post will direct followups to that group.
 
 4. Debating the proposal
    ---------------------
@@ -238,23 +265,30 @@ you think, and the other is what other people think.  If you can't be
 dissuaded from a bad proposal by sound arguments, fine. Go ahead and
 take it to the next step. In general, however, if few other people
 are convinced by your arguments in favour of the newsgroup, it won't
-propagate, and you'll end up wasting your time. (See point 7.)
+pass the vote, and you'll end up wasting your time. (See point 7.)
 
+If you revise your proposal as a result of the public discussion
+on aus.net.news, send the revision to ausadmin for updating of
+the website. If the revision is substantial then ask ausadmin to
+post a new RFD message.
 
 5. Voting for the group
 -----------------------
 
-The next step is 21 days after the posting of the first RFD to write to
-ausadmin@aus.news-admin.org and ask them to send out a CFV. 
+The next step is 21 days after the posting of the first RFD to email to
+ausadmin@aus.news-admin.org and ask them to send out a CFV. [ Alternately
+you may choose to not go ahead with the group, in which case email
+ausadmin and tell them you wish to abandon the proposal. ]
 
-Voting in the aus.* hierarchy is done through E-mail, and votes are
+Voting in the aus.* hierarchy is done through e-mail, and votes are
 tallied automatically so it is important for voters to follow the
 instructions which will appear in the posted CFV.
 
 A newsgroup request passes the vote if at least 2-thirds of the
 respondents voted YES and there are at least 20 more YES votes than NO
-votes. [Note: these parameters are experimental and may be adjusted
-in future -- nick@aus.news-admin.org ]
+votes. The voting period is 14 days. Votes are collected automatically
+and the vote-taker program will reject any votes which arrive after
+the vote end time.
 
 It's requested that people refrain from discussing the newsgroup after
 the CFV has been posted.  The newsgroup should have been discussed in
@@ -262,15 +296,26 @@ the RFD period.  Ausadmin may regard discussion made during the voting
 period as a gross abuse of the voting process.
 
 When a vote completes the results of the vote are posted by Ausadmin
-to aus.net.news. If there are no significant problems with the result
-(e.g. no accusations of fraudulent voting) then Ausadmin issues the
-appropriate control messages to request news administrators to create
-the newsgroup.
+to aus.net.news. There follows a 5-day period for public examination
+of the vote results. If apparent forged votes become noticed during
+this 5-day period the vote will be recounted and the recount posted
+to aus.net.news.
 
-If it fails you will not be able to propose it for another 3 months
-after the close of votes, and another 6 months after the close of
-votes on a second failure.
+After the 5-day period (and any recount), if the vote passed the
+requirements, ausadmin will issue the appropriate control messages
+to request USENET news administrators to create the newsgroup.
 
+If the vote fails, ausadmin will not accept another proposal for
+the same newsgroup until 3 months after the close of votes. After
+the second failure, it's 6 months.
+
+While the vote is running, you can ask ausadmin to cancel the vote.
+If a vote is cancelled, the waiting period mentioned in the previous
+paragraph does not apply.
+
+If an ausadmin system failure affects the vote (e.g. lost votes or
+procedural error) then ausadmin may choose whether to go ahead with
+the vote or cancel it, or to assume a particular outcome of the vote.
 
 6. Creating the new group
    ----------------------
@@ -307,44 +352,23 @@ rather, two addresses were commonly accepted as being trustworthy
 issuers of requests: kre@munnari.oz.au and revdoc@uow.edu.au. These
 two persons are no longer involved in newsgroup creation or deletion;
 the responsibility is now (as of 1998-04-02) generally entrusted to
-Nick Andrew <nick@zeta.org.au> who has set up an organisation at
-aus.news-admin.org to oversee the process and group creation into the
-future.
+Nick Andrew <nick@zeta.org.au>.
 
-So, (to cut a long story short) once your newsgroup request passes the
-vote you can instruct news@aus.news-admin.org to go ahead and issue
-the newgroup request. Due to the considerations in the previous
-paragraph your newsgroup may not be accepted by some of the news
-administrators; in most cases this is due to ignorance of the new
-administrator address; please inform them of the change and the
-web site http://aus.news-admin.org/ and ask them to create the group
-on their own system. news@aus.news-admin.org is happy to send out
-"booster" newgroup requests on demand, on the theory that as more
-admins come to trust that address, the newsgroup propagation will
-improve.
+For a group creation to be successful, many USENET sites must accept
+the newgroup message which ausadmin sends, or the news administrator
+of a site must create the group by hand.
 
-7. What we do to people who don't follow the guidelines
-   ----------------------------------------------------
+Many USENET site administrators accept the ausadmin PGP signature to
+automatically create a new newsgroup. However, many do not, and if
+your local newsserver does not know of an ausadmin-created group, this
+is likely the reason, so please send email to your news administrator
+or other technical support person and ask them to either create the
+newsgroup by hand, or process the ausadmin "Checkgroups" file (which
+lists all aus.* groups at http://aus.news-admin.org/checkgroups.shtml)
+or add ausadmin's PGP key at http://aus.news-admin.org/ausadmin.asc to
+their configuration for automatically accepting newgroup messages.
 
-If you ignore these guidelines, or fail to be swayed by
-sound arguments in phase 4, the absolute worst that can happen
-is that some annoyed folk may attempt to remove your group
-immediately (see note 9); but the likeliest thing that will
-happen is that your new group will not propagate.
-
-In the case of vote forgery or other abuses of the voting systems the
-admin may reverse or disregard votes and/or results.
-
-(You may also get abusive e-mail and acquire a reputation as
-a dickhead.)  The least that will happen is that your group
-may propagate to some extent, but will end up carrying zero
-traffic. Also, bear in mind that many sites don't allow automatic
-newsgroup creation - their news administrators filter newsgroup
-creation manually, and only allow what they consider to be kosher
-newsgroups to be created at their site. This means that some groups
-won't be carried at some sites, no matter what.
-
-
+7. (chapter deleted)
 
 8. Epilogue
    --------
@@ -370,9 +394,9 @@ be repeated over and over whenever anyone suggests a new newsgroup:
 
 
 10. FAQ Availability
-   ----------------
+    ----------------
 
-This FAQ is also available on the WWW:
+This FAQ is available on the WWW:
         http://aus.news-admin.org/Faq/aus_faq
 
 (Here endeth the FAQ. Suggestions for improvements welcomed.)
@@ -380,7 +404,7 @@ This FAQ is also available on the WWW:
 
 -------------------------------------------------------------------------
 Original FAQ (c) 1995 Phil Herring <revdoc@uow.edu.au>
-This version (c) 2000 Nick Andrew <nick@zeta.org.au>. This document may
-be redistributed without limit but the content is not to be modified in
+This version (c) 2000 Nick Andrew <ausadmin@aus.news-admin.org>. This file
+may be redistributed without limit but the content is not to be modified in
 any substantial manner.
 -------------------------------------------------------------------------
