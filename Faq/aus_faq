@@ -1,5 +1,5 @@
-Creating a new newsgroup in the aus.* hierarchy
------------------------------------------------
+	Creating a new newsgroup in the aus.* hierarchy
+	-----------------------------------------------
 
 $Revision$
 $Date$
@@ -256,6 +256,9 @@ to aus.net.news. If there are no significant problems with the result
 appropriate control messages to request news administrators to create
 the newsgroup.
 
+If it fails you will not be able to propose it for anouther 3 months after
+the close of votes, and anouther 6 months after the close of votes on a 
+second failure.  
 
 
 6. Creating the new group
