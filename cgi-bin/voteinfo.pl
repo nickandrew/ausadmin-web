@@ -22,7 +22,7 @@ chdir("../vote");
 print "Content-Type: text/plain\n";
 print "\n";
 
-my $ng = $query->param('newsgroup');
+my $ng = $query->param('vote') || $query->param('newsgroup');
 my $doc = $query->param('doc');
 
 # Check supplied newsgroup for validity
