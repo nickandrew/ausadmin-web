@@ -44,6 +44,7 @@ DISTRIBUTION:
 
 [ Newsgroup and mailing list distribution of the RFD goes here.
   The format is: one newsgroup name or mailing-list address per
-  line, no spaces or punctuation. ]
+  line, no spaces or punctuation. Moderated newsgroups are not
+  permitted to be included in this list for technical reasons. ]
 
 
