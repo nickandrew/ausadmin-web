@@ -23,6 +23,8 @@ RATIONALE: aus.group.name
 
 [ Rationale for the group goes here. ]
 
+END RATIONALE.
+
 CHARTER: aus.group.name
 
 [ Charter for the group goes here. ]
@@ -59,7 +61,8 @@ refer to that document if you have any questions about the process.
 
 DISTRIBUTION:
 
-[ Newsgroup and mailing list distribution of the RFD goes here. ]
+[ Newsgroup and mailing list distribution of the RFD goes here.
+  The format should be: one newsgroup name or mailing-list address per
+  line, no spaces or punctuation. ]
 
-Proponent: Your Name <your@e-mail.address>
 

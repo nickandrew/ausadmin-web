@@ -252,7 +252,7 @@ tallied automatically so it is important for voters to follow the
 instructions which will appear in the posted CFV.
 
 A newsgroup request passes the vote if at least 2-thirds of the
-respondents voted YES and there are at least 40 more YES votes than NO
+respondents voted YES and there are at least 20 more YES votes than NO
 votes. [Note: these parameters are experimental and may be adjusted
 in future -- nick@aus.news-admin.org ]
 
