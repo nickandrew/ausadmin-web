@@ -1,6 +1,10 @@
 #!/usr/bin/perl
 #	Emit a series of links to newsgroups scheduled for deletion
 
+# $Revision$
+# $Date$
+
+
 chdir "Deletions";
 $count = 0;
 for $i (<*>) {
