@@ -1,10 +1,9 @@
-<!-- $Revision$ -->
-<!-- $Date$ -->
-
 <html>
 <head>
-  <title>aus.* Newsgroup Administration</title>
+<title>aus.* Newsgroup Administration</title>
 </head>
+<!-- $Revision$ -->
+<!-- $Date$ -->
 
 <body bgcolor=#ffffff vlink=#336633 link=#6666cc> 
 
@@ -62,9 +61,10 @@
   <td><font size=+1 color=#66cc66 face=sans-serif><b>FAQs</b></font></td>
 <tr>
   <td><br><ul>
+    <li><a href="Faq/ausadmin_faq">Who or what is ausadmin?</a></br>
     <li><a href="Faq/aus_faq">Creating aus.* newsgroups</a></br>
-    <li><a href="Faq/aus_checkgroups_faq">Current checkgroups message for 
-	aus.* newsgroups</a></br>
+    <li><a href="grouplist.shtml">Latest list of aus.* newsgroups</a></br>
+    <li><a href="checkgroups.shtml">Latest checkgroups message for aus.* newsgroups</a></br>
     <li><a href="Faq/aus_general_faq">Charter for aus.general</a></br>
     <li><a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
     </ul>
