@@ -1,7 +1,32 @@
 Checkgroups message for aus.*
 -----------------------------
 
-(Last update: 6/12/95 - added aus.test)
+$Revision$
+$Date$
+
+Last update: 1998-04-18 - lots of corrections to the previous list:
+group names added:
+	aus.ads.forsale.computers.new		aus.net.irc
+	aus.ads.forsale.computers.used		aus.org.awpa
+	aus.ads.jobs.moderated			aus.org.hisa
+	aus.ads.jobs.resumes			aus.org.rmaa
+	aus.ads.personals			aus.org.scouting
+	aus.censorship				aus.politics.guns
+	aus.comms.mobile			aus.radio.scanner
+	aus.culture.hellenic			aus.radio.showprep
+	aus.dvd					aus.transport
+	aus.legal.moderated			aus.tv.pay
+	aus.media-watch
+
+group names removed:
+	aus.ads.forsale.computers		aus.education.rpl
+	aus.archives				aus.net.directory.osi-ds
+	aus.aswec				aus.net.directory.quipu
+	aus.comms.fps				aus.sex
+	aus.education.npit
+
+Previous update: 1995-12-06 - added aus.test
+		
 
 1. What's a checkgroups message?
    -----------------------------
@@ -12,10 +37,10 @@ Specifically, it supplies a definitive list of the newsgroups that you
 should be carrying.
 
 A checkgroups that lists all the currently valid groups in the aus.*
-namespace is posted every other week to every site in the aus
-distribution. By the time you read this, that message will have
-arrived at your site. *This* message is just a listing of the
-newsgroups in that control message.
+namespace is posted every week to every site in the aus distribution.
+By the time you read this, that message will have arrived at your
+site. *This* message is just a listing of the newsgroups in that
+control message.
 
 
 2. What happens when my site receives a checkgroups message?
@@ -24,14 +49,17 @@ newsgroups in that control message.
 That depends on your software, and how it's configured. The default
 behaviour for INN is to mail a list to your news adminsitrator,
 showing which groups are to be added, and which are to be removed. The
-list is in a form that can be fed directly into sh to perform the
+list is in a form that can be fed directly into /bin/sh to perform the
 changes.
 
 It is also possible to configure your news software to do the changes
 immediately, if it has been sent from a specific email address. By
 default, INN is configured to respond to checkgroups message from
-Robert Elz <kre@munnari.OZ.AU>. (However, he seldom sends checkgroups
-messages these days, which is a problem!)
+Robert Elz <kre@munnari.OZ.AU> and/or Phil Herring <revdoc@uow.edu.au>.
+However, these gentlemen no longer maintain the master aus.* newsgroup list
+and so you should remove their addresses and add the permanent address
+<news@aus.news-admin.org> for processing of newgroup/rmgroup/checkgroups
+messages.
 
 
 3. What if I want to synch my active and newsgroups files right away?
@@ -45,19 +73,22 @@ You may have to change the path shown.
 /usr/local/news/bin/control/docheckgroups <<!
 aus.ads.commercial		Commercial advertisements.
 aus.ads.forsale			Items for sale (no commercial ads).
-aus.ads.forsale.computers	Computer-related items for sale (no commercial ads).
+aus.ads.forsale.computers.new	Advertisements for new computer hardware
+aus.ads.forsale.computers.used	Advertisements for used or second hand
 aus.ads.jobs			Jobs, wanted and available.
+aus.ads.jobs.moderated		Australian jobs available (Moderated)
+aus.ads.jobs.resumes		Australian resumes.
+aus.ads.personals		People seeking people.
 aus.ads.wanted			Items wanted (no commercial ads).
-aus.archives			Announcements of available software.
-aus.aswec			Australian Software Engineering Conference.
 aus.aviation			Planes, gliders, flying, etc.
 aus.aviation.airspace		Airspace Design and Management in Australia.
 aus.bicycle			Push bikes.
 aus.books			Australian discussion of books.
 aus.bushwalking			Bushwalking, hiking, and other outdoor activities.
 aus.cars			Petrol heads.
+aus.censorship			Censorship in Australia.
 aus.comms			Discussion about communications in general.
-aus.comms.fps			Fast Packet Switching.
+aus.comms.mobile		Mobile communications in Australia.
 aus.comms.videocon		Videoconferencing - compressed video.
 aus.computers			Misc computer types.
 aus.computers.ai		AI discussions.
@@ -73,14 +104,14 @@ aus.computers.sun		Sun computers and software.
 aus.computers.tex		The Tex typesetting system.
 aus.consumers			Consumer Products/Services in Australia
 aus.culture.china		soc.culture.china redistributed.
-aus.culture.lesbigay		Gay and bisexual life.
+aus.culture.hellenic		Hellenic culture in Australia.
 aus.culture.gothic		The Gothic subculture in Australia
+aus.culture.lesbigay		Gay and bisexual life.
 aus.culture.ultimo		Inner-city life.
+aus.dvd				Digital Versatile Disk in Australia.
 aus.education			Helping educators in Australia.
 aus.education.bio-newtech	New Technologies in Biology Teaching.
-aus.education.npit
 aus.education.open-learning	The Open Learning program.
-aus.education.rpl
 aus.electronics			Electronics hobbyists and engineers.
 aus.environment.conservation	Information and discussion of conservation issues.
 aus.environment.misc		Miscellaneous environmental issues.
@@ -98,15 +129,16 @@ aus.hi-fi			Hi Fi Issues.
 aus.invest			Investment and other financial matters.
 aus.jokes			Jokes, humour, and boring trivia.
 aus.legal			Legal issues.
+aus.legal.moderated		A moderated Australian and New Zealand legal group. (Moderated)
 aus.mathematics			Mathematics teaching and research.
 aus.mbio			Molecular biology.
+aus.media-watch			Embittered, pompous gits of the net, unite!
 aus.motorcycles			Discussion of motorcycles and motorcycling.
 aus.music			Music and related issues.
 aus.net.access			Internet access.
 aus.net.announce		Announcements of resources available on the net.
 aus.net.directory		For the discussion of the X.500 Directory.
-aus.net.directory.osi-ds	IETF OSI-DS WG mailing list.
-aus.net.directory.quipu		The Quipu implementation of the X.500 Directory.
+aus.net.irc			Internet Relay Chat in Australia.
 aus.net.mail			Mail systems, addressinc, &c.
 aus.net.news			The news system.
 aus.net.policy			Discussion of all aspects of Australian Internet policy
@@ -114,22 +146,28 @@ aus.net.status			Status of local & international net links.
 aus.org.acs			The Australian Computer Society.
 aus.org.acs.books		The Australian Computer Society book reviews.
 aus.org.auug			AUUG Inc - Australian Unix User Group.
+aus.org.awpa			Australasian Web Publishers' Association, Inc.
 aus.org.efa			The Electronic Frontier Australia.
+aus.org.hisa			Health Informatics Association of Australia related matters.
+aus.org.rmaa			Records Management Association of Australia related matters.
 aus.org.sage			The System Administrator's Guild.
+aus.org.scouting		Scouting in Australia
 aus.org.waia			Discussion forum for the W.A. Internet Association.
 aus.personals			Personal ads.
 aus.pets			Australasian pet owners, and their pets.
 aus.photo			Photography, video, etc.
 aus.politics			Politics, debates, rational(?) arguments.
-aus.radio.amateur.misc		Amateur Radio.
+aus.politics.guns		Gun control in Australia
 aus.radio.amateur.digital	Digital techniques (packet etc) in Amateur Radio.
+aus.radio.amateur.misc		Amateur Radio.
 aus.radio.amateur.wicen		Wireless Institute Civil Emergency Network.
-aus.radio.broadcast             Australian broadcast radio.
-aus.rail			Railways and trains.
+aus.radio.broadcast		Australian broadcast radio.
+aus.radio.scanner		Scanner frequency tips & tricks for Monitoring In Aust.
+aus.radio.showprep		Show preparation for on-air professionals.
+aus.rail			Railways and trains, both actual and model.
 aus.rail.models			Model railways and trains.
 aus.religion			Discussions of, or related to, religions.
 aus.religion.christian		Christianity and issues relevant to Christianity
-aus.sex				Discussion of matters sexual.
 aus.sf				Australian discussion of SF&F literature, media, fandom.
 aus.sf.babylon5			The TV series _Babylon 5_.
 aus.sf.star-trek		_Star Trek_, old and new.
@@ -142,10 +180,12 @@ aus.sport.scuba			Scuba diving.
 aus.stats.s			Discussions of the S data analysis & graphics software.
 aus.students			Going to school in Australia.
 aus.students.overseas		Australian students abroad, students from abroad in Australia.
-aus.talk.ltuae			Life, the Universe, and Everything.
+aus.talk.ltuae			Life, The Universe, And Everything.
 aus.test			Test messages.
 aus.theatre			The theatre.
+aus.transport			Transportation infrastructure and vehicles.
 aus.tv				Television.
 aus.tv.community		Community television.
+aus.tv.pay			General discussion of pay television within Australia.
 aus.tv.x-files			Discussion of "X-Files" and related subjects.
 !
