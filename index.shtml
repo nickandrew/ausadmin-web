@@ -35,8 +35,8 @@
     Nick Andrew (<a href="mailto:nick@zeta.org.au">nick@zeta.org.au</a>),
     and operational staff and facilities are provided by
     <a href="http://www.zeta.org.au/">Zeta Internet</a>.
-    Jason Nicholls (<a href="mailto:jjnichol@zeta.org.au">
-    jjnichol@zeta.org.au</a>) is maintaining this Web site.</p>
+    Jason Nicholls (<a href="mailto:jjnichol@zeta.org.au">jjnichol@zeta.org.au</a>)
+    is maintaining this Web site.</p>
 
     <p>We wish to automate the administration task as much as possible.
     Before sending any questions to Nick or Jason make sure you have
@@ -58,22 +58,21 @@
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#66cc66 face=sans-serif><b>FAQs</b></font></td>
+  <td><font size=+1 color=#66cc66 face=sans-serif><b>Documentation and FAQs</b></font></td>
 <tr>
   <td><br><ul>
     <li><a href="Faq/ausadmin.html">Who or what is ausadmin?</a></br>
     <li><a href="Faq/aus_faq">Creating aus.* newsgroups</a></br>
+    <li><a href="Faq/RFD-template.txt">Template for writing an RFD (Request For Discussion)</a></br>
     <li><a href="grouplist.shtml">Latest list of aus.* newsgroups</a></br>
-    <li><a href="checkgroups.shtml">Latest checkgroups message for aus.* newsgroups</a></br>
-    <li><a href="Faq/aus_general_faq">Charter for aus.general</a></br>
+    <li><a href="checkgroups.shtml">Latest checkgroups message for the aus.* hierarchy</a></br>
     <li><a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
     </ul>
     <br>
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#66cc66 face=sans-serif><b>aus.* newsgroup browser
-	</b></font></td>
+  <td><font size=+1 color=#66cc66 face=sans-serif><b>Newsgroup descriptions</b></font></td>
 <tr>
   <td>
   <a href="/cgi-bin/treehtml.pl">aus.* newsgroup tree</a>
