@@ -5,8 +5,9 @@
 # $Revision$
 # $Date$
 
+my $AUSADMIN_HOME = "/home/ausadmin";
 
-chdir "Wip";
+chdir "$AUSADMIN_HOME/Wip";
 
 my $count = 0;
 my %activity;
