@@ -38,7 +38,7 @@ of Australian newsgroups as a national resource.</p>
     Jason Nicholls (<a href="mailto:jjnichol@zeta.org.au">jjnichol@zeta.org.au</a>)
     is maintaining this Web site.
 
-    <p>Our aim is to automate the administration task as much as possible.
+    <p>We wish to automate the administration task as much as possible.
     Before sending any questions to Nick or Jason make sure you have
     read the relevant FAQs and are aware of our current policy. This
     web site should cover most, if not all, queries you may have. If
@@ -64,7 +64,9 @@ of Australian newsgroups as a national resource.</p>
     <li><a href="Faq/aus_faq">Creating aus.* newsgroups</a></br>
     <li><a href="Faq/aus_checkgroups_faq">Current checkgroups message for 
 	aus.* newsgroups</a></br>
-    <li><a href="Faq/aus_general_faq">Charter for aus.general</a></br></ul>
+    <li><a href="Faq/aus_general_faq">Charter for aus.general</a></br>
+    <li><a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
+    </ul>
     <br>
   </td>
 
@@ -109,9 +111,10 @@ our newgroup and rmgroup requests
 <tr bgcolor=#000000>
   <td><font size=+1 color=#ffffff><b>Newsgroup deletion schedule</b></font></td>
 <tr>
-  <td><br><ul>
-      <li>None at present
-    </ul>
+  <td><br>
+   <ul>
+    <!--#exec cmd="../bin/deletions.cmd" -->
+   </ul><br>
   </td>
 
 </table>
