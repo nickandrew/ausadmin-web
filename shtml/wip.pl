@@ -1,60 +1,67 @@
 #!/usr/bin/perl
 #	Emit a series of links to newsgroups work in progress
-
+#
 # $Source$
 # $Revision$
 # $Date$
 
 
 chdir "../Wip";
-$count = 0;
-for $fn (<*>) {
+
+my $count = 0;
+my %activity;
+
+foreach my $fn (<*>) {
 	open(F, "<$fn") || next;
-	undef %data;
+	my %data;
 
 	while (<F>) {
-		chop;
+		chomp;
 		last if (/^$/);
-		($key, $value) = ($_ =~ /([^:]*):\s+(.*)/);
+		my($key, $value) = ($_ =~ /([^:]*):\s+(.*)/);
 #		print "key: $key, value: /$value/\n";
 		$data{$key} = $value;
 	}
 
 	close(F);
-	$key = $fn;
+
+	my $key = $fn;
 	if ($data{Updated} ne "") {
 		$key = "$data{Updated} $fn";
 	}
 #	print "Key is $key\n";
 
-	$keys{$key} = 1;
+	$activity{$key} = { };
+
 	if ($data{Name} ne "") {
-		$text{$key} = $data{Name};
+		$activity{$key}->{text} = $data{Name};
 	} else {
-		$text{$key} = $fn;
+		$activity{$key}->{text} = $fn;
 	}
 
-	$fn{$key} = $fn;
-	$updated{$key} = $data{Updated};
-	$link{$key} = $data{Link};
-	$status{$key} = $data{Status};
+	$activity{$key}->{fn} = $fn;
+	$activity{$key}->{updated} = $data{Updated};
+	$activity{$key}->{link} = $data{Link};
+	$activity{$key}->{status} = $data{Status};
 }
 
 # Emit gathered info
-for $key (sort {$b cmp $a} (keys %keys)) {
+foreach my $key (sort {$b cmp $a} (keys %activity)) {
+	my $r = $activity{$key};
+
 	print "<li>";
-	if ($link{$key} ne "n") {
-		printf "<a href=\"%s\">", ($link{$key} eq "" ? "/Wip/$fn{$key}" : $link{$key});
+	if ($r->{link} ne "n") {
+		printf "<a href=\"%s\">", ($r->{link} eq "" ? "/Wip/$r->{fn}" : $r->{link});
 	}
-	print $text{$key};
-	if ($link{$key} ne "n") {
+	print $r->{text};
+	if ($r->{link} ne "n") {
 		printf "</a>";
 	}
-	if ($status{$key} ne "") {
-		print " Status: $status{$key}";
+	if ($r->{status} ne "") {
+		print " Status: $r->{status}";
 	}
-	if ($link{$key} ne "n" && $updated{$key} ne "") {
-		print " (updated $updated{$key})";
+	if ($r->{link} ne "n" && $r->{updated} ne "") {
+		print " (updated $r->{updated})";
 	}
 	print "\n";
 	$count++;
@@ -63,3 +70,5 @@ for $key (sort {$b cmp $a} (keys %keys)) {
 if ($count == 0) {
 	print "<li>None at present\n";
 }
+
+exit(0);
