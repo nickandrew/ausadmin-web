@@ -72,7 +72,7 @@ of Australian newsgroups as a national resource.</p>
   <td><font size=+1 color=#ffffff><b>Charters for aus.* groups</b></font></td>
 <tr>
   <td><br><ul>
-    <!--exec cmd="../bin/charters.pl" -->
+    <!--exec cmd="../bin/charters.cmd" -->
    </ul><br>
   </td>
 
