@@ -1,9 +1,13 @@
-[ This is the template for submission of an RFD to ausadmin. You need to
+[ This is the template for submission of a proposal to ausadmin.
+  The document version is $Id$
+  You need to
   replace all lines bracketed thusly [ ] with information about your
-  proposal. All submissions must be spell-checked and in plain ASCII (no
+  proposal.
+  Delete the brackets [ ] as well as the explanatory text inside them.
+  All submissions must be spell-checked and in plain ASCII (no
   DOC files, use notepad instead). ]
 
-                REQUEST FOR DISCUSSION SUBMISSION TO AUSADMIN
+                         PROPOSAL SUBMISSION TO AUSADMIN
 
 CHANGE: newgroup [aus.group.name]
 
@@ -18,26 +22,64 @@ CHANGE: newgroup [aus.group.name]
 	CHANGE: charter [aus.group.name]
 ]
 
-CHANGES from previous RFD:
+NGLINE: [aus.group.name]: [one-liner newsgroup description.]
 
-[ List changes if this is a second or later RFD, otherwise delete this
-  section. ]
-
-Newsgroup line:
-[aus.group.name	One-liner newsgroup description.
- This is for news servers' newsgroup lists. Make it short and succinct,
- as there is only room for one line!
- The format is: aus.group.name, then a single TAB, then the short description]
+[ The above is for news servers' newsgroup lists. Make it short and succinct,
+  as there is only room for one line! End the description with a period.
+]
 
 RATIONALE:
 
-[ Rationale for this proposal goes here. Format for an 80-column wide display. ]
+[ Rationale for this proposal goes here. Format for an 80-column wide display.
+  Your rationale should be written in paragraphs, and should expand on the
+  basic requirements listed below:
+
+  - very brief introduction to your group's subject matter
+
+  - explain why this topic is not well-covered in aus.* groups already.
+    You should also demonstrate that you have researched the USENET
+    coverage of this group by mentioning related aus.* groups or public
+    mailing lists, and if there are any related Big 8 or alt groups.
+
+  - provide some statistics on discussions in related newsgroups which
+    would fit this group's subject matter. It is recommended to do some
+    google groups searches, and list the searches you did and the
+    results, in posts per month
+
+  - if you think this group will become really popular, explain why
+
+  - briefly mention some of the pros and cons of creating this newsgroup
 
 END RATIONALE.
 
 CHARTER: [aus.group.name]
 
-[ Charter for the group goes here. Format for an 80-column wide display. ]
+[ Charter for the group goes here. Format for an 80-column wide display.
+  Here's a sample template for your charter.
+
+  aus.animals.frogs is for the discussion of FROGS AND LIZARDS. Examples of
+  on-topic discussions include:
+
+        - FROG LIFECYCLE
+        - FROG BREEDING HABITS
+        - PET FROGS AND PET TADPOLES
+
+  Off-topic posts, such as the following subjects, are discouraged:
+
+        - SALAMANDERS AND OTHER FISH
+
+  What is not acceptable:
+
+        - HTML posting
+        - Binaries (post a URL instead)
+        - Crossposting to more than 3 other newsgroups
+        - Commercial advertisements more frequently than one per month
+        - For-Sale advertisements, unless [FS] appears in the subject
+        - Auction advertisements
+        - Flaming and ad-hominem attacks
+        - Spam and chain letters
+
+]
 
 END CHARTER.
 
@@ -54,13 +96,14 @@ PROPOSER: [ Name of the proposer, then E-mail address within < > ]
 
 DISTRIBUTION:
 
-[ Newsgroup and mailing list distribution of the RFD goes here.
-  The format is: one newsgroup name or mailing-list address per
-  line, no spaces or punctuation. Moderated newsgroups are not
-  permitted to be included in this list for technical reasons.
+[ The list of newsgroups to which the RFD will be crossposted goes here.
+  The format is: one newsgroup name per line, no spaces or punctuation.
+  Moderated newsgroups are not permitted to be included in this list
+  for technical reasons.
 
-  If you include any mailing-lists in this section, you must
+  If you wish for this RFD to be submitted to any mailing-lists, you must
   post the ausadmin-signed RFD to those lists yourself (or get a
-  list subscriber to do it, if you are not a subscriber) ]
+  list subscriber to do it, if you are not a subscriber)
+]
 
-
+END DISTRIBUTION.
