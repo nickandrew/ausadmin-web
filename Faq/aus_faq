@@ -4,21 +4,28 @@
 $Revision$
 $Date$
 
-This document describes a procedure for creating a new newsgroup
-within the aus hierarchy. The organisation which oversees this
-process has documented this and other information about aus.* in
-the web site:
+This document describes a procedure for creating a new newsgroup within
+the aus hierarchy. It is written for the person who has an idea for a
+newsgroup and wants to "make it happen" (the proponent). The organisation
+which oversees this process has documented this and other information
+about aus.* in the web site:
 
 	http://aus.news-admin.org/
 
-Procedures exist for creating new newsgroups in other 
-hierarchies. The rules for creating new newsgroups in all 
-other hierarchies except alt are particularly detailed, and 
-can be found in regular postings in the newsgroup 
-news.announce.newusers. You can also find much relevant information
-in the USENET FAQ repository at:
+Procedures exist for creating new newsgroups in other hierarchies. The
+rules for creating new newsgroups in all other hierarchies except alt
+are particularly detailed, and can be found in regular postings in
+the newsgroup news.announce.newusers. You can also find much relevant
+information in the USENET FAQ repository at:
 
 	ftp://rtfm.mit.edu/pub/usenet/
+
+USENET group creation policy recommends that before attempting to have
+a newsgroup created, the proponent should have a firm understanding of
+the USENET culture and the process of discussing and then voting on a
+new newsgroup. The preferred way to do this is to read aus.net.news for
+about 6 months and participate in the discussion and voting processes
+for other peoples' newsgroups before making your own proposal.
 
 0. Do you really need a new aus newsgroup ?
 -------------------------------------------
@@ -71,16 +78,16 @@ a newsgroup in public.
 1. Picking a name
    --------------
 
-This really is amazingly important. A badly chosen name can 
-arouse an astonishing amount of ire in other news users. A 
-really bad name can cause software failures. To avoid 
+This really is amazingly important. A badly chosen name can
+arouse an astonishing amount of ire in other news users. A
+really bad name can cause software failures. To avoid
 annoying too many people, here are some suggestions:
 
 	Try to be consistent with existing newsgroup names.
 	Use nouns where possible.
 	Always stick to letters and numbers.
 	Letters must be lower case.
-	Don't use dots as word separators, as they are used to 
+	Don't use dots as word separators, as they are used to
 		delimit sub-hierarchies; use hyphens instead.
 	Try to fit your newsgroup into an existing sub-hierarchy,
 		if appropriate.
@@ -93,12 +100,12 @@ Examples:
 
 	aus.ads.forsale
 
-This is an example of a well-chosen name. It fits into a 
+This is an example of a well-chosen name. It fits into a
 sub-hierarchy (aus.ads), and is specific.
 
 	aus.personals
 
-This is an example of a badly chosen newsgroup name. It has 
+This is an example of a badly chosen newsgroup name. It has
 been placed outside the aus.ads.* sub-hierarchy.
 
 	aus.dancing.morris
@@ -119,7 +126,7 @@ unfortunate anachronism, but one we have to live with.
 
 [ We are looking to see if it is now safe to relax this rule on the
 assumption that any 14 character limited system wouldn't be able to
-handle todays traffic. -- David]
+handle today's traffic. -- David]
 
 People are going to argue about the name; this is because the
 name is usually all that people have to go by. Even though
@@ -133,9 +140,9 @@ regarding choosing a name for your newsgroup. The aus.* news
 hierarchy administrator's principal responsibility is ensuring
 that newsgroup names are chosen wisely.
 
-At this point you will also need to look into a description line.  The
-description and the newsgroup name shouldn't be more then 80
-characters long.
+At this point you will also need to look into a description line.
+The description and the newsgroup name together shouldn't be more
+than 80 characters long.
 
 
 2. Moderation and other stuff
@@ -144,7 +151,7 @@ characters long.
 Some newsgroups are moderated. (See the postings in news.announce.newusers
 if you don't know what this means.)  This is rarely used within the aus
 hierarchy but that shouldn't stop you from suggesting it, if you think
-it's appropriate.
+it is appropriate.
 
 A moderated newsgroup can be a very useful resource. However it requires
 the consistent attention of a moderator (who is usually you, as the
@@ -152,8 +159,14 @@ newsgroup proposer). As the moderator, the success or failure of your
 newsgroup relies principally on your own shoulders.
 
 Unlike fidonet and some other systems moderation works on an approval
-system.  You are emailed each post to the newsgroup wich you reject or
+system.  You are emailed each post to the newsgroup which you reject or
 approve after reading it.
+
+Also note that a moderated newsgroup does not guarantee that only the
+moderator can post directly. If you appear to be biased in your
+approval of submissions, people may make posts to your newsgroup
+which bypass your moderation. In other words, a moderated newsgroup
+is not an effective tool for censorship.
 
 3. Proposing the new group
    -----------------------
@@ -178,15 +191,15 @@ You should include the following information:
        5.  Whether or not it ought to be moderated.
        6.  Whether or not crossposting is allowed (e.g. crosspost limit).
        7.  Whether binary and/or HTML postings are allowed
-(Note there is very strong opposition to binary newsgroups)
+	   (Note there is very strong opposition to binary newsgroups)
        8.  Cancellation policy for spam and other disallowed postings.
        9.  Any standard formats for Subject: lines.
-       10. Any other rules that you think fit (eg., in some cases,
+       10. Any other rules that you think fit (e.g., in some cases,
            followups may be forbidden).
 
 The aus.* hierarchy administrator will review your proposal and either
-accept or reject it.  It is most importent that you post your RFD to
-news@aus.news-admin.org before you post it publicly, your RFD is
+accept or reject it.  It is most important that you post your RFD to
+news@aus.news-admin.org before you post it publicly; your RFD is
 needed by ausadmin to generate the future CFV. If you've checked out
 the newsgroup name with news@aus.news-admin.org in advance your
 proposal will usually be accepted unless the administrator would like
@@ -204,18 +217,18 @@ overbearing arseholes; some will come from quite reasonable human
 beings.
 
 The newsgroup name and the expected traffic are two of the most
-importent things that are going to discussed at this point.  Ausadmin
-and the people in aus.net.news are going to be looking for a everdence
-that this newsgroup is going to get enought traffic to be a healthy
+important things that are going to discussed at this point.  Ausadmin
+and the people in aus.net.news are going to be looking for evidence
+that this newsgroup is going to get enough traffic to be a healthy
 group.
 
-Try to be patient, and listen to what they have to say. You
-may find that they are making sense. At this point, you might consider
-better group names (if suggested), moderation or not, changes to the
-newsgroup's charter, or maybe even whether or not the whole thing was a
-good idea in the first place. Try to be objective and mature about this,
-and don't take any of it personally (even if the overbearing arseholes
-get personal first).
+Try to be patient, and listen to what they have to say. You may
+find that they are making sense. At this point, you might consider
+better group names (if suggested), moderation or not, changes to
+the newsgroup's charter, or maybe even whether or not the whole
+thing was a good idea in the first place. Try to be objective and
+mature about this, and don't take any of it personally (even if
+the overbearing arseholes get personal first).
 
 Two things have to be taken into account at this point: one is what
 you think, and the other is what other people think.  If you can't be
@@ -228,10 +241,8 @@ propagate, and you'll end up wasting your time. (See point 7.)
 5. Voting for the group
 -----------------------
 
-[ This part is probably going to change a little -- nick@aus.news-admin.org ]
-
-The next step is 21 days after the posting of the first RFD to write to 
-ausadmin@aus.news-admin.org and ask them to send out a CFV.  
+The next step is 21 days after the posting of the first RFD to write to
+ausadmin@aus.news-admin.org and ask them to send out a CFV. 
 
 Voting in the aus.* hierarchy is done through E-mail, and votes are
 tallied automatically so it is important for voters to follow the
@@ -240,15 +251,12 @@ instructions which will appear in the posted CFV.
 A newsgroup request passes the vote if at least 2-thirds of the
 respondents voted YES and there are at least 40 more YES votes than NO
 votes. [Note: these parameters are experimental and may be adjusted
-after some votes have been run -- nick@aus.news-admin.org ]
+in future -- nick@aus.news-admin.org ]
 
-[Note: these parameters are still experimental but they have been
-adjusted after some  votes where run -- dformosa@aus.news-admin.org]
-
-It's requested that people refrean from discussing the newsgroup after
+It's requested that people refrain from discussing the newsgroup after
 the CFV has been posted.  The newsgroup should have been discussed in
-the RFD period.  Ausadmin may regard discussion in this period as a grose
-abuse of the voting proccess.
+the RFD period.  Ausadmin may regard discussion made during the voting
+period as a gross abuse of the voting process.
 
 When a vote completes the results of the vote are posted by Ausadmin
 to aus.net.news. If there are no significant problems with the result
@@ -256,9 +264,9 @@ to aus.net.news. If there are no significant problems with the result
 appropriate control messages to request news administrators to create
 the newsgroup.
 
-If it fails you will not be able to propose it for anouther 3 months after
-the close of votes, and anouther 6 months after the close of votes on a 
-second failure.  
+If it fails you will not be able to propose it for another 3 months
+after the close of votes, and another 6 months after the close of
+votes on a second failure.
 
 
 6. Creating the new group
@@ -295,7 +303,7 @@ the administrator responsibility to Nick Andrew <nick@zeta.org.au>,
 rather, two addresses were commonly accepted as being trustworthy
 issuers of requests: kre@munnari.oz.au and revdoc@uow.edu.au. These
 two persons are no longer involved in newsgroup creation or deletion;
-the responsibility is now (as of 1998-03-31) generally entrusted to
+the responsibility is now (as of 1998-04-02) generally entrusted to
 Nick Andrew <nick@zeta.org.au> who has set up an organisation at
 aus.news-admin.org to oversee the process and group creation into the
 future.
@@ -315,7 +323,7 @@ improve.
 7. What we do to people who don't follow the guidelines
    ----------------------------------------------------
 
-If you ignore these guidelines, or fail to be swayed by 
+If you ignore these guidelines, or fail to be swayed by
 sound arguments in phase 4, the absolute worst that can happen
 is that some annoyed folk may attempt to remove your group
 immediately (see note 9); but the likeliest thing that will
@@ -324,15 +332,14 @@ happen is that your new group will not propagate.
 In the case of vote forgery or other abuses of the voting systems the
 admin may reverse or disregard votes and/or results.
 
- (You may
-also get abusive e-mail and acquire a reputation as a dickhead.)
-The least that will happen is that your group may propagate to
-some extent, but will end up carrying zero traffic. Also, bear
-in mind that many sites don't allow automatic newsgroup
-creation - their news administrators filter newsgroup creation
-manually, and only allow what they consider to be kosher
-newsgroups to be created at their site. This means that
-some groups won't be carried at some sites, no matter what.
+(You may also get abusive e-mail and acquire a reputation as
+a dickhead.)  The least that will happen is that your group
+may propagate to some extent, but will end up carrying zero
+traffic. Also, bear in mind that many sites don't allow automatic
+newsgroup creation - their news administrators filter newsgroup
+creation manually, and only allow what they consider to be kosher
+newsgroups to be created at their site. This means that some groups
+won't be carried at some sites, no matter what.
 
 
 
@@ -370,7 +377,7 @@ This FAQ is also available on the WWW:
 
 -------------------------------------------------------------------------
 Original FAQ (c) 1995 Phil Herring <revdoc@uow.edu.au>
-This version (c) 1998 Nick Andrew <nick@zeta.org.au>. This document may
+This version (c) 2000 Nick Andrew <nick@zeta.org.au>. This document may
 be redistributed without limit but the content is not to be modified in
 any substantial manner.
 -------------------------------------------------------------------------
