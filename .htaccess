@@ -3,5 +3,20 @@ AddHandler server-parsed .shtml
 AddType text/html .shtml
 
 # I have no idea if these can do anything useful to make PHP execute as user
-# AddHandler cgi-script .cgi .sh .pl .php
+# AddHandler cgi-script .cgi .php
 # Action text/x-httpd-php4 /usr/bin/php4
+
+# Protect our PHP source files (excluding .php) from view, and some others
+<FilesMatch "\.(inc|tmp|bak)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+# Don't allow anybody to read the CVS dirs or their files
+<FilesMatch "^(lib|CVS|Entries|Repository|Root)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+
+Redirect permanent	/Charters	http://aus.news-admin.org/groupinfo.php
+Redirect permanent	/ausadmin.tar	http://www.nick-andrew.net/projects/ausadmin/

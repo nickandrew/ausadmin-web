@@ -5,7 +5,7 @@
 
 	# Get a list of "existing" newsgroups
 
-	$array = files_in_dir("$AUSADMIN_HOME/data/Newsgroups");
+	$array = files_in_dir("$AUSADMIN_DATA/Newsgroups");
 
 	sort($array);
 
@@ -15,9 +15,7 @@
 <head>
 <title>aus.* Newsgroup Administration</title>
 </head>
-<!-- $Source$ -->
-<!-- $Revision$ -->
-<!-- $Date$ -->
+<!-- $Id$ -->
 
 <body bgcolor="#ffffff" vlink="#336633" link="#6666cc"> 
 
@@ -27,6 +25,7 @@
    <font size="-1">
     <?php require("lib/ausadmin_hdr.inc") ?>
     <?php require("lib/proposals.inc") ?>
+    <?php require("lib/votes_running.inc") ?>
     <?php print_group_list("Newsgroups:", $array); ?>
    </font>
   </td>
@@ -35,7 +34,7 @@
   <td valign="top">
    <center>
     <h1>
-     <font face=sans-serif>aus.* Newsgroup Administration</font>
+     <font face=sans-serif><?php print $AUSADMIN_HIER ?>.* Newsgroup Administration</font>
     </h1>
    </center>
 
@@ -164,6 +163,7 @@
      <td>
       <a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
       <a href="http://mirror.aarnet.edu.au/pub/rtfm/usenet-by-hierarchy/aus/">aus.* FAQs on mirror.aarnet.edu.au (local mirror of rtfm)</a><br>
+      <a href="http://www.newsreaders.com/">www.newsreaders.com</a> (very comprehensive USENET resource)<br>
       <br>
      </td>
     </tr>

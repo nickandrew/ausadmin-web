@@ -91,6 +91,10 @@
       <blockquote>
        <?php echo $charter ?>
       </blockquote>
+     <h3>Activity graph of <?php echo $ng ?> (articles posted per hour)</h3>
+     <center>
+      <?php echo "<img src=\"/article_rate_png.php?newsgroup=$ng\" alt=\"Article posting rate graph for $ng\">\n" ?>
+     </center>
     </td>
    </tr>
   </table>

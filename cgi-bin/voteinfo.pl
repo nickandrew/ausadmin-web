@@ -51,7 +51,7 @@ if (! -d "$ng") {
 my $path;
 
 if (!$doc) {
-	my @files = qw/result cancel-article.txt posted.cfv cfv rfd/;
+	my @files = qw/result cancel-article.txt cfv.signed cfv rfd/;
 
 	foreach (@files) {
 		if (-f "$ng/$_") {
@@ -77,9 +77,9 @@ if ($doc eq 'rfd' && -f "$ng/rfd") {
 	exit(0);
 }
 
-if ($doc eq 'cfv' && -f "$ng/posted.cfv") {
+if ($doc eq 'cfv' && -f "$ng/cfv.signed") {
 	# Output the signed call for votes
-	output("$ng/posted.cfv");
+	output("$ng/cfv.signed");
 	exit(0);
 }
 

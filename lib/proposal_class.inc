@@ -44,6 +44,49 @@ class Proposal {
 
 	}
 
+	function is_running() {
+		global	$AUSADMIN_HOME;
+
+		# For a proposal to be a running vote it must be:
+		#	(1) rfd posted (rfd_posted.cfg exists)
+		#	(2) not abandoned (rfd_cancel.cfg exists if abandoned)
+		#	(3) vote not abandoned (vote_cancel.cfg exists if abandoned)
+		#	(4) vote not completed (result_posted.cfg exists if completed)
+
+		$d = "$AUSADMIN_HOME/$this->proposal_dir/$this->name";
+
+		if (file_exists("$d/vote_cancel.cfg")) {
+			# Cancelled, forget it
+			return false;
+		}
+
+		if (file_exists("$d/result")) {
+			# Result has been computed
+			return false;
+		}
+
+		if (file_exists("$d/result.unsigned")) {
+			# Result has been computed
+			return false;
+		}
+
+		if (! file_exists("$d/endtime.cfg")) {
+			# Never became a vote
+			return false;
+		}
+
+		return true;
+
+	}
+
+	function get_vote_endtime() {
+		global	$AUSADMIN_HOME;
+
+		$d = "$AUSADMIN_HOME/$this->proposal_dir/$this->name";
+
+		return read_one_line("$d/endtime.cfg");
+	}
+
 	function Proposal($name) {
 		$this->name = $name;
 

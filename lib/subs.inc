@@ -155,4 +155,23 @@ function print_group_list ($string, $array) {
 	echo "</p>\n";
 }
 
+function read_one_line ($path) {
+	if (! file_exists($path)) {
+		return false;
+	}
+
+	$fp = fopen($path, "r");
+
+	if ($fp == false) {
+		return false;
+	}
+
+	$line = fgets($fp, 240);
+	$line = trim($line);
+
+	fclose($fp);
+
+	return $line;
+}
+
 ?>

@@ -1,3 +1,3 @@
 #!/bin/bash
-cat /home/ausadmin/data/checkgroups.msg
+cat /home/ausadmin/data/checkgroups.signed
 exit 0
