@@ -1,5 +1,9 @@
 #!/usr/bin/perl
-#	treegif.pl - Output a gif containing a linked newsgroups tree
+#	@(#) treehtml.pl - Output html containing a linked newsgroups tree
+#
+# $Source$
+# $Revision$
+# $Date$
 
 
 chdir "../data";
@@ -28,5 +32,6 @@ open(F, "<ausgroups.html") || die "Unable to open ausgroups.html: $!";
 while (<F>) {
 	print $_;
 }
+
 close(F);
 exit(0);
