@@ -1,2 +1,355 @@
-Name: aus.computers.*
-Link: http://www.aardvark.apana.org.au/~mitch/aus_comp/faq.html
+CONTENTS
+========
+1) What's new in this FAQ
+2) Where to get this FAQ
+3) How to use the aus.computer newsgroups
+4) The aus.computer hierarchy Charter
+5) Complaints and Spam
+6) Blacklist
+7) Credits and acknowledgments
+8) History
+
+
+=========================
+1) What's new in this FAQ
+=========================
+
+The last posting of this FAQ by Mitchell Tanner seems to have been
+2-Jun-1998, as determined by me back 29-Nov-1999 using Deja news. At that
+time, the FAQ was versioned as "Revision 1.3", the links from
+http://aus.news-admin.org/ were broken, and no one wanted to maintain this
+FAQ. I requested that the FAQ, which was accessible from Deja at that time,
+be stored on aus.news-admin site.
+
+On 20-Dec-2000, I was surprised to see that this FAQ had not been stored on
+the aus.new-admin site, and suggested we do this now. The problem was, the
+FAQ was no longer accessible via Deja. Luckily, I did save a copy of it when
+I first investigated on 29-Nov-1999, and posted a copy of this along with
+my request on aus.net.news.
+
+Nick Andrew responded, and asked me to send him the FAQ, however, he would
+have preferred to maintain a link instead.
+
+Without much spare time, I was able to make a number of modifications and 
+corrections before forwarding Nick this latest FAQ, "Revision 1.4". It is 
+largely the same FAQ. However, I've itemised the changes here:
+
+o Reformatted to document to try and stay below a right margin of 77
+  characters, using fixed-spaced ASCII.
+
+o Added section 8, "History".
+
+o Moved the previous "What's new.." into the history.
+
+o Updated or removed various URLs (links).
+
+o Modified the "Complaints and Spam" section (5), to read a little easier,
+  and adjusted procedure to follow in determining who to send a complaint.
+
+o Corrected most of the spelling mistakes.
+
+
+Future modifications might include the removal of the "Blacklist" section
+(6) (and references to black-listing), which without a maintainer, is pretty
+much irrelevant.
+
+regards, 
+Richard Rudek.
+22-Dec-2000.
+
+
+========================
+2) Where to get this FAQ
+========================
+
+This FAQ is available at: http://aus.news-admin.org/
+
+
+
+==========================================
+3) How to use the aus.computers newsgroups
+==========================================
+
+This document describes how the aus.computers newsgroups are intended to be
+used. There are no set laws, but rather a series of conventions as well as
+"net-etiquette" which should be kept in mind when you post to these groups.
+
+Here are some of the most basic "rules":
+
+o Do not post ad's for commercial products, services or web sites.
+
+o Do not post get rich quick schemes (Make Money Fast/Quick Cash/etc.)
+
+o Do not post on "adult" related topics (XXX sites etc.)
+
+o Do not post binaries (files/photos/logos etc.)
+
+o Do not post more than one copy of a message.
+  (Please cross-post appropriately.)
+
+o Do not post articles if they are not related to the topic of the specified
+  newsgroup.
+
+o Please try to keep PERSONAL "Wanted To Buy" or "For Sale" posts to the
+  other relevant aus.ads* groups (see charter).
+
+o Please post in text only - make sure your news reader/browser is set for
+  standard text.
+
+o When following up a post, please try not to include the entire original
+  post - clip it so the main points are clear.
+
+o When asking a question, try to include as much information about your
+  problem and your setup as possible. The more details the better.
+
+
+
+=====================================
+4) The aus.computer hierarchy Charter
+=====================================
+
+Description: For the discussion of Australian computer related subjects.
+
+Cross-posting is allowed, provided other groups in the cross-post are related
+to computer discussions and the subject matter is on topic. It is not
+recommended that cross-posting between the aus.computer hierarchy and aus.ads
+hierarchy be supported, as this would largely defeat the purpose of the
+aus.computer discussion newsgroups.
+
+Those who do this should be advised at least three times before being
+blacklisted.
+
+However, non-commercial "personal" WTB and FS posts are permitted provided
+they are individually posted (NOT cross-posted) to three or less groups in
+the hierarchy, and are not repeated. Those who attempt to hide commercial
+posts behind personal WTB or FS posts should be immediately blacklisted.
+
+Commercial advertisements are forbidden, as well as announcements of web
+pages and services not related to the group's topic-matter. This includes
+(but not limited to) advertisements for MLM/MMF schemes, pornography sites,
+any criminal activities (i.e.: pirate software), and commercial price lists.
+
+Announcements of _NEW_ services provided to Australian Computer users may be
+permitted, however this does _NOT_ include the posting of new or updated
+price lists _OR_ posts that are repeated.
+
+Whilst the group will not be moderated, retro-moderation techniques such as
+cancels will be permitted for any post that is:
+
+(A) cross-posted to more than five newsgroups.
+                  *AND*
+(B) not directly related to the topic matter of the group.
+                  *AND*
+(C) If a notification of the cancel (including the original message body)
+    is posted to aus.net.news, with an explanation of the reason(s) for the
+    cancellation.
+                  *OR*
+(D) If post is forbidden under the definition of the charter or the same
+    entity reposts or posts similar material three times after ignoring or
+    failing to abide by at least 3 separate warnings issued by the
+    maintainer or authority appointed by them. Such cancels must abide by
+    section (C) and the entire charter.
+
+Cancelling of others' posts without following such steps is forbidden in the
+aus.computer groups _UNLESSs_ the post meets the current Usenet Spam thresholds
+and guidelines outlined by Tim Skirvin at :
+
+ http://www.killfile.org/~tskirvin/faqs/spam.html
+
+It is recommended that the issuing of cancels be undertaken by current net
+authorities and that private individuals be discouraged (but not forbidden)
+to issue cancels.
+
+The choice of five groups for cancels eliminates the cancelling of any
+"legitimate" posts - there are only thirteen Australian Computer Discussion
+newsgroups, of which only two host similar topics (with cross-posting
+between them not advised), and with nine aus.ad groups (also with
+cross-posting between them not advised.)
+
+Since the aus.computer hierarchy is only for discussion of _Australian_
+computer topics, there should not be a great need to cross-post at all.
+
+The decision not to encourage cross-posting between aus.computers* and
+aus.ads* is so that the main purpose of the groups is not defeated.
+i.e. discussion.
+
+The addition of maintainer authorised cancels will allow the disposal of
+forbidden posts by consistent offenders. However, it is expected that all
+methods possible to avoid such cancels be investigated by the maintainer,
+and that other net authorities be informed _prior_ to any action that will
+repeatedly cancel multiple posts by a single entity.
+
+
+======================
+5) Complaints and Spam
+======================
+
+If you object to a post, please complain to the poster or the poster's site
+administrator via e-mail. Check the message's headers for a "Complaints-To"
+entry, or address complaints to "postmaster@", then the offender's site.
+
+Also note that some offenders are able to forge various entries in the
+message headers (such as "From:" and "Reply-To:"), so also check the
+"NNTP-Posting-Host:" and "Path:" entries before sending your letter ; forged
+"From:" and "Reply-To:" addresses have been used to mail-bomb unsuspecting
+people.
+
+If you object to a fellow reader/poster please take it up with them via
+email and not within the newsgroup. If you feel you are being harassed,
+please email their ISP with your complaint, and include your evidence.
+
+If you have difficulty tracing the origin of an offending post please post
+your query to the newsgroup or aus.net.news
+
+If you think an article is a Spam, check news.admin.net-abuse.announce for
+information.
+
+The following canned replies might be useful for e-mailing errant posters:
+
+
+-- SHORT VERSION --
+
+The aus.computers.* hierarchy is for discussion on computer related topics
+only. Please consider whether your post is appropriate.
+
+For further information on the aus.computers.* hierarchy please read the
+aus.computers FAQ (Frequently Asked Questions list) which can be found at:
+
+http://aus.news-admin.org/
+
+
+
+-- LONG VERSION --
+
+To: posters_address
+Subject: Welcome to aus.computers
+From: your_name
+
+Regarding your recent post to the aus.computers newsgroups.
+
+The aus.computers hierarchy has a charter which outlines posting
+suggestions for these groups.
+
+We believe that your post falls outside these guidelines and request that
+in future you post where you can best reach your intended audience.
+
+The charter can be viewed at the address below on the aus.computers
+Frequently Asked Questions:
+
+http://aus.news-admin.org/
+
+
+Here are some resources which might be of interest:
+
+Australian Buy and Sell:
+=-=-=-=-=-==-=-==-=-=-=-
+aus.ads.commercial
+aus.ads.forsale
+aus.ads.forsale.computers
+aus.ads.forsale.computers.new
+aus.ads.forsale.computers.used
+aus.ads.wanted
+
+Austin, Texas Buy and Sell:
+==-=-=-==-=-=-=-=-=-=-==-=-
+austin.forsale
+The `aus' in aus.ads or aus.computers does not mean `Austin, Texas'.
+
+World Wide Buy and Sell:
+-=-=-=-=-=-=-=-=-=-=-=-=
+Also use the misc.forsale.* newsgroups if you have an advertisement
+intended for a world-wide audience.
+
+
+Australian Buy & Sell FAQ's:
+-=-=-=-=---==-=-=-=-=-=-=-=-
+ftp://archie.au/usenet/FAQs/aus.ads.forsale/
+
+
+Australian Computer Discussions:
+-=-=-=-=-=-=-=-=-===-=-=-===-=-=
+aus.computers
+aus.computers.ai
+aus.computers.amiga
+aus.computers.cdrom
+aus.computers.ibm-pc
+aus.computers.linux
+aus.computers.logic-prog
+aus.computers.mac
+aus.computers.os2
+aus.computers.parallel
+aus.computers.sun
+aus.computers.tex
+
+
+Signed,
+
+your_name
+
+
+
+============
+6) Blacklist
+============
+
+The following is a list of posters who refuse to conform to the guidelines
+laid out in this FAQ. Posters are added to this list only after explicitly
+stating their decision or after repeatedly ignoring requests to state their
+position. This is not a judgement on their character, simply a record of
+fact.
+
+The decision to take any action based on this list, such as the addition of
+entries to killfiles or the refusal to sell to or buy from specific people,
+is for each individual to make.
+
+Suggestions for additions are welcome and will be investigated by the
+maintainer.
+
+** no names are blacklisted at present **
+
+
+
+===============================
+7) Credits and acknowledgments
+===============================
+
+This FAQ was written by Mitchell Tanner. <mitch@aardvark.apana.org.au> ?
+
+Thanks to the following who allowed their ideas & material to be freely
+plagiarised :)
+
+Angus Mann  <amann@mail.usyd.edu.au>  - aus.comms
+Adam Frey    <adam@eden.apana.org.au>  - Maintainer, aus.ads FAQ
+Dave Nagle  <dnagle@wt.com.au>        - aus.net.news
+
+
+Thanks also to:
+
+Phil Herring who created the initial FAQ for aus.ads and Soh Kam Hung who
+modified and maintained it.
+
+
+
+==========
+8) History
+==========
+
+----------------------------------------------------------------------------
+21-Dec-2000: Rev 1.4, by Richard Rudek.
+
+See "What's new in this FAQ" section (1), above.
+
+----------------------------------------------------------------------------
+2-Jun-1998: Rev 1.3, by Mitchell Tanner.
+
+Due to problems with archie.au an alternative ftp site is being
+investigated - details soon.
+
+A link to this FAQ is now included at:
+
+ http://aus.news-admin.org/
+
+All readers are encouraged to follow up this post with their comments.
+
+----------------------------------------------------------------------------
+

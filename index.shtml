@@ -124,6 +124,16 @@
   </td>
 
 
+<tr bgcolor="#000000">
+  <td><font size=+1 color="#66cc66" face=sans-serif><b>Current discussions (RFDs received)</b></font></td>
+<tr>
+  <td>
+	<p><ul>
+	<!--#exec cmd="../bin/vote-list.cmd 2"-->
+	</ul></p>
+  </td>
+
+
 </table>
 
 </td></table>
