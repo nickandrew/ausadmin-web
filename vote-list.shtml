@@ -25,7 +25,7 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="/home/ausadmin/bin/shtml/vote-list.cmd 0"-->
+	<!--#exec cmd="shtml/vote-list.cmd 0"-->
 	</ul></p>
   </td>
 
@@ -34,7 +34,7 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="/home/ausadmin/bin/shtml/vote-list.cmd 1"-->
+	<!--#exec cmd="shtml/vote-list.cmd 1"-->
 	</ul></p>
   </td>
 
