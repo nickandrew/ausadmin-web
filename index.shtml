@@ -37,15 +37,13 @@
     Nick Andrew (<a href="mailto:nick@zeta.org.au">nick@zeta.org.au</a>),
     and operational staff and facilities are provided by
     <a href="http://www.zeta.org.au/">Zeta Internet</a>.
-    David Formosa (<a href="mailto:dformosa@dformosa.zeta.org.au">dformosa@dformosa.zeta.org.au</a>)
-    handles most newsgroup proposals and sets up votes.</p>
 
     <p>We wish to automate the administration task as much as possible.
-    Before sending any questions to Nick or David make sure you have
-    read the relevant FAQs and are aware of our current policy. This
-    web site should cover most, if not all, queries you may have. If
-    something seems important to you and it's not available here then
-    please send some email.</p>
+    Before sending any questions by email make sure you have read the
+    relevant FAQs and are aware of our current policy. This web site
+    should cover most, if not all, queries you may have. If something
+    seems important to you and it's not available here then please send
+    some email.</p>
 
 
     <h2>Current Policy</h2>
@@ -69,6 +67,7 @@
     <li><a href="grouplist.shtml">Latest list of aus.* newsgroups</a></br>
     <li><a href="checkgroups.shtml">Latest checkgroups message for the aus.* hierarchy</a></br>
     <li><a href="ausadmin.asc">PGP public key for ausadmin@aus.news-admin.org</a></br>
+    <li><a href="control.ctl">Sample control.ctl lines for INN news sites</a></br>
     <li><a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
     <li><a href="http://mirror.aarnet.edu.au/rtfm/usenet-by-hierarchy/aus/">aus.* FAQs on mirror.aarnet.edu.au (local mirror of rtfm)</a><br>
 
