@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Description of multi-vote report</title>
+</head>
+<body>
+<p>
+The multiple vote report looks like this example:
+<p>
+<table bgcolor="#ffffff" cellpadding="3" cellspacing="0">
+<tr>
+<td>
+<pre>
+<tt>
+  Multiple vote group: MULTI-995725824
+    Date: 2001-05-23 10:43:06
+    From: "First Name Last Name" <kirkwall at my-deja.com>
+    IPs:  144.134.6.96 209.132.220.42
+
+    Date: 2001-05-23 10:44:07
+    From: "Barbara Last Name" <bsg2000 at my-deja.com>
+    IPs:  144.134.6.96 209.132.220.41
+
+    Date: 2001-05-23 10:46:46
+    From: "First Name Last Name" <barbara_ag at my-deja.com>
+    IPs:  144.134.6.96 209.132.220.43
+
+    Date: 2001-05-23 10:50:27
+    From: "Sally S." <s_for_sally at hotmail.com>
+    IPs:  144.134.6.96 64.4.17.54
+
+    Date: 2001-05-23 10:54:01
+    From: "Eleanor Kirkwall" <e_kirkwall at hotmail.com>
+    IPs:  144.134.6.96 64.4.30.147
+</tt>
+</pre>
+</td>
+</tr>
+</table>
+<p>
+<ul>
+<li>The identifier <b>MULTI-995725824</b> is used to tie all messages
+together which are considered by ausadmin to come from the same source.
+<li>Each message appears underneath
+<li><i>Date</i> is the date and time the message was received by ausadmin.
+<li><i>From</i> is the complete From header line of the message
+<li><i>IPs</i> is the set of IP addresses associated with the message
+which can include intermediate mail relays and originating addresses
+from webmail servers.
+</ul>
+<p>
+Ausadmin uses the above information, plus other information obtained
+from the message contents, to decide whether a group of messages
+appeared to come from the same person.
+</body>
+</html>
