@@ -7,7 +7,7 @@
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 
-my $HREF="/cgi-bin/voteinfo?newsgroup=";
+my $HREF="/cgi-bin/voteinfo.pl?newsgroup=";
 
 # Run with $ARGV[0] == 0 => vote completed or cancelled
 # Run with $ARGV[0] == 1 => vote still running
