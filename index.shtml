@@ -81,7 +81,7 @@
 <tr>
   <td>
   <a href="/cgi-bin/treehtml.pl">aus.* newsgroup tree</a>
-  <h1>aus.* newsgroup charters</h1>
+  <h1>aus.* newsgroup charters and FAQs</h1>
   <br>
    <ul>
     <!--#exec cmd="../bin/charters.cmd" -->
