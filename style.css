@@ -1,0 +1,40 @@
+body {
+	color: black;
+	background: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+pre {
+	font-family: monospace;
+}
+
+strong {
+	color: red;
+	background: white;
+}
+
+td.lhs {
+	background: #ffffe0;
+	color: black;
+	font-size: 90%;
+}
+
+td.rhs {
+	background: #ffffff;
+	color: black;
+}
+
+div.box {
+	border: solid;
+	border-width: thin;
+	width: 100%;
+}
