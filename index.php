@@ -170,17 +170,35 @@
 
     <tr bgcolor="#000000">
      <td>
-      <font size=+1 color="#66cc66" face=sans-serif><b>Templates for newsgroup proposals</b></font>
+      <font size=+1 color="#66cc66" face=sans-serif><b>Newsgroup Creation Proposals</b></font>
      </td>
     </tr>
 
     <tr>
      <td>
       <p>
-       Be sure to read the
-       <a href="/Faq/aus_faq">Group&nbsp;creation&nbsp;FAQ</a>
-       before applying for a new newsgroup.
+       Six Simple Steps to creation of a new newsgroup:
+       <br>
+       <ol>
+        <li>Make sure you really need a new newsgroup, and not a mailing list or a website or an existing newsgroup</li>
+	<li>Define the Topic and choose a group name which meets the ausadmin policy (above)</li>
+	<li>Discuss your idea on aus.net.news</li>
+	<li>Submit a formal proposal to ausadmin</li>
+	<li>Participate in the Request For Discussion (RFD) process</li>
+	<li>Ask ausadmin to put your proposal to the vote.</li>
+       </ol>
+     </td>
+    </tr>
+
+    <tr>
+     <td>
+      <p>
+       Further detail on the process is in the
+       <a href="/Faq/aus_faq">Group&nbsp;creation&nbsp;FAQ</a>.
       </p>
+      <p>
+       You will also need this template:
+       <br>
        <a href="Faq/RFD-template.txt">Template for writing an RFD (Request For Discussion)</a></br>
       <br>
      </td>
