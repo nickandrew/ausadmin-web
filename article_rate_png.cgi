@@ -12,10 +12,11 @@ use CGI qw();
 my $cgi = new CGI();
 
 my $newsgroup = $cgi->param('newsgroup');
+my $type = $cgi->param('type') || 'day';
 $newsgroup =~ s,/,,g;
 $newsgroup =~ s/\.\.*/./g;
 
-my $path = "$ENV{AUSADMIN_HOME}/Mrtg/$newsgroup-month.png";
+my $path = "$ENV{AUSADMIN_HOME}/Mrtg/$newsgroup-$type.png";
 
 if (!open(F, "<$path")) {
 	print <<EOF;
