@@ -88,7 +88,7 @@
   <h1>aus.* newsgroup charters and FAQs</h1>
   <br>
    <ul>
-    <!--#exec cmd="../bin/charters.cmd" -->
+    <!--#exec cmd="/home/ausadmin/bin/shtml/charters.cmd" -->
    </ul><br>
   </td>
 </tr>
@@ -110,7 +110,7 @@
 <tr>
   <td><br>
    <ul>
-    <!--#exec cmd="../bin/deletions.cmd" -->
+    <!--#exec cmd="/home/ausadmin/bin/shtml/deletions.cmd" -->
    </ul><br>
   </td>
 </tr>
@@ -121,7 +121,7 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 0" -->
+	<!--#exec cmd="/home/ausadmin/bin/shtml/vote-list.cmd 0" -->
 	</ul></p>
   </td>
 </tr>
@@ -132,7 +132,7 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 1" -->
+	<!--#exec cmd="/home/ausadmin/bin/shtml/vote-list.cmd 1" -->
 	</ul></p>
   </td>
 </tr>
@@ -143,7 +143,7 @@
 <tr>
   <td>
 	<p><ul>
-	<!--#exec cmd="../bin/vote-list.cmd 2" -->
+	<!--#exec cmd="/home/ausadmin/bin/shtml/vote-list.cmd 2" -->
 	</ul></p>
   </td>
 </tr>
@@ -154,7 +154,7 @@
 <tr>
   <td>
 	<p>
-	<!--#exec cmd="../bin/shtml/wip.pl" -->
+	<!--#exec cmd="/home/ausadmin/bin/shtml/wip.pl" -->
 	</p>
   </td>
 </tr>
