@@ -1,0 +1,242 @@
+Last update: February, 1996; added URL. Expect major changes
+to this document soon, as the aus.* newsgroups are showing
+increasing signs of poor propagation.
+
+
+Creating a new newsgroup in the aus hierarchy
+---------------------------------------------
+
+
+This (unofficial) document describes a set of guidelines for 
+people who wish to create a new newsgroup within the aus 
+hierarchy. Since no organisation oversees this process, this 
+document can't be regarded as a set of "rules" or even 
+"policies", so whether you adhere to these guidelines is up 
+to you. However, bad karma may accrue if you don't.
+
+(Procedures exist for creating new newsgroups in other 
+hierarchies. The rules for creating new newsgroups in all 
+other hierarchies except alt are particularly detailed, and 
+can be found in regular postings in the newsgroup 
+news.announce.newusers. The alt hierarchy has no official 
+rules, but guidelines appear regularly in news.answers.)
+
+
+1. Picking a name
+   --------------
+
+This really is amazingly important. A badly chosen name can 
+arouse an astonishing amount of ire in other news users. A 
+really bad name can cause software failures. To avoid 
+annoying too many people, here are some suggestions:
+
+	Try to be consistent with existing newsgroup names.
+	Use nouns where possible.
+	Always stick to letters and numbers.
+	Letters should be lower case.
+	Don't use dots as word separators, as they are used to 
+		delimit sub-hierarchies; use hyphens instead.
+	Try to fit your newsgroup into an existing sub-hierarchy,
+		if appropriate.
+	Don't create a new sub-hierarchy unless it will have at
+		least 2 groups in it.
+	Above all, keep it short, but obvious. Don't exceed 14
+		characters with any part of the name.
+
+Examples:
+
+	aus.ads.forsale
+
+This is an example of a well-chosen name. It fits into a 
+sub-hierarchy (aus.ads), and is specific.
+
+	aus.personals
+
+This is an example of a badly chosen newsgroup name. It has 
+been placed outside the aus.ads.* sub-hierarchy.
+
+	aus.dancing.morris
+
+This is another badly chosen name. It creates a sub-hierarchy
+(aus.dancing.*) for just one group. Usually, in cases like this,
+the group is too specific, and you would be better starting
+with a more general group (ie., aus.dancing), and splitting it
+later, if the traffic on morris dancing becomes sufficient.
+
+	aus.yachting-and-boarding
+
+This name exceeds the 14 character limit in one section. The 14
+character limit is set by some older computer systems, and is an
+unfortunate anachronism, but one we have to live with.
+
+People are going to argue about the name; this is because the
+name is usually all that people have to go by. Even though
+you're going to provide a one-line description of the group,
+many sites won't include it in their newsgroups file, which
+throws the full weight of defining the group onto a rather
+cryptic jumble of letters. So take your time on this one.
+
+
+2. Moderation and other stuff
+   --------------------------
+
+Some newsgroups are moderated. (See the postings in 
+news.announce.newusers if you don't know what this means.) 
+This has been unnecessary within the aus hierarchy in the 
+past, but that shouldn't stop you from suggesting it, if you 
+think it's appropriate.
+
+Recently (as of late 1995), the practice of 'invading' newsgroups
+has become something of a problem for many groups. This most
+often takes the form of articles being crossposted to as many
+different and inappropriate groups as possible. The consequences
+of this can be severe - the crossposting magnifies the number of
+followup articles, and most posters are not aware that they are
+clogging unrelated newsgroups with their (usually inflammatory)
+responses. You may wish to consider this in your proposal. You
+may, for example, wish to limit crossposts to no more than some
+small number of other groups, with due notice given that articles
+that violate this may be cancelled.
+
+In addition, some newsgroup 'splits' may not succeed because
+people simply crosspost to both new and old groups. (At the time
+of writing, aus.religion and aus.religion.christian are a good
+example of this.) In these cases, you may wish to consider a
+temporary (or permanent) embargo on crossposts between specific
+groups.
+
+
+3. Proposing the new group
+   -----------------------
+
+Propose the new group in the groups aus.general and 
+aus.net.news. Ensure that your subject line includes the new 
+group's name. Something like this will usually suffice:
+
+	Subject: RFD: aus.foo
+
+You should include the following information:
+
+	1. The group name.
+	2. A one-line description.
+	3. A charter. See 'How to create a newsgroup' in
+		news.answers.
+	4. Whether or not it ought to be moderated.
+	5. Whether or not crossposting is allowed.
+	6. Any standard formats for Subject: lines.
+	7. Any other rules that you think fit (eg., in
+		some cases, followups may be forbidden).
+
+
+4. Debating the proposal
+   ---------------------
+
+People will respond to your proposal in a variety of ways. 
+Expect negative criticism. Some of it will come from people
+who read like overbearing arseholes; some will come from
+quite reasonable human beings. Try to be patient, and listen
+to what they have to say. You may find that they are making 
+sense. At this point, you might consider better group names 
+(if suggested), moderation or not, changes to the 
+newsgroup's charter, or maybe even whether or not the whole 
+thing was a good idea in the first place. Try to be 
+objective and mature about this, and don't take any of it 
+personally (even if the overbearing arseholes get personal 
+first).
+
+Two things have to be taken into account at this point: one
+is what you think, and the other is what other people think.
+If you can't be dissuaded from a bad proposal by sound
+arguments, fine. Go ahead and try to create the group. In
+general, however, if few other people are convinced by
+your arguments in favour of the newsgroup, it won't
+propagate, and you'll end up wasting your time. (See point 6.)
+
+
+5. Creating the new group
+   ----------------------
+
+This is best done by your news administrator. However, some news
+administrators are 'control freaks' who may not permit the
+creation to take place. (There are also news administrators who
+don't know how to create newsgroups.) You will then have ask
+someone else on the net to do it for you. (As a last resort, you
+can ask me how it's done, but I really would rather that you
+asked around in aus.net.news first.) Once created, the newsgroup
+should appear slowly over the following week (some sites may take
+up to a fortnight to get it; some may never get it at all, which
+is just the way life is sometimes).
+
+Once it's created, you probably ought to email me
+(revdoc@uow.edu.au) with the following information:
+
+	1. The one-line description of the group that you
+	sent out in your control message; and
+	
+	2. A copy of the charter of the group.
+
+The first item is used in the regular checkgroups messages that
+are used to (try to) keep the aus.* hierarchy consistent
+throughout its range. The charters are being archived, and as
+soon as I decide what to do with them, will be made public in
+some way.
+
+
+6. What we do to people who don't follow the guidelines
+   ----------------------------------------------------
+
+There is no organisation that controls this sort of thing, 
+so if you ignore these guidelines, or fail to be swayed by 
+sound arguments in phase 4, the absolute worst that can happen
+is that some annoyed folk may attempt to remove your group
+immediately (see note 8); but the likeliest thing that will
+happen is that your new group will not propagate. (You may
+also get abusive e-mail and acquire a reputation as a dickhead.)
+The least that will happen is that your group may propagate to
+some extent, but will end up carrying zero traffic. Also, bear
+in mind that many sites don't allow automatic newsgroup
+creation - their news administrators filter newsgroup creation
+manually, and only allow what they consider to be kosher
+newsgroups to be created at their site. This means that
+some groups won't be carried at some sites, no matter what.
+
+
+7. Epilogue
+   --------
+
+Some newsgroups go on to greatness. Others languish in 
+mediocrity. A few fade away. In the latter case, if your 
+newsgroup ends up carrying zero traffic for months on end, 
+you might consider removing it. Discuss this in aus.net.news 
+first, however.
+
+
+8. An Historical Note
+   ------------------
+
+A few years back, some folks got into a prolonged newgroup/rmgroup
+war over a newsgroup called aus.bizarre. The result was a colossal
+waste of time and money, largely due to a couple of people being
+difficult. This episode shows just how immature some people can be
+about new newsgroups. Consequently, I would suggest that all parties
+interested in such things adopt the following as their mantra, to
+be repeated over and over whenever anyone suggests a new newsgroup:
+
+	"It isn't important, it's only zeroes and ones."
+
+
+9. FAQ Availability
+   ----------------
+
+This FAQ is also available on the WWW:
+http://www.ozemail.com.au/~revdoc/aus_faq
+
+(Here endeth the FAQ. Suggestions for improvements welcomed.)
+
+
+                                                                 -- Phil.
+-------------------------------------------------------------------------
+(c) 1995 Phil Herring                                   revdoc@uow.edu.au
+   Unauthorised reproduction of this article for profit will result in
+                              civil action.
+-------------------------------------------------------------------------

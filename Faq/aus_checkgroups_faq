@@ -1,0 +1,151 @@
+Checkgroups message for aus.*
+-----------------------------
+
+(Last update: 6/12/95 - added aus.test)
+
+1. What's a checkgroups message?
+   -----------------------------
+
+A checkgroups message is a control message like a newgroup or an
+rmgroup; it helps you administer your active and newsgroups files.
+Specifically, it supplies a definitive list of the newsgroups that you
+should be carrying.
+
+A checkgroups that lists all the currently valid groups in the aus.*
+namespace is posted every other week to every site in the aus
+distribution. By the time you read this, that message will have
+arrived at your site. *This* message is just a listing of the
+newsgroups in that control message.
+
+
+2. What happens when my site receives a checkgroups message?
+   ---------------------------------------------------------
+
+That depends on your software, and how it's configured. The default
+behaviour for INN is to mail a list to your news adminsitrator,
+showing which groups are to be added, and which are to be removed. The
+list is in a form that can be fed directly into sh to perform the
+changes.
+
+It is also possible to configure your news software to do the changes
+immediately, if it has been sent from a specific email address. By
+default, INN is configured to respond to checkgroups message from
+Robert Elz <kre@munnari.OZ.AU>. (However, he seldom sends checkgroups
+messages these days, which is a problem!)
+
+
+3. What if I want to synch my active and newsgroups files right away?
+   ------------------------------------------------------------------
+
+If required, you can apply this checkgroups as follows: remove
+everything below here, then feed it into sh while logged on as 'news'.
+You may have to change the path shown.
+
+----------------------- CUT HERE ------------------------------------------
+/usr/local/news/bin/control/docheckgroups <<!
+aus.ads.commercial		Commercial advertisements.
+aus.ads.forsale			Items for sale (no commercial ads).
+aus.ads.forsale.computers	Computer-related items for sale (no commercial ads).
+aus.ads.jobs			Jobs, wanted and available.
+aus.ads.wanted			Items wanted (no commercial ads).
+aus.archives			Announcements of available software.
+aus.aswec			Australian Software Engineering Conference.
+aus.aviation			Planes, gliders, flying, etc.
+aus.aviation.airspace		Airspace Design and Management in Australia.
+aus.bicycle			Push bikes.
+aus.books			Australian discussion of books.
+aus.bushwalking			Bushwalking, hiking, and other outdoor activities.
+aus.cars			Petrol heads.
+aus.comms			Discussion about communications in general.
+aus.comms.fps			Fast Packet Switching.
+aus.comms.videocon		Videoconferencing - compressed video.
+aus.computers			Misc computer types.
+aus.computers.ai		AI discussions.
+aus.computers.amiga		Discussions about Commodore Amiga computers.
+aus.computers.cdrom		CD-ROM
+aus.computers.ibm-pc		Discussions about the IBM pc & clones.
+aus.computers.linux		The Linux operating system.
+aus.computers.logic-prog	Logic Programming.
+aus.computers.mac		Macintosh computers and software.
+aus.computers.os2		The OS/2 operating system.
+aus.computers.parallel		Parallel computing.
+aus.computers.sun		Sun computers and software.
+aus.computers.tex		The Tex typesetting system.
+aus.consumers			Consumer Products/Services in Australia
+aus.culture.china		soc.culture.china redistributed.
+aus.culture.lesbigay		Gay and bisexual life.
+aus.culture.gothic		The Gothic subculture in Australia
+aus.culture.ultimo		Inner-city life.
+aus.education			Helping educators in Australia.
+aus.education.bio-newtech	New Technologies in Biology Teaching.
+aus.education.npit
+aus.education.open-learning	The Open Learning program.
+aus.education.rpl
+aus.electronics			Electronics hobbyists and engineers.
+aus.environment.conservation	Information and discussion of conservation issues.
+aus.environment.misc		Miscellaneous environmental issues.
+aus.films			Movies, Cinema, TV.
+aus.flame			Abusive noise, posted by morons.
+aus.flame.gareth-powell		Australia's favourite computer journalist.
+aus.flame.usa			Careful, reasoned criticism of the United States of America.
+aus.foodtech			Food technology.
+aus.games			Discussions of games.
+aus.games.bridge		The game of bridge.
+aus.games.roleplay		Discussions of role playing games.
+aus.gardens			Gardens and gardening in Australia.
+aus.general			General information, announcements, etc.
+aus.hi-fi			Hi Fi Issues.
+aus.invest			Investment and other financial matters.
+aus.jokes			Jokes, humour, and boring trivia.
+aus.legal			Legal issues.
+aus.mathematics			Mathematics teaching and research.
+aus.mbio			Molecular biology.
+aus.motorcycles			Discussion of motorcycles and motorcycling.
+aus.music			Music and related issues.
+aus.net.access			Internet access.
+aus.net.announce		Announcements of resources available on the net.
+aus.net.directory		For the discussion of the X.500 Directory.
+aus.net.directory.osi-ds	IETF OSI-DS WG mailing list.
+aus.net.directory.quipu		The Quipu implementation of the X.500 Directory.
+aus.net.mail			Mail systems, addressinc, &c.
+aus.net.news			The news system.
+aus.net.policy			Discussion of all aspects of Australian Internet policy
+aus.net.status			Status of local & international net links.
+aus.org.acs			The Australian Computer Society.
+aus.org.acs.books		The Australian Computer Society book reviews.
+aus.org.auug			AUUG Inc - Australian Unix User Group.
+aus.org.efa			The Electronic Frontier Australia.
+aus.org.sage			The System Administrator's Guild.
+aus.org.waia			Discussion forum for the W.A. Internet Association.
+aus.personals			Personal ads.
+aus.pets			Australasian pet owners, and their pets.
+aus.photo			Photography, video, etc.
+aus.politics			Politics, debates, rational(?) arguments.
+aus.radio.amateur.misc		Amateur Radio.
+aus.radio.amateur.digital	Digital techniques (packet etc) in Amateur Radio.
+aus.radio.amateur.wicen		Wireless Institute Civil Emergency Network.
+aus.radio.broadcast             Australian broadcast radio.
+aus.rail			Railways and trains.
+aus.rail.models			Model railways and trains.
+aus.religion			Discussions of, or related to, religions.
+aus.religion.christian		Christianity and issues relevant to Christianity
+aus.sex				Discussion of matters sexual.
+aus.sf				Australian discussion of SF&F literature, media, fandom.
+aus.sf.babylon5			The TV series _Babylon 5_.
+aus.sf.star-trek		_Star Trek_, old and new.
+aus.snow			Winter sports in Australia.
+aus.sport			Generic discussions of sport.
+aus.sport.aussie-rules		Australian rules football.
+aus.sport.motor			Motor sports.
+aus.sport.rugby-league		Rugby league football.
+aus.sport.scuba			Scuba diving.
+aus.stats.s			Discussions of the S data analysis & graphics software.
+aus.students			Going to school in Australia.
+aus.students.overseas		Australian students abroad, students from abroad in Australia.
+aus.talk.ltuae			Life, the Universe, and Everything.
+aus.test			Test messages.
+aus.theatre			The theatre.
+aus.tv				Television.
+aus.tv.community		Community television.
+aus.tv.x-files			Discussion of "X-Files" and related subjects.
+!
