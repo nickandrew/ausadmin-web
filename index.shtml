@@ -35,8 +35,8 @@
     Nick Andrew (<a href="mailto:nick@zeta.org.au">nick@zeta.org.au</a>),
     and operational staff and facilities are provided by
     <a href="http://www.zeta.org.au/">Zeta Internet</a>.
-    David Formosa (<a href="mailto:dformosa@zeta.org.au">dformosa@zeta.org.au</a>)
-    is maintaining this Web site.</p>
+    David Formosa (<a href="mailto:dformosa@dformosa.zeta.org.au">dformosa@dformosa.zeta.org.au</a>)
+    handles most newsgroup proposals and sets up votes.</p>
 
     <p>We wish to automate the administration task as much as possible.
     Before sending any questions to Nick or David make sure you have
@@ -51,8 +51,8 @@
 	<li>Determine a good long-term structure for the aus.* hierarchy
         <li>Accept newsgroup proposals which fit the structure
         <li>Final decision on newsgroup creation by voting
-        <li>Gradually purge obsolete groups and rename "square peg" groups
-	<li>Encourage news admins to respond to newgroup and rmgroup messages
+        <li>Slowly purge obsolete groups
+	<li>Encourage news admins to respond to ausadmin newgroup and rmgroup messages
     </ul>
 
   </td>
@@ -66,8 +66,7 @@
     <li><a href="Faq/RFD-template.txt">Template for writing an RFD (Request For Discussion)</a></br>
     <li><a href="grouplist.shtml">Latest list of aus.* newsgroups</a></br>
     <li><a href="checkgroups.shtml">Latest checkgroups message for the aus.* hierarchy</a></br>
-    <li><a href="ausadmin.asc">PGP public key for
-    ausadmin@aus.news-admin.org</a></br>
+    <li><a href="ausadmin.asc">PGP public key for ausadmin@aus.news-admin.org</a></br>
     <li><a href="ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/aus/">aus.* FAQs on rtfm.mit.edu</a><br>
     <li><a href="http://mirror.aarnet.edu.au/rtfm/usenet-by-hierarchy/aus/">aus.* FAQs on mirror.aarnet.edu.au (local mirror of rtfm)</a><br>
 
@@ -88,20 +87,11 @@
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#66cc66 face=sans-serif><b>Current activities</b>
-	</font></td>
-<tr>
-  <td><br><ul>
-    <!--#exec cmd="../bin/wip.cmd" -->
-   </ul>
-  </td>
-
-<tr bgcolor=#000000>
   <td><font size=+1 color=#66cc66 face=sans-serif><b>Newsgroup creation 
 	schedule</b></font></td>
 <tr>
   <td><br><ul>
-      <li>None at present
+      <li><i>Work in progress</i>
     </ul>
   </td>
 
