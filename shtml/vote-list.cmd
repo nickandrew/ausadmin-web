@@ -1,23 +1,17 @@
 #!/usr/bin/perl
-
 # Generates a list items "<li>" with links to the CFV for currently 
 # running votes, and a results page for finished votes.
 #
 # $Revision$
-#     $Date$
+# $Date$
 
-$HomeDir = "/virt/web/ausadmin";
-$BaseDir = "$HomeDir/vote";
+$HREF="/cgi-bin/voteinfo?newsgroup=";
 
-if ( $ARGV[0] == 0 ) {
-	$HREF="/cgi-bin/vote-results.cgi?newsgroup=";
-}
-else {
-	$HREF="/CFV/";
-}
+# Run with $ARGV[0] == 0 => vote completed
+# Run with $ARGV[0] == 1 => vote still running
 
-chdir( $BaseDir );
-if ( open( LSOUTPUT, "ls -dw1 aus.*|" ) ) {
+chdir( "../vote" );
+if ( open( LSOUTPUT, "ls -dw1 *.*|" ) ) {
 	while( <LSOUTPUT> ) {
 		chomp;
 		$Newsgroup = $_;
@@ -33,7 +27,7 @@ else {
 
 # Checks to see if a group vote is still running (1) or not (0)
 sub CheckGroup {
-	if ( open( CONFIGFILE, "$BaseDir/$_[0]/group.cfg") ) {
+	if ( open( CONFIGFILE, "$_[0]/group.cfg") ) {
 		chomp( $_ = <CONFIGFILE> );
 		$VE = $_;
 		close( CONFIGFILE );
