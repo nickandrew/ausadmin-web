@@ -69,9 +69,13 @@ of Australian newsgroups as a national resource.</p>
   </td>
 
 <tr bgcolor=#000000>
-  <td><font size=+1 color=#ffffff><b>Charters for aus.* groups</b></font></td>
+  <td><font size=+1 color=#ffffff><b>aus.* newsgroup browser</b></font></td>
 <tr>
-  <td><br><ul>
+  <td>
+  <a href="/cgi-bin/treehtml.pl">aus.* newsgroup tree</a>
+  <h1>aus.* newsgroup charters</h1>
+  <br>
+   <ul>
     <!--#exec cmd="../bin/charters.cmd" -->
    </ul><br>
   </td>
