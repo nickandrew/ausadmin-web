@@ -112,6 +112,25 @@
    </ul><br>
   </td>
 
+<tr bgcolor=#000000>
+  <td><font size=+1 color=#66cc66 face=sans-serif><b>Vote Results</b></font></td>
+<tr>
+  <td>
+	<p><ul>
+	<!--#exec cmd="../bin/vote-list.cmd 0"-->
+	</ul></p>
+  </td>
+
+<tr bgcolor=#000000>
+  <td><font size=+1 color=#66cc66 face=sans-serif><b>Votes Currently Running</b></font></td>
+<tr>
+  <td>
+	<p><ul>
+	<!--#exec cmd="../bin/vote-list.cmd 1"-->
+	</ul></p>
+  </td>
+
+
 </table>
 
 </td></table>
