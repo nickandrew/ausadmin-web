@@ -3,8 +3,20 @@
   proposal. All submissions must be spell-checked and in plain ASCII (no
   DOC files, use notepad instead). ]
 
-                     REQUEST FOR DISCUSSION (RFD)
-                   unmoderated group aus.group.name
+                REQUEST FOR DISCUSSION SUBMISSION TO AUSADMIN
+
+CHANGE: newgroup [aus.group.name]
+
+[ The above CHANGE line specifies creation of an unmoderated newsgroup.
+  To discuss removal of a group, use this line instead:
+	CHANGE: rmgroup [aus.group.name]
+  To discuss creation of a moderated newsgroup, use this line instead:
+	CHANGE: newgroup [aus.group.name] m [<submission-email>] [<request-email>]
+  To discuss changing a group to moderated, use this line instead:
+	CHANGE: moderate [aus.group.name] [<submission-email>] [<request-email>]
+  To discuss changing the charter of a group, use this line instead:
+	CHANGE: charter [aus.group.name]
+]
 
 CHANGES from previous RFD:
 
@@ -17,9 +29,9 @@ Newsgroup line:
  as there is only room for one line!
  The format is: aus.group.name, then a single TAB, then the short description]
 
-RATIONALE: [aus.group.name]
+RATIONALE:
 
-[ Rationale for the group goes here. Format for an 80-column wide display. ]
+[ Rationale for this proposal goes here. Format for an 80-column wide display. ]
 
 END RATIONALE.
 
@@ -31,7 +43,7 @@ END CHARTER.
 
 MODERATOR INFO: [aus.group.name]
 
-Moderator:  Some Moderator <someone@somewhere.org>
+Moderator:  [ Some Moderator <someone@somewhere.org> ]
 
 [ Other moderation notes go here.  Delete all moderation sections if the
   group isn't moderated. ]
@@ -45,6 +57,10 @@ DISTRIBUTION:
 [ Newsgroup and mailing list distribution of the RFD goes here.
   The format is: one newsgroup name or mailing-list address per
   line, no spaces or punctuation. Moderated newsgroups are not
-  permitted to be included in this list for technical reasons. ]
+  permitted to be included in this list for technical reasons.
+
+  If you include any mailing-lists in this section, you must
+  post the ausadmin-signed RFD to those lists yourself (or get a
+  list subscriber to do it, if you are not a subscriber) ]
 
 
