@@ -1,0 +1,26 @@
+Path: bounce-back
+From: aus.* Newsgroups Administration <ausadmin@aus.news-admin.org>
+Newsgroups: zeta.test.ausadmin
+Subject: cmsg newgroup zeta.test.ausadmin
+Control: newgroup zeta.test.ausadmin
+Approved: ausadmin@aus.news-admin.org
+Message-ID: <898143598.24858@aus.news-admin.org>
+Date: Thu, 18 Jun 1998 04:19:58 UTC
+Lines: 8
+X-Info: See ftp://ftp.uu.net/networking/news/misc/pgpcontrol/README
+X-Aussies: See http://aus.news-admin.org/ for Australian newsgroup information
+X-PGP-Sig: 2.6.3ia Subject,Control,Message-ID,Date,From,Sender
+	iQCVAwUBNYiVblL4gcrLUivRAQEEEQP+ODKkitlBs2xOjUOWv/mZiA329ILIoBkj
+	fzqAndpGoDz0mmjyvshsbvsvRX9yUuZv0gcC/5kNSiaZosTv8I+4fDUvSecixvAI
+	FI1vSnwyhwuPhisqb7dTbKLfQc+pVvvzQHM4iMqdM+3GgUlUYR3/BTzmCdvM5vBV
+	RaQwf9sVCP4=
+	=D+AB
+
+zeta.test.ausadmin is an unmoderated newsgroup which passed its vote for
+creation by 155:18 as reported in aus.net.news on 1998-06-28.
+
+For your newsgroups file:
+zeta.test.ausadmin	Test group for aus.* admin folks
+
+Charter:
+	Anything and everything.
