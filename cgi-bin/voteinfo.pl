@@ -18,7 +18,7 @@ chdir("../vote");
 $ng = $query->param('newsgroup');
 
 # Check supplied newsgroup for validity
-if (! ($ng =~ /^[a-z][a-z0-9]{1,13}(\.[a-z0-9][a-z0-9-]{0,13})+$/)) {
+if (! ($ng =~ /^[a-z][a-z0-9]{1,13}(\.[a-z0-9][a-z0-9-]{0,13})+(:\d\d\d\d-\d\d-\d\d)?$/)) {
 	# barf
 	print "Newsgroup <$ng> does not verify\n";
 	exit(2);
