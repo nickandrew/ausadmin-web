@@ -33,7 +33,7 @@ else {
 
 # Checks to see if a group vote is still running (1) or not (0)
 sub CheckGroup {
-	if ( open( CONFIGFILE, "$BaseDir/$_[0]/conf/group.cfg") ) {
+	if ( open( CONFIGFILE, "$BaseDir/$_[0]/group.cfg") ) {
 		chomp( $_ = <CONFIGFILE> );
 		$VE = $_;
 		close( CONFIGFILE );
