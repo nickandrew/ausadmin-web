@@ -1,14 +1,15 @@
 From: Your Name <your@e-mail.address>
 Subject: RFD: aus.group.name
 Newsgroups: aus.net.news,aus.general,add.more.groups.here
+Followup-To: aus.net.news
 
                      REQUEST FOR DISCUSSION (RFD)
                    unmoderated group aus.group.name
 
 This is a formal Request For Discussion (RFD) for the creation of an
 Australian unmoderated Usenet newsgroup aus.group.name.  This is not a
-Call for Votes (CFV); you cannot vote at this time.  Procedural
-details are below.
+Call for Votes (CFV); you cannot vote at this time.  Procedural details
+are below.
 
 CHANGES from previous RFD:
 
@@ -16,7 +17,7 @@ CHANGES from previous RFD:
   section. ]
 
 Newsgroup line:
-aus.group.name    Group description.
+aus.group.name	Group description.
 
 RATIONALE: aus.group.name
 
@@ -46,7 +47,7 @@ of the process, any potential problems with the proposed newsgroups
 should be raised and resolved.  The discussion period will continue
 for a minimum of 21 days (starting from when the first RFD for this
 proposal is posted to aus.net.news), after which a Call For
-Votes (CFV) may be posted by the aus.* administration team (See
+Votes (CFV) may be posted by the aus.* administration team (see
 http://aus.news-admin.org/ for further information).  Please do not
 attempt to vote until this happens.
 
