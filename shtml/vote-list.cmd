@@ -5,13 +5,15 @@
 # $Revision$
 # $Date$
 
-$HREF="/cgi-bin/voteinfo?newsgroup=";
+my $AUSADMIN_HOME = "/home/ausadmin";
+
+my $HREF="/cgi-bin/voteinfo?newsgroup=";
 
 # Run with $ARGV[0] == 0 => vote completed or cancelled
 # Run with $ARGV[0] == 1 => vote still running
 # Run with $ARGV[0] == 2 => rfd received, no vote yet
 
-chdir( "../vote" );
+chdir( "$AUSADMIN_HOME/vote" );
 if ( open( LSOUTPUT, "ls -dw1 *.*|" ) ) {
 	while( <LSOUTPUT> ) {
 		chomp;

@@ -1,3 +1,3 @@
 #!/bin/bash
-cat ../data/checkgroups.msg
+cat /home/ausadmin/data/checkgroups.msg
 exit 0

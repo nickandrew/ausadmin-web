@@ -6,7 +6,7 @@
 # $Date$
 
 
-chdir "../Wip";
+chdir "Wip";
 
 my $count = 0;
 my %activity;

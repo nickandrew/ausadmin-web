@@ -1,3 +1,3 @@
 #!/bin/bash
-cat ../data/grouplist.msg
+cat /home/ausadmin/data/grouplist.msg
 exit 0
