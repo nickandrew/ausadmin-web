@@ -7,6 +7,7 @@
 
 
 chdir "../data";
+
 if (! -f "ausgroups") {
 	print "Content-type: text/plain\n";
 	print "Status: 404 Missing aus.* newsgroup file\n\n";
