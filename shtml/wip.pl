@@ -45,9 +45,16 @@ foreach my $fn (<*>) {
 	$activity{$key}->{status} = $data{Status};
 }
 
+my $first = 1;
+
 # Emit gathered info
 foreach my $key (sort {$b cmp $a} (keys %activity)) {
 	my $r = $activity{$key};
+
+	if ($first) {
+		print "<ol>\n";
+		$first = 0;
+	}
 
 	print "<li>";
 	if ($r->{link} ne "n") {
@@ -67,8 +74,10 @@ foreach my $key (sort {$b cmp $a} (keys %activity)) {
 	$count++;
 }
 
-if ($count == 0) {
-	print "<li>None at present\n";
+if ($first) {
+	print "None at present\n";
+} else {
+	print "</ol>\n";
 }
 
 exit(0);
