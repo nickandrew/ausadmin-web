@@ -146,9 +146,13 @@ newsgroup relies principally on your own shoulders.
 3. Proposing the new group
    -----------------------
 
-Write an RFD (Request for Discussion) and E-mail it to
-news@aus.news-admin.org.  Ensure that your subject line includes the
-new group's name. Something like this will usually suffice:
+Write an RFD (Request for Discussion) and E-mail it to news@aus.news-admin.org
+
+You can get a template for an RFD online at:
+        http://aus.news-admin.org/Faq/RFD-template.txt
+
+Ensure that your subject line includes the new group's name. Something
+like this will usually suffice:
 
 	Subject: RFD: aus.foo
 
@@ -156,15 +160,14 @@ You should include the following information:
 
 	1. The group name.
 	2. A one-line description.
-	3. A charter. See 'How to create a newsgroup' in
-		news.answers.
+	3. A charter. See 'How to create a newsgroup' in news.answers.
 	4. Whether or not it ought to be moderated.
 	5. Whether or not crossposting is allowed (e.g. crosspost limit).
         6. Whether binary and/or HTML postings are allowed
         7. Cancellation policy for spam and other disallowed postings.
 	8. Any standard formats for Subject: lines.
-	9. Any other rules that you think fit (eg., in
-		some cases, followups may be forbidden).
+	9. Any other rules that you think fit (eg., in some cases,
+           followups may be forbidden).
 
 The aus.* hierarchy administrator will review your proposal and either
 accept or reject it. If you've checked out the newsgroup name with
@@ -178,48 +181,52 @@ public debate.
 4. Debating the proposal
    ---------------------
 
-People will respond to your proposal in a variety of ways. 
-Expect negative criticism. Some of it will come from people
-who read like overbearing arseholes; some will come from
-quite reasonable human beings. Try to be patient, and listen
-to what they have to say. You may find that they are making 
-sense. At this point, you might consider better group names 
-(if suggested), moderation or not, changes to the 
-newsgroup's charter, or maybe even whether or not the whole 
-thing was a good idea in the first place. Try to be 
-objective and mature about this, and don't take any of it 
-personally (even if the overbearing arseholes get personal 
-first).
+People will respond to your proposal in a variety of ways. Expect
+negative criticism. Some of it will come from people who read like
+overbearing arseholes; some will come from quite reasonable human
+beings. Try to be patient, and listen to what they have to say. You
+may find that they are making sense. At this point, you might consider
+better group names (if suggested), moderation or not, changes to the
+newsgroup's charter, or maybe even whether or not the whole thing was a
+good idea in the first place. Try to be objective and mature about this,
+and don't take any of it personally (even if the overbearing arseholes
+get personal first).
 
-Two things have to be taken into account at this point: one
-is what you think, and the other is what other people think.
-If you can't be dissuaded from a bad proposal by sound
-arguments, fine. Go ahead and take it to the next step. In
-general, however, if few other people are convinced by
-your arguments in favour of the newsgroup, it won't
+Two things have to be taken into account at this point: one is what
+you think, and the other is what other people think.  If you can't be
+dissuaded from a bad proposal by sound arguments, fine. Go ahead and
+take it to the next step. In general, however, if few other people
+are convinced by your arguments in favour of the newsgroup, it won't
 propagate, and you'll end up wasting your time. (See point 6.)
 
 
 5. Voting for the group
 -----------------------
 
-[ This part isn't implemented as at 1998-04-20 but it will be in place
-within about 2 weeks -- nick@aus.news-admin.org ]
+[ This part is probably going to change a little -- nick@aus.news-admin.org ]
 
-The next step is to write a CFV (Call For Votes) and post it
-to aus.net.news and aus.general. The CFV is like an RFD in that it
-documents the group name, exact one-line description and group charter
-(and other details) but it also includes details on how to vote for or
-against creation of the group.
+The next step is to write a CFV (Call For Votes) and send it to
+news@aus.news-admin.org. You should include the group name, exact one-line
+description, group charter and other details which appear in the RFD,
+including changes (if any) which arose from the discussion period.
+
+Ausadmin will modify your CFV to add instructions on how to vote for and
+against your newsgroup, and post it to aus.net.news and aus.general.
 
 Voting in the aus.* hierarchy is done through E-mail, and votes are
 tallied automatically so it is important for voters to follow the
-instructions which you will provide.
+instructions which will appear in the posted CFV.
 
 A newsgroup request passes the vote if at least 2-thirds of the
 respondents voted YES and there are at least 10 more YES votes than NO
 votes. [Note: these parameters are experimental and may be adjusted
 after some votes have been run -- nick@aus.news-admin.org ]
+
+When a vote completes the results of the vote are posted by Ausadmin
+to aus.net.news. If there are no significant problems with the result
+(e.g. no accusations of fraudulent voting) then Ausadmin issues the
+appropriate control messages to request news administrators to create
+the newsgroup.
 
 6. Creating the new group
    ----------------------
@@ -293,11 +300,10 @@ some groups won't be carried at some sites, no matter what.
 7. Epilogue
    --------
 
-Some newsgroups go on to greatness. Others languish in 
-mediocrity. A few fade away. In the latter case, if your 
-newsgroup ends up carrying zero traffic for months on end, 
-you might consider removing it. Discuss this in aus.net.news 
-first, however.
+Some newsgroups go on to greatness. Others languish in mediocrity. A few
+fade away. In the latter case, if your newsgroup ends up carrying zero
+traffic for months on end, you might consider removing it. Discuss this
+in aus.net.news first, however.
 
 
 8. An Historical Note
@@ -318,7 +324,7 @@ be repeated over and over whenever anyone suggests a new newsgroup:
    ----------------
 
 This FAQ is also available on the WWW:
-http://aus.news-admin.org/Faq/aus_faq
+        http://aus.news-admin.org/Faq/aus_faq
 
 (Here endeth the FAQ. Suggestions for improvements welcomed.)
 
