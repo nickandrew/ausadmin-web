@@ -49,7 +49,7 @@ if (! -d "$ng") {
 my $path;
 
 if (!$doc) {
-	my @files = qw/result cancel-article.txt posted.cfv rfd/;
+	my @files = qw/result cancel-article.txt posted.cfv cfv rfd/;
 
 	foreach (@files) {
 		if (-f "$ng/$_") {
