@@ -217,7 +217,7 @@ tallied automatically so it is important for voters to follow the
 instructions which you will provide.
 
 A newsgroup request passes the vote if at least 2-thirds of the
-respondents voted YES and there are at least 50 more YES votes than NO
+respondents voted YES and there are at least 10 more YES votes than NO
 votes. [Note: these parameters are experimental and may be adjusted
 after some votes have been run -- nick@aus.news-admin.org ]
 
