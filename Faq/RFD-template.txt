@@ -37,6 +37,8 @@ Moderator:  Some Moderator <someone@somewhere.org>
 
 END MODERATOR INFO.
 
+PROPOSER: [Name of the proposer]
+
 PROCEDURE:
 
 This is a request for discussion, not a call for votes.  In this phase
