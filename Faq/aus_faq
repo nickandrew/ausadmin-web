@@ -158,7 +158,7 @@ the consistent attention of a moderator (who is usually you, as the
 newsgroup proposer). As the moderator, the success or failure of your
 newsgroup relies principally on your own shoulders.
 
-Unlike fidonet and some other systems moderation works on an approval
+Unlike FidoNET and some other systems moderation works on an approval
 system.  You are emailed each post to the newsgroup which you reject or
 approve after reading it.
 
@@ -205,8 +205,11 @@ the newsgroup name with news@aus.news-admin.org in advance your
 proposal will usually be accepted unless the administrator would like
 to suggest some improvements in the format or content of the RFD.
 
-Once your RFD is approved, post it to aus.net.news and aus.general for
-public debate.
+Once your RFD is approved, post it to aus.net.news, aus.general and
+any relevant existing newsgroups for public debate. Discussion should
+take place in aus.net.news, so include the following line in the headers:
+Followup-To: aus.net.news
+and make a note in the RFD that you have directed followups to that group.
 
 4. Debating the proposal
    ---------------------
