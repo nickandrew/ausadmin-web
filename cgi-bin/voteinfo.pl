@@ -37,18 +37,20 @@ if (! -d "$ng") {
 }
 
 # Now, do we have a result file or a Call-For-Votes?
+# Use whichever file we find first
 
-if (-f "$ng/result") {
-	$path = "$ng/result";
-} else {
-	if (-f "$ng/posted.cfv") {
-		$path = "$ng/posted.cfv";
+my @files = qw/result cancel-article.txt posted.cfv rfd/;
+my $path;
+
+foreach (@files) {
+	if (-f "$ng/$_") {
+		$path = "$ng/$_";
+		last;
 	}
 }
 
-if ($path eq "") {
-	# barf
-	print "No CFV or result file for this vote!\n";
+if (!$path) {
+	print "No RFD or CFV or result file for this vote!\n";
 	exit(2);
 }
 
