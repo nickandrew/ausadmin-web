@@ -8,15 +8,22 @@
 use strict;
 
 use CGI qw();
+use CGI::Carp qw(fatalsToBrowser);
+use Date::Format qw(time2str);
 
+use Ausadmin qw();
 use Ausadmin::CookieSet qw();
 
 my $cgi = new CGI();
-my $cookies = Ausadmin::CookieSet->new($cgi);
+my $sqldb = Ausadmin::sqldb();
 
-my $id = $cookies->getID();
+my $cookies = Ausadmin::CookieSet->new($cgi, $sqldb);
 
-$cookies->idCookie();
+# Log who visited where
+$cookies->logIdent();
+
+my $id = $cookies->getIDToken();
+my $username = $cookies->getUserName();
 
 print CGI::header(
 	-type => 'text/html',
@@ -31,14 +38,26 @@ print <<EOF;
 <head>
 <link type="text/css" rel="stylesheet" href="style.css" />
 
-<title>aus.* newsgroups administration (hello $id)</title>
+<title>ausadmin registration (hello $id, $username)</title>
 </head>
 <body>
 EOF
 
+my $action = $cgi->param('action') || '';
+
 if (! $id) {
 	print "You need cookies enabled in order to register.\n";
-} else {
+}
+elsif ($username) {
+	print "You are already logged in, you cannot register again!\n";
+}
+elsif ($action eq 'verify') {
+	doVerify();
+}
+elsif ($action eq 'register') {
+	doRegister();
+}
+else {
 	print <<EOF;
 <pre>
 Why register with ausadmin?
@@ -54,6 +73,7 @@ Privacy Policy
 </pre>
 
 <form method="POST">
+<input type="hidden" name="action" value="register" />
 <table border="1" cellpadding="2" cellspacing="0">
 <tr>
  <td>Desired username</td>
@@ -67,7 +87,7 @@ Privacy Policy
 
 <tr>
  <td>Confirm Password</td>
- <td><input name="password" type="password" size="20" maxlength="16"> (max 16 chars)</td>
+ <td><input name="confirm_password" type="password" size="20" maxlength="16"> (max 16 chars)</td>
 </tr>
 
 <tr>
@@ -102,3 +122,108 @@ print <<EOF;
 EOF
 
 exit(0);
+
+# ---------------------------------------------------------------------------
+# Register - i.e. add our details to the pending_registrations table
+# ---------------------------------------------------------------------------
+
+sub doRegister {
+
+	my $username = $cgi->param('username');
+	my $password = $cgi->param('password');
+	my $confirm_password = $cgi->param('confirm_password');
+	my $email = $cgi->param('email');
+
+	if (! $username || $username !~ /^[a-zA-Z0-9_!-\/-]+$/ || length($username) > 16) {
+		die "Invalid username $username";
+	}
+
+	if (! $password) {
+		die "Invalid password";
+	}
+	elsif (! $confirm_password) {
+		die "Invalid confirm password";
+	}
+	elsif ($password ne $confirm_password) {
+		die "Confirm password does not match password";
+	}
+
+	if (! $email || $email !~ /\@/) {
+		die "Invalid email $email\n";
+	}
+
+	my $xuser = $sqldb->fetch1("select username from user where username = ?", $username);
+
+	if ($xuser) {
+		die "Cannot register as $username because it already exists";
+	}
+
+	$xuser = $sqldb->fetch1("select username from pending_registration where username = ?", $username);
+
+	if ($xuser) {
+		die "Cannot register as $username because it is currently pending registration";
+	}
+
+	my $now = time2str('%Y-%m-%d %T', time());
+	my $future = time2str('%Y-%m-%d %T', time() + 2 * 86400);
+
+	$sqldb->insert('pending_registration',
+		username => $username,
+		password => $password,
+		email_address => $email,
+		verify_string => Ausadmin::CookieSet::randomValue(16),
+		created_on => $now,
+		expires_on => $future,
+	);
+
+	$sqldb->commit();
+
+	print "An email has been sent to $email, containing a URL which you need to go to, in order to complete your registration.\n";
+}
+
+# ---------------------------------------------------------------------------
+# doVerify - i.e. complete a registration process and login the user.
+# ---------------------------------------------------------------------------
+
+sub doVerify {
+	my $confirm = $cgi->param('confirm');
+
+	if (! $confirm) {
+		die "Invalid confirmation code";
+	}
+
+	my $rows = $sqldb->extract("select username, password, email_address from pending_registration where verify_string = ?", $confirm);
+
+	if (! $rows || ! $rows->[0]) {
+		die "Invalid confirmation code";
+	}
+
+	# Success!
+	my $row = $rows->[0];
+	my ($username, $password, $email_address) = @$row;
+
+	my $now = time2str('%Y-%m-%d %T', time());
+
+	$sqldb->insert('user',
+		username => $username,
+		password => $password,
+		active => 1,
+		email_address => $email_address,
+		created_on => $now,
+	);
+
+	$sqldb->execute("delete from pending_registration where verify_string = ?", $confirm);
+
+	$sqldb->commit();
+
+	my $uri_prefix = Ausadmin::config('uri_prefix');
+
+	# TODO ... I should be able to login as $username here
+
+	print "You have now successfully registered as $username. Welcome to ausadmin!\n";
+	print <<EOF;
+<a href="$uri_prefix">Enter main site</a>
+EOF
+
+}
+
