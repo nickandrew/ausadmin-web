@@ -13,6 +13,7 @@ use Date::Format qw(time2str);
 
 use Ausadmin qw();
 use Ausadmin::CookieSet qw();
+use Ausadmin::Email qw();
 
 my $cgi = new CGI();
 my $sqldb = Ausadmin::sqldb();
@@ -167,16 +168,30 @@ sub doRegister {
 	my $now = time2str('%Y-%m-%d %T', time());
 	my $future = time2str('%Y-%m-%d %T', time() + 2 * 86400);
 
+	my $verify_string = Ausadmin::CookieSet::randomValue(16);
+
 	$sqldb->insert('pending_registration',
 		username => $username,
 		password => $password,
 		email_address => $email,
-		verify_string => Ausadmin::CookieSet::randomValue(16),
+		verify_string => $verify_string,
 		created_on => $now,
 		expires_on => $future,
 	);
 
 	$sqldb->commit();
+
+	my $msg = Ausadmin::Email->new(
+		template => 'registration.email'
+	);
+
+	my $args = {
+		RECIPIENTS => $email,
+		AUSADMIN_URL => 'http://aus.news-admin.org/',
+		REGISTRATION_URL => "http://aus.news-admin.org/register.ci?action=verify;confirm=$verify_string",
+	};
+
+	$msg->send( [$email], $args);
 
 	print "An email has been sent to $email, containing a URL which you need to go to, in order to complete your registration.\n";
 }
