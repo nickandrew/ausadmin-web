@@ -187,8 +187,9 @@ sub doRegister {
 
 	my $args = {
 		RECIPIENTS => $email,
+		EMAIL => $email,
 		AUSADMIN_URL => 'http://aus.news-admin.org/',
-		REGISTRATION_URL => "http://aus.news-admin.org/register.ci?action=verify;confirm=$verify_string",
+		REGISTRATION_URL => "http://aus.news-admin.org/register.cgi?action=verify;confirm=$verify_string",
 	};
 
 	$msg->send( [$email], $args);
