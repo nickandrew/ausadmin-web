@@ -1,0 +1,5 @@
+aus.*
+bne.*
+canb.*
+melb.*
+syd.*
