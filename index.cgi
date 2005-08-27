@@ -12,7 +12,7 @@ BEGIN {
 		require "./config.pl";
 	}
 	# print "Content-Type: text/plain\n\n";
-	# print `printenv`
+	# print `printenv`;
 }
 
 use CGI qw();
@@ -20,6 +20,7 @@ use CGI::Cookie qw();
 
 use Ausadmin qw();
 use Ausadmin::CookieSet qw();
+use Data::Dumper qw();
 use View::MainPage qw();
 
 my $cgi = CGI->new();
