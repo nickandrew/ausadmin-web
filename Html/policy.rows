@@ -1,0 +1,15 @@
+    <tr>
+     <td><h2>ausadmin Policy</h2>
+      <ul>
+       <li>Newsgroup creation only (no newsgroup deletions yet)
+       <li>Unmoderated newsgroup creation only
+       <li>Proposals considered by ausadmin to be frivolous or intended to "work the system" will be rejected
+       <li>No change of newsgroups from unmoderated to moderated (it caused a terrible storm last time)
+       <li>2-level newsgroups (aus.X) accepted only for major categories (e.g. science, arts, sport, humanities -- most of which exist already)
+       <li>3-level newsgroups (aus.X.Y) accepted only when parent exists (aus.X) or a sibling group already exists (aus.X.Z)
+       <li>The effect of the above two rules is that if you want a new group e.g. <i>aus.language.strine</i> with no existing parent and no siblings, then you need to first work on getting <i>aus.language</i> created, and that group will have to make do for strine discussions as well as other language discussions. You would then wait 1-2 years before proposing <i>aus.language.strine</i>.
+       <li>No change of charter yet, but if you wish to propose a charter for an existing group which does not already have a charter, email it in and ausadmin will consider accepting it directly as the new charter.
+      </ul>
+      <br>
+     </td>
+    </tr>

@@ -1,0 +1,34 @@
+    <tr>
+     <td><h2>aus.* Structure Planning</h2>
+      <p>
+       In other words, what extensions to the structure does ausadmin consider
+       good or bad?
+      </p>
+
+      <p>Encouraged:</p>
+      <ul>
+       <li>aus.books extended by genre, or purpose (e.g. reviews)
+       <li>aus.cars extended by manufacturer (not model)
+       <li>aus.net.access extended by access technology name (e.g. adsl)
+       <li>aus.politics extended by major philosophy (e.g. socialism -- but no crossposting)
+       <li>aus.sport extensions include competitive activities
+       <li>aus.rec extended by recreational non-competitive activies
+       <li>aus.tv extended by genre or technology
+      </ul>
+
+      <p>Discouraged:</p>
+      <ul>
+       <li>Forsale groups outside the aus.ads hierarchy
+       <li>All binary groups are discouraged (post a URL instead)
+       <li>Regional subgroups, e.g. aus.motorcycles.wa (see wa.* and other regional hierarchies)
+       <li>aus.org subgroups
+       <li>aus.tv subgroups for particular shows
+      </ul>
+
+      <p>In general, be aware if the topic you are proposing can be discussed
+      from another perspective within an existing aus.* group, for example
+      aus.books.sf may be discussed in aus.sf already.
+      </p>
+      <br>
+     </td>
+    </tr>

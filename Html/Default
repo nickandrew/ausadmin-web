@@ -1,0 +1,14 @@
+<table cellpadding="5" cellspacing="0" width="100%" border="0">
+ {{FILE|overview.rows}}
+ {{FILE|role.rows}}
+ {{FILE|structure.rows}}
+ {{FILE|policy.rows}}
+ {{FILE|links.rows}}
+ <tr>
+  <td>Link to create a proposal
+    {{A|Proposals|Information about creating proposals}}
+    <br>
+    {{A|AboutAusadmin|About Ausadmin}}
+   </td>
+ </tr>
+</table>
