@@ -20,6 +20,7 @@ use CGI::Cookie qw();
 
 use Ausadmin qw();
 use Ausadmin::CookieSet qw();
+use Include qw();
 use Data::Dumper qw();
 use View::MainPage qw();
 
@@ -44,28 +45,20 @@ print $cgi->header(
 	-cookie => $cookies->getList(),
 );
 
-print <<EOF;
-<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<link type="text/css" rel="stylesheet" href="style.css" />
+my $frame_file = 'Default.frame';
 
-<title>aus.* newsgroups administration (hello $username)</title>
-</head>
-<body>
-EOF
-
-my $filename = $ENV{PATH_INFO} || 'mainpage.html';
+my $filename = $ENV{PATH_INFO} || 'Default';
 $filename =~ s/^\///; # cut leading slash
 $filename =~ s/\.\.+//; # cut out two or more dots in a row
 
-my $contents = View::MainPage::insideBody($cookies, $filename);
+my $object = View::MainPage->new(cookies => $cookies, content => $filename);
+my $vars = {
+	HIERARCHY_PREFIX => 'aus',
+};
+my $include = new Include(vars => $vars, view => $object);
 
-View::MainPage::output($contents);
+my $string = $include->resolveFile($frame_file);
 
-print <<EOF;
-</body>
-</html>
-EOF
+print $string;
 
 exit(0);
