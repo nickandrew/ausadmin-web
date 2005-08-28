@@ -1,0 +1,23 @@
+<!-- vim:set filetype=html: -->
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <!-- Left column -->
+  <td class="lhs" bgcolor="#ffffe0" width="100" valign="top">
+   {{VIEW|loginBox}}
+   {{FILE|header-links.html}}
+   {{VIEW|proposalList}}
+   {{VIEW|runningVotesList}}
+   {{VIEW|newsgroupList}}
+  </td>
+  <!-- Right column -->
+  <td valign="top">
+  <center>
+   <h1>
+    <font face="sans-serif">{{VAR|HIERARCHY_PREFIX}} Newsgroup Administration</font>
+   </h1>
+  </center>
+   {{VIEW|contentFile}}
+  </td>
+  <!-- end of right column -->
+ </tr>
+</table>
