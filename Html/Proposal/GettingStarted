@@ -1,0 +1,88 @@
+<h1>Newsgroup Creation Proposals</h1>
+<p>
+How to create a new newsgroup:
+<br>
+<ol>
+<li>Make sure you really need a new newsgroup, and not a mailing list or a website or an existing newsgroup</li>
+<li>Define the Topic and choose a group name which meets the ausadmin policy</li>
+<li>Follow the {{A|Proposal/Process|newsgroup proposal process}}</li>
+</ol>
+
+<p>
+You will need this template:
+<a href="/Faq/RFD-template.txt">Template for writing an RFD (Request For Discussion)</a></br>
+
+<h2>Do you really need a new newsgroup?</h2>
+<p>
+Newsgroups exist so that the general public can discuss topics of
+interest to themselves. There are many other technologies available
+and they serve different needs. Your needs may be better served by
+something other than a newsgroup.
+</p>
+<p>
+Here's a quick comparison of the technologies, and when you would
+want to use one over the other:
+</p>
+<table bgcolor="#d0ffd0" border="1" cellpadding="2" cellspacing="0">
+<tr>
+ <th>&nbsp;</th>
+ <th>Mailing List</th>
+ <th>Blog</th>
+ <th>Webboard</th>
+ <th>USENET Newsgroup</th>
+</tr>
+<tr>
+ <th>Contributions From</th>
+ <td>Subscribers only</td>
+ <td>One Person</td>
+ <td>Subscribers only</td>
+ <td>Anybody</td>
+</tr>
+<tr>
+ <th>Readership</th>
+ <td>Subscribers only</td>
+ <td>Random web surfers</td>
+ <td>Random web surfers</td>
+ <td>Anybody</td>
+</tr>
+<tr>
+ <th>Control over content</th>
+ <td>total (if moderated)</td>
+ <td>total</td>
+ <td>Can delete comments</td>
+ <td>None</td>
+</tr>
+<tr>
+ <th>Dissemination</th>
+ <td>Only to subscribers</td>
+ <td>Nobody, until it becomes well-known</td>
+ <td>Nobody, until it becomes well-known</td>
+ <td>Very good in Australia, somewhat patchy overseas</td>
+</tr>
+<tr>
+ <th>HTML &amp; image support</th>
+ <td>Limited (depends on subscribers)</td>
+ <td>Full</td>
+ <td>Very good</td>
+ <td>No - text only</td>
+</tr>
+<tr>
+ <th>Needs Community support</th>
+ <td>No</td>
+ <td>No</td>
+ <td>No</td>
+ <td>Yes</td>
+</tr>
+</table>
+<p>
+Here's a checklist of items to consider before proposing a
+new newsgroup:
+<ul>
+ <li>Does the group topic not overlap any other topics in aus.* ?</li>
+ <li>Is the topic of interest to potentially anybody?</li>
+ <li>Is the newsgroup intended for members of some organisation? (if so, forget it)</li>
+ <li>Do you wish the newsgroup to promote some agenda? (if so, forget it; people will contribute all manner of diverse opinion)</li>
+ <li>Will the topic be long-lasting?</li>
+ <li>Is the topic uniquely Australian or will there be enough Australian posters to justify its creation?</li>
+</ul>
+</p>
