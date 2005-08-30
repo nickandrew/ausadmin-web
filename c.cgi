@@ -54,6 +54,7 @@ $filename =~ s/\.\.+//; # cut out two or more dots in a row
 my $object = View::MainPage->new(cookies => $cookies, content => $filename);
 my $vars = {
 	HIERARCHY_PREFIX => 'aus',
+	USERNAME => $username,
 };
 my $include = new Include(vars => $vars, view => $object);
 
