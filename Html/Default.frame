@@ -4,7 +4,7 @@
 <!-- vim:set filetype=html: -->
 <link type="text/css" rel="stylesheet" href="style.css" />
 
-<title>aus.* newsgroups administration (hello $username)</title>
+<title>aus.* newsgroups administration (hello {{VAR|USERNAME}})</title>
 </head>
 <body>
 {{FILE|insidebody}}
