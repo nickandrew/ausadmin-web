@@ -11,16 +11,37 @@ BEGIN {
 }
 
 use CGI qw();
+use CGI::Cookie qw();
+
+use Ausadmin::CookieSet qw();
 use Vote qw();
 use View::MainPage qw();
 use View::Proposal qw();
 
-my $cgi = new CGI();
+my $cgi = CGI->new();
+my $sqldb = Ausadmin::sqldb();
+
+my $cookies = Ausadmin::CookieSet->new($cgi, $sqldb);
+
+# Log us in, if this CGI request included action=login
+$cookies->testActionLogin();
+# Log who visited where
+$cookies->logIdent();
+
+my $username = $cookies->getUserName();
+
+$sqldb->commit();
+
+print $cgi->header(
+	-type => 'text/html',
+	-status => '200 OK',
+	-expires => '+0m',
+	-cookie => $cookies->getList(),
+);
+
 my $proposal = $cgi->param('proposal');
 
 $proposal =~ s/[^a-z0-9.:-]/_/g;
-
-print CGI::header();
 
 if (! $proposal) {
 	print qq{<html><head><title>Error!</title></head><body>No proposal!</body></html};
@@ -34,22 +55,19 @@ my $vote = new Vote(
 
 die "No vote" if (!defined $vote);
 
-print <<EOF;
-<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<link type="text/css" rel="stylesheet" href="style.css" />
+my $frame_file = 'Proposal.frame';
 
-<title>Proposal $proposal</title>
-</head>
-<body>
-EOF
+my $object = View::MainPage->new(cookies => $cookies, vote => $vote);
+my $vars = {
+	HIERARCHY_PREFIX => 'aus',
+	USERNAME => $username,
+	TITLE => "Proposal $proposal",
+};
 
-View::MainPage::output(View::Proposal::insideBody($vote));
+my $include = new Include(vars => $vars, view => $object);
 
-print <<EOF;
-</body>
-</html>
-EOF
+my $string = $include->resolveFile($frame_file);
+
+print $string;
 
 exit(0);
