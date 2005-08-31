@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- vim:set filetype=html: -->
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+<title>{{VAR|TITLE}}</title>
+</head>
+<body>
+<table width="750" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <!-- Left column -->
+  <td class="lhs" bgcolor="#ffffe0" width="100" valign="top">
+   {{VIEW|loginBox}}
+   {{FILE|header-links.html}}
+   {{VIEW|proposalList}}
+   {{VIEW|runningVotesList}}
+   {{VIEW|newsgroupList}}
+  </td>
+  <!-- Right column -->
+  <td valign="top">
+  <center>
+   <h1>
+    <font face="sans-serif">{{VAR|HIERARCHY_PREFIX}} Newsgroup Administration</font>
+   </h1>
+  </center>
+   {{VIEW|proposalContents}}
+  </td>
+  <!-- end of right column -->
+ </tr>
+</table>
+</body>
+</html>
