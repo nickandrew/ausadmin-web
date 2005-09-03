@@ -1,0 +1,30 @@
+<!-- vim:set filetype=html: -->
+<h2>About Ausadmin</h2>
+<p>
+ausadmin (short for "aus.* newsgroup administration") is a volunteer
+effort to maintain and develop the aus.* USENET newsgroup hierarchy.
+We will achieve this by setting a clear policy for the growth of
+Australian newsgroups, managing the creation and deletion of
+newsgroups according to this policy, and providing online information
+to support the development of Australian newsgroups as a national
+resource.
+</p>
+
+<p>The aus.* administrator is currently
+Nick Andrew (<a href="http://www.nick-andrew.net">www.nick-andrew.net</a>),
+and operational staff and facilities are provided by
+<a href="http://www.tull.net/">Tullnet Pty Ltd</a>.
+</p>
+
+<h2>aus.* hierarchy policy</h2>
+
+<ul>
+<li>Newsgroup creation only (no newsgroup deletions yet)
+<li>Unmoderated newsgroup creation only
+<li>Proposals considered by ausadmin to be frivolous or intended to "work the system" will be rejected
+<li>No change of newsgroups from unmoderated to moderated
+<li>2-level newsgroups (aus.X) accepted only for major categories (e.g. science, arts, sport, humanities -- most of which exist already)
+<li>3-level newsgroups (aus.X.Y) accepted only when parent exists (aus.X) or a sibling group already exists (aus.X.Z)
+<li>The effect of the above two rules is that if you want a new group e.g. <i>aus.language.strine</i> with no existing parent and no siblings, then you need to first work on getting <i>aus.language</i> created, and that group will have to make do for strine discussions as well as other language discussions. You would then wait 1-2 years before proposing <i>aus.language.strine</i>.
+<li>No change of charter yet, but if you wish to propose a charter for an existing group which does not already have a charter, email it in and ausadmin will consider accepting it directly as the new charter.
+</ul>
