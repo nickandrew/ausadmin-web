@@ -5,6 +5,7 @@ How to create a new newsgroup:
 <ol>
 <li>Make sure you really need a new newsgroup, and not a mailing list or a website or an existing newsgroup</li>
 <li>Define the Topic and choose a group name which meets the ausadmin policy</li>
+<li>Choose a short (less than 80 characters) one-line description for the newsgroup</li>
 <li>Follow the {{A|Proposal/Process|newsgroup proposal process}}</li>
 </ol>
 
@@ -86,3 +87,46 @@ new newsgroup:
  <li>Is the topic uniquely Australian or will there be enough Australian posters to justify its creation?</li>
 </ul>
 </p>
+
+<h2>Choosing a name for the new newsgroup</h2>
+<p>
+Choosing a good name is critical. If you choose a bad name your proposal
+will be rejected by ausadmin or it won't pass a vote.
+<ul>
+<li>Try to be consistent with existing newsgroup names.</li>
+<li>Use nouns where possible.</li>
+<li>Always stick to letters and numbers.</li>
+<li>Letters must be lower case.</li>
+<li>Don't use dots as word separators, as they are used to delimit sub-hierarchies; use hyphens instead.</li>
+<li>Try to fit your newsgroup into an existing sub-hierarchy, if appropriate.</li>
+<li>Don't create a new sub-hierarchy unless it can have at least 2 groups in it.</li>
+<li>Above all, keep it short, but obvious. Try to keep all newsgroup name components under 15 characters in length.</li>
+</ul>
+</p>
+<table>
+<tr>
+ <th colspan="2">Example newsgroup names</th>
+</tr>
+<tr>
+ <td>aus.ads.forsale.real-estate</td>
+ <td>Good. It fits into an existing sub-hierarchy (aus.ads.forsale) and uses a hyphen to separate words.</td>
+</tr>
+<tr>
+ <td>aus.ads.forsale.houses</td>
+ <td>Bad. What if somebody wants to sell an apartment? You can't expect everybody to read the newsgroup's Charter before posting into it.</td>
+</tr>
+<tr>
+ <td>aus.dancing.morris</td>
+ <td>Bad. This would create a new sub-hierarchy (aus.dancing) for just one group, leaving no place to discuss other forms of dance. You would be better off proposing a more general group (i.e. aus.dancing).</td>
+</tr>
+</table>
+
+<p>
+Unless there is a a compelling reason to do otherwise, ausadmin
+will refuse to accept proposals for names like aus.dancing.morris
+where aus.dancing does not already exist and there are no existing
+groups named aus.dancing.something. In other words, ausadmin prefers
+more general groups to be created first, and when need arises these
+general groups can be subdivided into more specific groups.
+</p>
+

@@ -29,14 +29,6 @@ $cookies->testActionLogin();
 # Log who visited where
 $cookies->logIdent();
 
-# Figure out which newsgroup we're talking about here
-my $request_uri = $ENV{REQUEST_URI};
-# Look for "/newsgroup_name/something"
-$request_uri =~ s/.*groupinfo.cgi//;
-
-my @frag = split(/\//, $request_uri);
-my $ng = $frag[1];
-
 my $username = $cookies->getUserName();
 
 $sqldb->commit();
@@ -48,25 +40,25 @@ print $cgi->header(
 	-cookie => $cookies->getList(),
 );
 
-my $uri_prefix = Ausadmin::config('uri_prefix');
+my $frame_file = 'Default.frame';
 
-print <<EOF;
-<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<link type="text/css" rel="stylesheet" href="$uri_prefix/style.css" />
+my $filename = $ENV{PATH_INFO} || 'aus.no.newsgroup';
+$filename =~ s/^\///; # cut leading slash
+$filename =~ s/\.\.+//; # cut out two or more dots in a row
 
-<title>Newsgroup $ng</title>
-</head>
-<body>
-EOF
+my $ng = $filename;
 
-my $contents = View::GroupPage::insideBody($cookies, $ng);
-View::MainPage::output($contents);
+my $object = View::GroupPage->new(cookies => $cookies, content => $filename, newsgroup => $ng);
+my $vars = {
+	HIERARCHY_PREFIX => 'aus',
+	USERNAME => $username,
+	NEWSGROUP => $ng,
+};
 
-print <<EOF;
-</body>
-</html>
-EOF
+my $include = new Include(vars => $vars, view => $object);
+
+my $string = $include->resolveFile($frame_file);
+
+print $string;
 
 exit(0);

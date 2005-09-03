@@ -16,7 +16,6 @@ use CGI::Cookie qw();
 use Ausadmin::CookieSet qw();
 use Vote qw();
 use View::MainPage qw();
-use View::Proposal qw();
 
 my $cgi = CGI->new();
 my $sqldb = Ausadmin::sqldb();

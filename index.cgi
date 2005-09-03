@@ -45,21 +45,30 @@ print $cgi->header(
 	-cookie => $cookies->getList(),
 );
 
-my $frame_file = 'Default.frame';
-
-my $filename = $ENV{PATH_INFO} || 'Default';
+my $filename = $ENV{PATH_INFO} || '';
 $filename =~ s/^\///; # cut leading slash
 $filename =~ s/\.\.+//; # cut out two or more dots in a row
 
-my $object = View::MainPage->new(cookies => $cookies, content => $filename);
+my ($frame, $arg);
+if ($filename =~ /^([^\/]+)\/(.+)/) {
+	($frame, $arg) = ($1, $2);
+} else {
+	($frame, $arg) = ('Ausadmin', 'Default');
+}
+
+my $uri_prefix = Ausadmin::config('uri_prefix');
+
 my $vars = {
 	HIERARCHY_PREFIX => 'aus',
+	URI_PREFIX => $uri_prefix,
 	USERNAME => $username,
 };
 
+my $object = View::MainPage->new(cookies => $cookies, content => "$frame.dir/$arg", vars => $vars);
+
 my $include = new Include(vars => $vars, view => $object);
 
-my $string = $include->resolveFile($frame_file);
+my $string = $include->resolveFile("$frame.frame");
 
 print $string;
 
