@@ -16,6 +16,7 @@ BEGIN {
 }
 
 use CGI qw();
+use CGI::Carp qw(fatalsToBrowser);
 use CGI::Cookie qw();
 
 use Ausadmin qw();
@@ -45,16 +46,7 @@ print $cgi->header(
 	-cookie => $cookies->getList(),
 );
 
-my $filename = $ENV{PATH_INFO} || '';
-$filename =~ s/^\///; # cut leading slash
-$filename =~ s/\.\.+//; # cut out two or more dots in a row
-
-my ($frame, $arg);
-if ($filename =~ /^([^\/]+)\/(.+)/) {
-	($frame, $arg) = ($1, $2);
-} else {
-	($frame, $arg) = ('Ausadmin', 'Default');
-}
+my ($frame, $arg) = getFrameArg();
 
 my $uri_prefix = Ausadmin::config('uri_prefix');
 
@@ -64,12 +56,35 @@ my $vars = {
 	USERNAME => $username,
 };
 
-my $object = View::MainPage->new(cookies => $cookies, content => "$frame.dir/$arg", vars => $vars);
+my $container = View::MainPage->new(cookies => $cookies, content => "$frame.dir/$arg", vars => $vars);
 
-my $include = new Include(vars => $vars, view => $object);
+$container->getCGIParameters($cgi);
 
+my $include = new Include(vars => $vars, view => $container);
+
+$container->setInclude($include);
 my $string = $include->resolveFile("$frame.frame");
 
 print $string;
 
 exit(0);
+
+# ---------------------------------------------------------------------------
+# Get HTML frame and argument
+# ---------------------------------------------------------------------------
+
+sub getFrameArg {
+
+	my $filename = $ENV{PATH_INFO} || '';
+	$filename =~ s/^\///; # cut leading slash
+	$filename =~ s/\.\.+//; # cut out two or more dots in a row
+
+	my ($frame, $arg);
+	if ($filename =~ /^([^\/]+)\/(.+)/) {
+		($frame, $arg) = ($1, $2);
+	} else {
+		($frame, $arg) = ('Ausadmin', 'Default');
+	}
+
+	return ($frame, $arg);
+}

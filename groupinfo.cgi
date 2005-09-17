@@ -15,7 +15,6 @@ use CGI::Cookie qw();
 
 use Ausadmin qw();
 use Ausadmin::CookieSet qw();
-use View::MainPage qw();
 use View::GroupPage qw();
 
 my $cgi = new CGI();

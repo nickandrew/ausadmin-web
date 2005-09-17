@@ -13,7 +13,7 @@ use Date::Format qw(time2str);
 
 use Ausadmin qw();
 use Ausadmin::CookieSet qw();
-use View::MainPage qw();
+use View::Deprecated qw();
 use View::NewProposal qw();
 
 my $cgi = new CGI();
@@ -51,7 +51,7 @@ my $newprop = View::NewProposal->new($cookies);
 
 my $contents = $newprop->asHTML();
 
-View::MainPage::output($contents);
+View::Deprecated::output($contents);
 
 print <<EOF;
 </body>
