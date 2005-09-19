@@ -56,7 +56,12 @@ my $vars = {
 	USERNAME => $username,
 };
 
-my $container = View::MainPage->new(cookies => $cookies, content => "$frame.dir/$arg", vars => $vars);
+my $container = View::MainPage->new(
+	cookies => $cookies,
+	content => "$frame.dir/$arg",
+	vars => $vars,
+	sqldb => $sqldb,
+);
 
 $container->getCGIParameters($cgi);
 
@@ -64,6 +69,8 @@ my $include = new Include(vars => $vars, view => $container);
 
 $container->setInclude($include);
 my $string = $include->resolveFile("$frame.frame");
+
+$sqldb->commit();
 
 print $string;
 
