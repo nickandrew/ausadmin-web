@@ -56,14 +56,20 @@ die "No vote" if (!defined $vote);
 
 my $frame_file = 'Proposal.frame';
 
-my $object = View::MainPage->new(cookies => $cookies, vote => $vote);
 my $vars = {
 	HIERARCHY_PREFIX => 'aus',
 	USERNAME => $username,
 	TITLE => "Proposal $proposal",
 };
 
-my $include = new Include(vars => $vars, view => $object);
+my $container = View::MainPage->new(
+	cookies => $cookies,
+	vote => $vote,
+	vars => $vars,
+	sqldb => $sqldb,
+);
+
+my $include = new Include(vars => $vars, view => $container);
 
 my $string = $include->resolveFile($frame_file);
 
