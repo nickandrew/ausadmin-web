@@ -3,11 +3,11 @@
  <tr>
   <!-- Left column -->
   <td class="lhs" bgcolor="#ffffe0" width="100" valign="top">
-   {{VIEW|loginBox|html}}
+   {{VIEW|LoginBox|html}}
    {{FILE|header-links.html}}
-   {{VIEW|proposalList}}
-   {{VIEW|runningVotesList}}
-   {{VIEW|newsgroupList}}
+   {{VIEW|ProposalList|html}}
+   {{VIEW|RunningVotesList|html}}
+   {{VIEW|NewsgroupList|html}}
   </td>
   <!-- Right column -->
   <td valign="top">
@@ -16,7 +16,7 @@
     <font face="sans-serif">{{VAR|HIERARCHY_PREFIX}} Newsgroup Administration</font>
    </h1>
   </center>
-   {{VIEW|contentFile}}
+   {{VIEW|self|contentFile}}
   </td>
   <!-- end of right column -->
  </tr>

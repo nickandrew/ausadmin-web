@@ -1,2 +1,2 @@
 <h1>Submit a new article</h1>
-{{VIEW|articleTemplate|form}}
+{{VIEW|ArticleTemplate|form}}

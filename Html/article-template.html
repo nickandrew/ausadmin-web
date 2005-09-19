@@ -1,16 +1,16 @@
 <form method="POST">
-<input type="hidden" name="_form" value="articleTemplate" />
+<input type="hidden" name="_form" value="ArticleTemplate" />
 <table border="1" cellpadding="0" cellspacing="0">
 <!-- we want to put a preview here, if there is stuff -->
-{{VIEW|articleTemplate|preview}}
+{{VIEW|ArticleTemplate|preview}}
 <tr>
- <td>Subject <input name="article_subject" size="80" value="{{VAR|articleTemplate.article_subject}}"/></td>
+ <td>Subject <input name="article_subject" size="80" value="{{VAR|ArticleTemplate.article_subject}}"/></td>
 </tr>
 <tr>
  <td>Please enter the text of your article. HTML required.
  <!-- wrap= can be soft|virtual|hard -->
  <!-- I think width= is ignored -->
-   <textarea name="article_contents" rows="18" cols="80" wrap="soft">{{VAR|articleTemplate.article_contents}}</textarea>
+   <textarea name="article_contents" rows="18" cols="80" wrap="soft">{{VAR|ArticleTemplate.article_contents}}</textarea>
  </td>
 </tr>
 <tr>
@@ -19,7 +19,8 @@
    <option value="text">Plain Old Text</option>
    <option value="html" selected>HTML formatted</option>
   </select>
-  <input type="submit" value="Preview" />
+  <input type="submit" name="action" value="Preview" />
+  <input type="submit" name="action" value="Submit" />
  </td>
 </tr>
 </table>
