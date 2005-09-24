@@ -2,7 +2,7 @@
  <tr>
   <td>
     &nbsp;
-    {{VIEW|news}}
+    {{VIEW|Articles|asHTML}}
    </td>
  </tr>
 </table>

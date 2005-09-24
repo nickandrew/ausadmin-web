@@ -25,6 +25,8 @@ use Include qw();
 use Data::Dumper qw();
 use View::MainPage qw();
 
+$Data::Dumper::Indent = 1;
+
 my $cgi = CGI->new();
 my $sqldb = Ausadmin::sqldb();
 
