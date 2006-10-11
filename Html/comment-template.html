@@ -1,0 +1,27 @@
+<form method="POST">
+<input type="hidden" name="_form" value="CommentTemplate" />
+<table border="1" cellpadding="0" cellspacing="0">
+<!-- we want to put a preview here, if there is stuff -->
+{{VIEW|CommentTemplate|preview}}
+<tr>
+ <td>Subject <input name="subject" size="80" value="{{VAR|CommentTemplate.subject}}"/></td>
+</tr>
+<tr>
+ <td>Please enter the text of your comment. HTML required.
+ <!-- wrap= can be soft|virtual|hard -->
+ <!-- I think width= is ignored -->
+   <textarea name="contents" rows="18" cols="80" wrap="soft">{{VAR|CommentTemplate.contents}}</textarea>
+ </td>
+</tr>
+<tr>
+ <td>
+  <select name="input_style"/>
+   <option value="text">Plain Old Text</option>
+   <option value="html" selected>HTML formatted</option>
+  </select>
+  <input type="submit" name="action" value="Preview" />
+  <input type="submit" name="action" value="Submit" />
+ </td>
+</tr>
+</table>
+</form>

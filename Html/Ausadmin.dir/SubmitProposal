@@ -1,0 +1,8 @@
+<h1>Submit a new proposal</h1>
+Before filling out this form, make sure you did:
+<ol>
+<li>Read {{A|Ausadmin/Proposal/GettingStarted|Getting&nbsp;Started&nbsp;with a proposal}}</li>
+<li>Read {{A|Ausadmin/Proposal/Process|The Proposal Process}}</li>
+</ol>
+{{VIEW|ProposalEdit|asHTML}}
+
