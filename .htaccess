@@ -1,4 +1,5 @@
 Options +Includes +ExecCGI
+AddHandler cgi-script .cgi
 AddHandler server-parsed .shtml
 AddType text/html .shtml
 
@@ -18,5 +19,5 @@ AddType text/html .shtml
 	Deny from all
 </FilesMatch>
 
-Redirect permanent	/Charters	http://aus.news-admin.org/groupinfo.php
+Redirect permanent	/Charters	http://aus.news-admin.org/groupinfo.cgi
 Redirect permanent	/ausadmin.tar	http://www.nick-andrew.net/projects/ausadmin/
