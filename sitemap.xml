@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://aus.news-admin.org/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/Faq/ausadmin.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2007-06-26T07:34:45+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/checkgroups.shtml</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.commercial/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.forsale/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.forsale.cars/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.forsale.computers.new/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.forsale.computers.used/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.jobs/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.jobs.resumes/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.personals/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.ads.wanted/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.arts.anime/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.arts.comics/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.audio-visual.home-cinema/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.aviation/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.aviation.airspace/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.bicycle/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.books/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.bushwalking/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.business/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.cars/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.cars.offroad/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.censorship/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.comms/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.comms.mobile/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.comms.videocon/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.ai/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.amiga/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.cdrom/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.ibm-pc/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.java/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.linux/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.logic-prog/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.mac/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.os2/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.parallel/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.sun/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.computers.tex/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.consumers/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.china/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.gothic/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.hellenic/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.lesbigay/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.naturist/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.true-blue/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.culture.ultimo/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.dvd/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.education/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.education.bio-newtech/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.education.open-learning/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.electronics/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.environment.conservation/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.environment.misc/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.family/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.films/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.flame/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.flame.gareth-powell/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.flame.usa/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.food/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.games/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.games.bridge/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.games.network/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.games.roleplay/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.gardens/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.general/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.hi-fi/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.history/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.invest/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.jokes/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.legal/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.legal.moderated/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.mathematics/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.mbio/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.media-watch/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.motorcycles/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.music/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.access/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.announce/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.directory/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.irc/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.mail/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.news/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.policy/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.net.status/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.acs/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.acs.books/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.acsev/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.auug/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.awpa/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.efa/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.hisa/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.rmaa/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.sage/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.scouting/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.org.waia/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.personals/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.pets/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.photo/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.politics/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.politics.guns/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.amateur.digital/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.amateur.misc/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.amateur.wicen/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.broadcast/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.cb/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.scanner/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.radio.showprep/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.rail/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.rail.models/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.rec.climbing/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.religion/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.religion.christian/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.religion.islam/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.religion.judaism/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.religion.spiritualism/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.science/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.services.defence/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.services.emergency/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sf/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sf.babylon5/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sf.star-trek/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.snow/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.aussie-rules/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.cricket/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.fishing/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.frisbee/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.golf/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.motor/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.pro-wrestling/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.rugby-league/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.sailing/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.scuba/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.shooting/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.sport.touch/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.stats.s/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.students/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.students.overseas/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.talk.ltuae/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.test/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.theatre/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.transport/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.buffy/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.community/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.digital/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.pay/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.reality/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/groupinfo.cgi/aus.tv.x-files/</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://aus.news-admin.org/Faq/RFD-template.txt</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
