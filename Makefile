@@ -1,5 +1,12 @@
 all:
-	@echo Try \"make distribution\"
+	@echo Try \"make distribution\" or \"make package\"
+
+package:
+	fakeroot debian/rules binary
+
+dist:
+	@echo Updating our distribution
+	@~/bin/add-package-tullnet.sh
 
 distribution:	.dist
 	@echo "Distribution complete."

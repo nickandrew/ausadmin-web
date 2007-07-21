@@ -1,0 +1,13 @@
+Source: ausadmin-web
+Maintainer: Nick Andrew <nick@nick-andrew.net>
+Section: install/web
+Priority: optional
+
+Package: ausadmin-web
+Architecture: all
+# Conflicts:
+# Depends: ausadmin-server
+Recommends: ausadmin-base, ausadmin-server
+Description: Installation of ausadmin website
+ Setup the ausadmin website
+

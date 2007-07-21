@@ -1,0 +1,10 @@
+#!/bin/bash
+#	@(#) $Id$
+#	Run to delete ausadmin-web
+#	vim:sw=4:ts=4:
+
+a2dissite ausadmin.conf
+
+exit 0
+
+#DEBHELPER#

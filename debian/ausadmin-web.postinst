@@ -1,0 +1,34 @@
+#!/bin/bash
+#	@(#) $Id$
+#	Configure an ausadmin website
+#	vim:sw=4:ts=4:
+#
+
+case "$1" in
+	configure)
+		# continue below
+	;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+		exit 0
+	;;
+
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 0
+	;;
+esac
+
+. /usr/share/debconf/confmodule
+
+WDIR=/var/www/aus.news-admin.org
+
+if [ -f /etc/apache2/sites-available/ausadmin.conf ] ; then
+	a2ensite ausadmin.conf
+fi
+
+echo "ausadmin-web has been installed."
+
+exit 0
+
+#DEBHELPER#
