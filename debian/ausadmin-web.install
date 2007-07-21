@@ -1,1 +1,4 @@
-../tags/stable-20061010  var/www/aus.news-admin.org
+../tags/stable-20061010/*  var/www/aus.news-admin.org
+../tags/stable-20061010/.htaccess /var/www/aus.news-admin.org/
+../tags/stable-20061010/cgi-bin/.htaccess /var/www/aus.news-admin.org/cgi-bin/
+../tags/stable-20061010/lib/.htaccess /var/www/aus.news-admin.org/lib/

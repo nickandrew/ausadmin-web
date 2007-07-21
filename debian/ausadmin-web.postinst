@@ -23,7 +23,7 @@ esac
 
 WDIR=/var/www/aus.news-admin.org
 
-if [ -f /etc/apache2/sites-available/ausadmin.conf ] ; then
+if [ ! -f /etc/apache2/sites-enabled/ausadmin.conf ] ; then
 	a2ensite ausadmin.conf
 fi
 

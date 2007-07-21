@@ -1,3 +1,10 @@
+ausadmin-web (1.0-2) unstable; urgency=low
+
+  * Also install .htaccess files
+  * Only enable website if not presently enabled
+
+ -- Nick Andrew <nick@tull.net>  Sat, 21 Jul 2007 18:00:00 +1000
+
 ausadmin-web (1.0-1) unstable; urgency=low
 
   * Initial packaging
