@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 #	@(#) deletions.cmd - Emit a series of links to newsgroups scheduled for deletion
 #
-# $Source$
-# $Revision$
-# $Date$
 
 
 chdir "Deletions";

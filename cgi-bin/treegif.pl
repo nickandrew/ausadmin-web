@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 #	treegif.pl - Output a gif containing a linked newsgroups tree
 #
-#	$Revision$
-#	$Source$
-#	$Date$
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 

@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 #	Emit a series of links to newsgroups work in progress
 #
-# $Source$
-# $Revision$
-# $Date$
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 

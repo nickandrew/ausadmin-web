@@ -2,7 +2,6 @@
 #	@(#) voteinfo - Get vote information: CFV or result (depending on
 #	vote status).
 #
-# $Id$
 
 use CGI qw/:standard/;
 

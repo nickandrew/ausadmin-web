@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 #	Emit a series of links to newsgroups charters
 
-# $Revision$
-# $Date$
 
 chdir "Charters";
 # for $i (<*>) {

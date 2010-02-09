@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 #	@(#) treehtml.pl - Output html containing a linked newsgroups tree
 #
-# $Source$
-# $Revision$
-# $Date$
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 

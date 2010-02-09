@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 #	treepng.pl - Output a png containing a linked newsgroups tree
 #
-#	$Revision$
-#	$Source$
-#	$Date$
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 

@@ -2,8 +2,6 @@
 <head>
 <title>Current list of aus.* newsgroups</title>
 </head>
-<!-- $Revision$ -->
-<!-- $Date$ -->
 <body bgcolor=#ffffff vlink=#336633 link=#6666cc> 
 <pre>
 <!--#exec cmd="shtml/grouplist.cmd" -->

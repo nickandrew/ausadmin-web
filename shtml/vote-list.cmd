@@ -2,8 +2,6 @@
 # Generates a list items "<li>" with links to the CFV for currently 
 # running votes, and a results page for finished votes.
 #
-# $Revision$
-# $Date$
 
 my $AUSADMIN_HOME = "/home/ausadmin";
 
