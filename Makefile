@@ -1,23 +1,9 @@
 all:
-	@echo Try \"make distribution\"
+	@echo Try \"make package\"
 
-distribution:	.dist
-	@echo "Distribution complete."
+package:
+	fakeroot debian/rules binary
 
-.dist:
-	$(MAKE) ausadmin-website.tar.gz
-	touch .dist
-
-ausadmin-website.tar.gz:
-	tar -z -c -v \
-		-f /tmp/ausadmin-website.tar.gz \
-		--exclude 'CVS' \
-		--exclude 'Charters' \
-		--exclude 'Deletions' \
-		--exclude 'Stats' \
-		--exclude 'Wip' \
-		--exclude 'ausadmin.tar' \
-		--exclude 'download' \
-		--exclude 'logs' \
-		--exclude 'test.php' \
-		*
+dist:
+	@echo Updating our distribution
+	@~/bin/add-package-tullnet.sh
