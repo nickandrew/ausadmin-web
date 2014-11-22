@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-package Ausadmin::Web::Controller::Example;
+package Ausadmin::Web::Controller::Main;
 
 use Mojo::Base 'Mojolicious::Controller';
 

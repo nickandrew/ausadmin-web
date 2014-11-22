@@ -12,7 +12,7 @@ sub startup {
 	my $r = $self->routes;
 
 	# Normal route to controller
-	$r->get('/')->to('example#welcome');
+	$r->get('/')->to('main#welcome');
 	$r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
 
 	$r->get('/checkgroups.shtml')->to(cb => sub {
