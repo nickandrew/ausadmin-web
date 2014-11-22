@@ -97,6 +97,8 @@ sub newsgroupList {
 
 	my @content;
 
+	push(@content, "<b>Newsgroups:</b><br />\n");
+
 	foreach my $g (@newsgrouplist) {
 		my $s = "&nbsp;&nbsp;<a href=\"$base/$g\">$g</a><br />\n";
 		push(@content, $s);
