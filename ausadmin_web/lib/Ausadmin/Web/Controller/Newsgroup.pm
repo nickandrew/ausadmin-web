@@ -49,6 +49,35 @@ sub groupinfo {
 	$self->render(msg => "Newsgroup $newsgroup");
 }
 
+sub article_rate {
+	my $self = shift;
+
+	my $newsgroup = $self->param('newsgroup');
+	my $type = $self->param('type');
+
+	if ($newsgroup !~ /^([a-z0-9.-]{1,50})$/) {
+		print STDERR "Bad newsgroup name $newsgroup\n";
+		return $self->render(status => 404);
+	}
+
+	if ($type !~ /^(day|week|month|year)$/) {
+		print STDERR "Bad type name $type\n";
+		return $self->render(status => 404);
+	}
+
+	my $path = "$ENV{AUSADMIN_HOME}/Mrtg/arrival/${newsgroup}-${type}.png";
+
+	if (-f $path && -r _) {
+		# Reply with a file not under the application directory
+		$self->reply->asset(Mojo::Asset::File->new(path => $path));
+		return;
+	}
+
+	# Make sure this image isn't cached
+	$self->res->headers->cache_control('max-age=1, no-cache');
+	$self->reply->static('/not_available.png');
+}
+
 sub relatedVotesList {
 	my $c = shift;
 	my $ng = shift;

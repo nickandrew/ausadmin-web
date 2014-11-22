@@ -11,7 +11,7 @@
 
 <h3>Activity graph of <%= $newsgroup %> (articles posted per day)</h3>
 <center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>" alt="Article posting rate graph for <%= $newsgroup %>" />
+<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=day" alt="Article posting rate graph for <%= $newsgroup %>" />
 </center>
 <p>The above graph is a moving average of the number of articles
 posted into <%= $newsgroup %> per day.
@@ -20,9 +20,9 @@ of articles posted in the last 24 hours, whereas the blue line counts
 the number of articles posted in the last 2 hours, times 12.</p>
 <h4>Weekly activity graph</h4>
 <center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>;type=week" alt="Last 7 days article posting rates for <%= $newsgroup %>" />
+<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&type=week" alt="Last 7 days article posting rates for <%= $newsgroup %>" />
 </center>
 <h4>Monthly activity graph</h4>
 <center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>;type=month" alt="Last 4 weeks article posting rates for <%= $newsgroup %>" />
+<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=month" alt="Last 4 weeks article posting rates for <%= $newsgroup %>" />
 </center>

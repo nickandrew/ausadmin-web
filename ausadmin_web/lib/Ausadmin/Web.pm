@@ -13,12 +13,14 @@ sub startup {
 	# Router
 	my $r = $self->routes;
 
-	# Normal route to controller
+	# Main class
 	$r->get('/')->to('main#welcome');
 	$r->get('/under_construction')->to('main#under_construction');
 
+	# Newsgroup class
 	$r->get('/article_rate_png.cgi')->to('newsgroup#article_rate');
 	$r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
+	$r->get('/article_rate_png.cgi')->to('newsgroup#article_rate');
 
 	# Moved Permanently to new location
 
