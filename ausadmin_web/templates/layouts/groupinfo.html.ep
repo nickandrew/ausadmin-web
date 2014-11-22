@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+<title><%= title %></title>
+</head>
+<body>
+<table border="1" bgcolor="#ffffe0" cellspacing="0" cellpadding="3" width="98%">
+<tr>
+ <td class="lhs" width="080" valign="top">
+    <%== $header_links %>
+    <%== $related_groups %>
+ </td>
+  <!-- Next column -->
+  <td valign="top">
+    <%= content %>
+  </td>
+  <!-- end of right column -->
+</tr>
+</table>
+</body>
+</html>
+
