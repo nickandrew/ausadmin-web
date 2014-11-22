@@ -23,7 +23,7 @@
 
 <p>
 <b>For&nbsp;Server&nbsp;Admins:</b><br />
-&nbsp;&nbsp;<a href="/checkgroups.shtml">aus.*&nbsp;Checkgroups</a><br />
+&nbsp;&nbsp;<a href="/checkgroups.txt">aus.*&nbsp;Checkgroups</a><br />
 &nbsp;&nbsp;<a href="/ausadmin.asc">PGP public key</a><br />
 &nbsp;&nbsp;<a href="/control.ctl">INN control.ctl</a><br />
 </p>

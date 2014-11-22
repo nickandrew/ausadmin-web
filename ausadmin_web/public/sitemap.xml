@@ -17,7 +17,7 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://aus.news-admin.org/checkgroups.shtml</loc>
+  <loc>http://aus.news-admin.org/checkgroups.txt</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
 </url>

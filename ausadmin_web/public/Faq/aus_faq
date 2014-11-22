@@ -367,7 +367,7 @@ your local newsserver does not know of an ausadmin-created group, this
 is likely the reason, so please send email to your news administrator
 or other technical support person and ask them to either create the
 newsgroup by hand, or process the ausadmin "Checkgroups" file (which
-lists all aus.* groups at http://aus.news-admin.org/checkgroups.shtml)
+lists all aus.* groups at http://aus.news-admin.org/checkgroups.txt)
 or add ausadmin's PGP key at http://aus.news-admin.org/ausadmin.asc to
 their configuration for automatically accepting newgroup messages.
 
