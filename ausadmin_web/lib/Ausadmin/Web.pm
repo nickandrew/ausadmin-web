@@ -13,6 +13,7 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('example#welcome');
+  $r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
 }
 
 1;
