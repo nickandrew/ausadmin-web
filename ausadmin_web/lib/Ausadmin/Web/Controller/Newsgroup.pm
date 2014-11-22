@@ -97,12 +97,14 @@ sub newsgroupList {
 
 	my @content;
 
-	push(@content, "<b>Newsgroups:</b><br />\n");
+	push(@content, "<p><b>Newsgroups:</b><br />\n");
 
 	foreach my $g (@newsgrouplist) {
 		my $s = "&nbsp;&nbsp;<a href=\"$base/$g\">$g</a><br />\n";
 		push(@content, $s);
 	}
+
+	push(@content, "</p>");
 
 	$c->stash(newsgroup_list => join('', @content));
 }
