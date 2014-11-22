@@ -19,7 +19,6 @@ sub html {
 		$path = "$ENV{AUSADMIN_WEB}/Html/$file";
 	}
 
-	print "Path is $path\n";
 	if (!-f $path || ! -r _) {
 		return undef;
 	}
