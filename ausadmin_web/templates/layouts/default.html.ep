@@ -1,5 +1,205 @@
 <!DOCTYPE html>
 <html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
+  <head>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <title><%= title %></title>
+  </head>
+  <body>
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+ <tr>
+  <td class="lhs" bgcolor="#ffffe0" width="100" valign="top">
+<p>
+<b>For&nbsp;USENET&nbsp;Users:</b><br />
+&nbsp;&nbsp;<a href="/">ausadmin&nbsp;home</a><br />
+&nbsp;&nbsp;<a href="/Faq/ausadmin.html">About&nbsp;ausadmin</a><br />
+&nbsp;&nbsp;<a href="/Faq/aus_faq">Group&nbsp;creation&nbsp;FAQ</a><br />
+&nbsp;&nbsp;<a href="http://aus.news-admin.org/">aus.news-admin.org</a><br />
+&nbsp;&nbsp;<a href="http://bne.news-admin.org/">bne.news-admin.org</a><br />
+&nbsp;&nbsp;<a href="http://canb.news-admin.org/">canb.news-admin.org</a><br />
+&nbsp;&nbsp;<a href="http://melb.news-admin.org/">melb.news-admin.org</a><br />
+&nbsp;&nbsp;<a href="http://syd.news-admin.org/">syd.news-admin.org</a><br />
+&nbsp;&nbsp;<a href="http://wa.news-admin.org/">wa.news-admin.org</a><br />
+</p>
+
+<p>
+<b>For&nbsp;Server&nbsp;Admins:</b><br />
+&nbsp;&nbsp;<a href="/checkgroups.shtml">aus.*&nbsp;Checkgroups</a><br />
+&nbsp;&nbsp;<a href="/ausadmin.asc">PGP public key</a><br />
+&nbsp;&nbsp;<a href="/control.ctl">INN control.ctl</a><br />
+</p>
+
+
+<p>
+<b>For&nbsp;Hierarchy&nbsp;Admins:</b><br />
+&nbsp;&nbsp;<a href="http://www.nick-andrew.net/projects/ausadmin/">Download&nbsp;Software</a><br />
+&nbsp;&nbsp;<a href="http://www.news-admin.org/">www.news-admin.org</a><br />
+</p>
+<!-- start of proposals -->
+<p>
+<b>Proposals:</b><br />
+&nbsp;&nbsp;<a href="/proposal.cgi?proposal=aus.radio.amateur.dstar">aus.radio.amateur.dstar</a><br />
+</p>
+<!-- end of proposals -->
+<p>
+<b>Newsgroups:</b><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.commercial/">aus.ads.commercial</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.forsale/">aus.ads.forsale</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.forsale.cars/">aus.ads.forsale.cars</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.forsale.computers.new/">aus.ads.forsale.computers.new</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.forsale.computers.used/">aus.ads.forsale.computers.used</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.jobs/">aus.ads.jobs</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.jobs.resumes/">aus.ads.jobs.resumes</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.personals/">aus.ads.personals</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.ads.wanted/">aus.ads.wanted</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.arts.anime/">aus.arts.anime</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.arts.comics/">aus.arts.comics</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.audio-visual.home-cinema/">aus.audio-visual.home-cinema</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.aviation/">aus.aviation</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.aviation.airspace/">aus.aviation.airspace</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.bicycle/">aus.bicycle</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.books/">aus.books</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.bushwalking/">aus.bushwalking</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.business/">aus.business</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.cars/">aus.cars</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.cars.offroad/">aus.cars.offroad</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.censorship/">aus.censorship</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.comms/">aus.comms</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.comms.mobile/">aus.comms.mobile</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.comms.videocon/">aus.comms.videocon</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers/">aus.computers</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.ai/">aus.computers.ai</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.amiga/">aus.computers.amiga</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.cdrom/">aus.computers.cdrom</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.ibm-pc/">aus.computers.ibm-pc</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.java/">aus.computers.java</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.linux/">aus.computers.linux</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.logic-prog/">aus.computers.logic-prog</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.mac/">aus.computers.mac</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.os2/">aus.computers.os2</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.parallel/">aus.computers.parallel</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.sun/">aus.computers.sun</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.computers.tex/">aus.computers.tex</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.consumers/">aus.consumers</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.china/">aus.culture.china</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.gothic/">aus.culture.gothic</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.hellenic/">aus.culture.hellenic</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.lesbigay/">aus.culture.lesbigay</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.naturist/">aus.culture.naturist</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.true-blue/">aus.culture.true-blue</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.culture.ultimo/">aus.culture.ultimo</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.dvd/">aus.dvd</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.education/">aus.education</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.education.bio-newtech/">aus.education.bio-newtech</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.education.open-learning/">aus.education.open-learning</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.electronics/">aus.electronics</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.environment.conservation/">aus.environment.conservation</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.environment.misc/">aus.environment.misc</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.family/">aus.family</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.films/">aus.films</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.flame/">aus.flame</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.flame.gareth-powell/">aus.flame.gareth-powell</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.flame.usa/">aus.flame.usa</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.food/">aus.food</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.games/">aus.games</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.games.bridge/">aus.games.bridge</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.games.network/">aus.games.network</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.games.roleplay/">aus.games.roleplay</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.gardens/">aus.gardens</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.general/">aus.general</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.hi-fi/">aus.hi-fi</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.history/">aus.history</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.invest/">aus.invest</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.jokes/">aus.jokes</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.legal/">aus.legal</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.legal.moderated/">aus.legal.moderated</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.mathematics/">aus.mathematics</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.mbio/">aus.mbio</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.media-watch/">aus.media-watch</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.motorcycles/">aus.motorcycles</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.music/">aus.music</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.access/">aus.net.access</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.announce/">aus.net.announce</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.directory/">aus.net.directory</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.irc/">aus.net.irc</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.mail/">aus.net.mail</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.news/">aus.net.news</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.policy/">aus.net.policy</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.net.status/">aus.net.status</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.acs/">aus.org.acs</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.acs.books/">aus.org.acs.books</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.acsev/">aus.org.acsev</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.auug/">aus.org.auug</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.awpa/">aus.org.awpa</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.efa/">aus.org.efa</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.hisa/">aus.org.hisa</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.rmaa/">aus.org.rmaa</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.sage/">aus.org.sage</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.scouting/">aus.org.scouting</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.org.waia/">aus.org.waia</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.personals/">aus.personals</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.pets/">aus.pets</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.photo/">aus.photo</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.politics/">aus.politics</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.politics.guns/">aus.politics.guns</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.amateur.digital/">aus.radio.amateur.digital</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.amateur.misc/">aus.radio.amateur.misc</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.amateur.wicen/">aus.radio.amateur.wicen</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.broadcast/">aus.radio.broadcast</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.cb/">aus.radio.cb</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.scanner/">aus.radio.scanner</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.radio.showprep/">aus.radio.showprep</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.rail/">aus.rail</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.rail.models/">aus.rail.models</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.rec.climbing/">aus.rec.climbing</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.religion/">aus.religion</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.religion.christian/">aus.religion.christian</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.religion.islam/">aus.religion.islam</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.religion.judaism/">aus.religion.judaism</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.religion.spiritualism/">aus.religion.spiritualism</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.science/">aus.science</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.services.defence/">aus.services.defence</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.services.emergency/">aus.services.emergency</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sf/">aus.sf</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sf.babylon5/">aus.sf.babylon5</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sf.star-trek/">aus.sf.star-trek</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.snow/">aus.snow</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport/">aus.sport</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.aussie-rules/">aus.sport.aussie-rules</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.cricket/">aus.sport.cricket</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.fishing/">aus.sport.fishing</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.frisbee/">aus.sport.frisbee</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.golf/">aus.sport.golf</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.motor/">aus.sport.motor</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.pro-wrestling/">aus.sport.pro-wrestling</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.rugby-league/">aus.sport.rugby-league</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.sailing/">aus.sport.sailing</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.scuba/">aus.sport.scuba</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.shooting/">aus.sport.shooting</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.sport.touch/">aus.sport.touch</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.stats.s/">aus.stats.s</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.students/">aus.students</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.students.overseas/">aus.students.overseas</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.talk.ltuae/">aus.talk.ltuae</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.test/">aus.test</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.theatre/">aus.theatre</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.transport/">aus.transport</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv/">aus.tv</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.buffy/">aus.tv.buffy</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.community/">aus.tv.community</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.digital/">aus.tv.digital</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.pay/">aus.tv.pay</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.reality/">aus.tv.reality</a><br />
+&nbsp;&nbsp;<a href="groupinfo.cgi/aus.tv.x-files/">aus.tv.x-files</a><br />
+</p>
+  </td>
+
+  <!-- Next column -->
+  <td valign="top">
+    <%= content %>
+  </td>
+  <!-- end of right column -->
+ </tr>
+</table>
+
+  </body>
 </html>
