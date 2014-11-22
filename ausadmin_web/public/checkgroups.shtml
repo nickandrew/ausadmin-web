@@ -1,0 +1,165 @@
+Path: bounce-back
+From: aus Newsgroups Administration <ausadmin@aus.news-admin.org>
+Newsgroups: aus.net.news
+Subject: cmsg checkgroups
+Control: checkgroups
+Approved: ausadmin@aus.news-admin.org
+Message-ID: <1115273394.9636@aus.news-admin.org>
+Date: Thu, 05 May 2005 06:09:54 -0000
+Lines: 147
+X-Info: ftp://ftp.isc.org/pub/pgpcontrol/README.html
+	ftp://ftp.isc.org/pub/pgpcontrol/README
+X-PGP-Sig: v1.2.5 Subject,Control,Message-ID,Date,From,Sender
+	iQCVAwUBQnm4u1L4gcrLUivRAQGutQP/edDq5ghPo2p9t/1czD8Xbk18AlWz7IgJ
+	9KzvXK6bZMi5eMU0rg2jO6Td0Jv8+T2BNkdBUkzhSG88S+YfWaDhl/UciSrtBGNT
+	BQBgKwX20E0riAx5cUNSI2RumVvrMI6sFgp3OTa/L2cO0p+9nYjnvxnXaVbWwYrq
+	COx2U20+2aw=
+	=mmIG
+
+aus.ads.commercial	Commercial advertisements.
+aus.ads.forsale	Items for sale (no commercial ads).
+aus.ads.forsale.cars	Cars & parts for sale & wanted in Australia.
+aus.ads.forsale.computers.new	Advertisements for new computer hardware
+aus.ads.forsale.computers.used	Advertisements for used or second hand
+aus.ads.jobs	Jobs, wanted and available.
+aus.ads.jobs.resumes	Australian resumes.
+aus.ads.personals	People seeking people.
+aus.ads.wanted	Items wanted (no commercial ads).
+aus.arts.anime	Japanese animation, movies, TV shows and DVDs
+aus.arts.comics	Fans, writers & artists of comic books in Australia.
+aus.audio-visual.home-cinema	Creation of big-screen cinema in the home.
+aus.aviation	Planes, gliders, flying, etc.
+aus.aviation.airspace	Airspace Design and Management in Australia.
+aus.bicycle	Pushbikes.
+aus.books	Australian discussion of books.
+aus.bushwalking	Bushwalking, hiking, and other outdoor activities.
+aus.business	Australian Business issues
+aus.cars	Petrol heads.
+aus.cars.offroad	Discussion of four wheel driving.
+aus.censorship	Censorship in Australia.
+aus.comms	Discussion about communications in general.
+aus.comms.mobile	Mobile communications in Australia.
+aus.comms.videocon	Videoconferencing - compressed video.
+aus.computers	Misc computer types.
+aus.computers.ai	AI discussions.
+aus.computers.amiga	Discussions about Commodore Amiga computers.
+aus.computers.cdrom	CD-ROM
+aus.computers.ibm-pc	Discussions about the IBM pc & clones.
+aus.computers.java	Australian Java users.
+aus.computers.linux	The Linux operating system.
+aus.computers.logic-prog	Logic Programming.
+aus.computers.mac	Macintosh computers and software.
+aus.computers.os2	The OS/2 operating system.
+aus.computers.parallel	Parallel computing.
+aus.computers.sun	Sun computers and software.
+aus.computers.tex	The TeX typesetting system.
+aus.consumers	Consumer Products/Services in Australia
+aus.culture.china	soc.culture.china redistributed.
+aus.culture.gothic	The Gothic subculture in Australia
+aus.culture.hellenic	Hellenic culture in Australia.
+aus.culture.lesbigay	Gay and bisexual life.
+aus.culture.naturist	For sun lovers of Australia
+aus.culture.true-blue	True-Blue Australian culture group.
+aus.culture.ultimo	Inner-city life.
+aus.dvd	Digital Versatile Disk in Australia.
+aus.education	Helping educators in Australia.
+aus.education.bio-newtech	New Technologies in Biology Teaching.
+aus.education.open-learning	The Open Learning program.
+aus.electronics	Electronics hobbyists and engineers.
+aus.environment.conservation	Conservation issues
+aus.environment.misc	Miscellaneous environmental issues.
+aus.family	Australian Family Discussion
+aus.films	Movies, Cinema, TV.
+aus.flame	Abusive noise, posted by morons.
+aus.flame.gareth-powell	Australia's favourite computer journalist.
+aus.flame.usa	Careful, reasoned criticism of the United States of America.
+aus.games	Discussions of games.
+aus.games.bridge	The game of Bridge.
+aus.games.network	Discussion of Australian network gaming
+aus.games.roleplay	Discussions of role playing games.
+aus.gardens	Gardens and gardening in Australia.
+aus.general	General information, announcements, etc.
+aus.hi-fi	Hi-Fi Issues.
+aus.history	Australian history and world history from an Australian perspective
+aus.invest	Investment and other financial matters.
+aus.jokes	Jokes, humour, and boring trivia.
+aus.legal	Legal issues.
+aus.legal.moderated	A moderated Australian and New Zealand legal group. (Moderated)
+aus.mathematics	Mathematics teaching and research.
+aus.mbio	Molecular biology.
+aus.media-watch	The quality of journalism and media in Australia.
+aus.motorcycles	Discussion of motorcycles and motorcycling.
+aus.music	Music and related issues.
+aus.net.access	Internet access.
+aus.net.announce	Announcements of resources available on the net.
+aus.net.directory	For the discussion of the X.500 Directory.
+aus.net.irc	Internet Relay Chat in Australia.
+aus.net.mail	Mail systems, addressing, and etc. 
+aus.net.news	Discussion of Australian USENET news system.
+aus.net.policy	Discussion of all aspects of Australian Internet policy
+aus.net.status	Status of local & international net links.
+aus.org.acs	The Australian Computer Society.
+aus.org.acs.books	The Australian Computer Society book reviews.
+aus.org.acsev	ACSEV - Association of Consulting Structural Engineers
+aus.org.auug	AUUG Inc - Australian Unix User Group.
+aus.org.awpa	Australasian Web Publishers' Association, Inc.
+aus.org.efa	Electronic Frontiers Australia.
+aus.org.hisa	Health Informatics Association of Australia related matters.
+aus.org.rmaa	Records Management Association of Australia related matters.
+aus.org.sage	The System Administrators' Guild.
+aus.org.scouting	Scouting in Australia
+aus.org.waia	Discussion forum for the W.A. Internet Association.
+aus.personals	Personal ads.
+aus.pets	Australasian pet owners, and their pets.
+aus.photo	Photography, video, etc.
+aus.politics	Politics, debates, rational(?) arguments.
+aus.politics.guns	Gun control in Australia
+aus.radio.amateur.digital	Digital techniques in Amateur Radio.
+aus.radio.amateur.misc	Amateur Radio.
+aus.radio.amateur.wicen	Wireless Institute Civil Emergency Network.
+aus.radio.broadcast	Australian broadcast radio.
+aus.radio.cb	Citizens Band radio in Australia
+aus.radio.scanner	Scanner frequency tips & tricks for monitoring in Aust.
+aus.radio.showprep	Show preparation for on-air professionals.
+aus.rail	Railways and trains, both actual and model.
+aus.rail.models	Model railways and trains.
+aus.rec.climbing	Discussion of climbing in Australia.
+aus.religion	Discussions of, or related to, religions.
+aus.religion.christian	Christianity and issues relevant to Christianity
+aus.religion.islam	Discussion of Islam and relevant issues
+aus.religion.judaism	Discussion of matters pertinent to Australian Jewry.
+aus.religion.spiritualism	Mediumship, guides, healing, spiritism, etc.
+aus.science	Discussion of science in Australia
+aus.services.defence	Australian Defence forces - air, land and sea.
+aus.services.emergency	Emergency Service discussions.
+aus.sf	Australian discussion of SF&F literature, media, fandom.
+aus.sf.babylon5	The TV series _Babylon 5_.
+aus.sf.star-trek	_Star Trek_, old and new.
+aus.snow	Winter sports in Australia.
+aus.sport	Generic discussions of sport.
+aus.sport.aussie-rules	Australian Rules football.
+aus.sport.cricket	Discussion of Australian cricket.
+aus.sport.fishing	Discussion of fishing in Australia
+aus.sport.frisbee	Frisbee sports including ultimate frisbee and disc golf.
+aus.sport.golf	Discussion of golf as it relates to Australia
+aus.sport.motor	Motor sports.
+aus.sport.pro-wrestling	Discussion of pro-wrestling as it relates to Australia.
+aus.sport.rugby-league	Rugby League football.
+aus.sport.sailing	Discussion of sailing in Australia
+aus.sport.scuba	Scuba diving.
+aus.sport.shooting	Australian shooting sports involving firearms.
+aus.sport.touch	All aspects of Touch Football and Touch Rugby in Australia.
+aus.stats.s	Discussions of the S data analysis & graphics software.
+aus.students	Going to school in Australia.
+aus.students.overseas	Australian students abroad, students from abroad in Australia.
+aus.talk.ltuae	Life, The Universe, And Everything.
+aus.test	For test messages.
+aus.theatre	The theatre.
+aus.transport	Transportation infrastructure and vehicles.
+aus.tv	Television.
+aus.tv.buffy	Discussion of the TV show Buffy and related topics.
+aus.tv.community	Community television.
+aus.tv.digital	Digital Television in Australia
+aus.tv.pay	General discussion of pay television within Australia.
+aus.tv.reality	Discussion of reality television shows as they relate to Australia
+aus.tv.x-files	Discussion of "X-Files" and related subjects.
