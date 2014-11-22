@@ -8,18 +8,34 @@ use Mojo::Base 'Mojolicious';
 sub startup {
 	my $self = shift;
 
+	$self->app->secrets(['El Mojo Application']);
+
 	# Router
 	my $r = $self->routes;
 
 	# Normal route to controller
 	$r->get('/')->to('main#welcome');
+	$r->get('/under_construction')->to('main#under_construction');
+
+	$r->get('/article_rate_png.cgi')->to('newsgroup#article_rate');
 	$r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
+
+	# Moved Permanently to new location
 
 	$r->get('/checkgroups.shtml')->to(cb => sub {
 		my $c = shift;
 		$c->res->code(301);
 		$c->redirect_to('/checkgroups.txt');
 	});
+
+	# Things still not yet implemented
+
+	$r->get('/grouplist.shtml')->to('main#not_implemented');
+	$r->get('/proposal.cgi')->to('main#not_implemented');
+	$r->get('/proposal.php')->to('main#not_implemented');
+	$r->get('/vote-list.shtml')->to('main#not_implemented');
+	$r->get('/vote-results.shtml')->to('main#not_implemented');
+
 }
 
 1;

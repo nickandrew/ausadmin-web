@@ -1,0 +1,6 @@
+% layout 'default';
+% title 'Oops! Still under construction!';
+<img src="<%= url_for '/under_construction.jpg' %>" alt="Under construction" />
+<p>
+Sorry, but your hard-working site administrator is still building this functionality.
+</p>

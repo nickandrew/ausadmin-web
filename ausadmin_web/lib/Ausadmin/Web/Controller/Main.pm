@@ -7,13 +7,16 @@ use Mojo::Base 'Mojolicious::Controller';
 use Ausadmin::Web::Include qw();
 use Ausadmin::Web::Newsgroup qw();
 
-# This action will render a template
-sub welcome {
+sub _fixup {
 	my $self = shift;
 
 	# Fix AUSADMIN_DATA
 	my $hier = 'aus';
 	$ENV{AUSADMIN_DATA} = "$ENV{AUSADMIN_HOME}/data/${hier}.data";
+}
+
+sub _header_links {
+	my $self = shift;
 
 	my $lines_ref = Ausadmin::Web::Include::html('header-links.html');
 	if ($lines_ref) {
@@ -23,10 +26,33 @@ sub welcome {
 	} else {
 		$self->stash('header_links' => 'Cannot read header-links');
 	}
+}
+
+# This action will render a template
+sub welcome {
+	my $self = shift;
+
+	$self->_fixup();
+	$self->_header_links;
 	$self->newsgroupList();
 
 	# Render template "example/welcome.html.ep" with message
 	$self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
+}
+
+sub not_implemented {
+	my $self = shift;
+
+	$self->res->code(302);
+	$self->redirect_to('under_construction');
+}
+
+sub under_construction {
+	my $self = shift;
+
+	$self->_fixup();
+	$self->_header_links;
+	$self->newsgroupList;
 }
 
 sub newsgroupList {
