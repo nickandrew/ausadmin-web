@@ -22,6 +22,10 @@ sub startup {
 	$r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
 	$r->get('/article_rate_png.cgi')->to('newsgroup#article_rate');
 
+	# REST API
+	$r->get('/api/newsgroup')->to('API#newsgroups');
+	$r->get('/api/newsgroup/*newsgroup')->to('API#newsgroup');
+
 	# Moved Permanently to new location
 
 	$r->get('/checkgroups.shtml')->to(cb => sub {
