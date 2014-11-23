@@ -111,6 +111,30 @@ sub debug_it {
 }
 
 # ---------------------------------------------------------------------------
+# Return the directory name containing this newsgroup's attributes
+# ---------------------------------------------------------------------------
+
+sub _dirname {
+	my $self = shift;
+
+	my $datadir = datadir($self->{hier});
+	my $path = "$datadir/Newsgroups/$self->{name}";
+	return $path;
+}
+
+# ---------------------------------------------------------------------------
+# Check if the newsgroup 'exists' as in ausadmin knows about it
+# ---------------------------------------------------------------------------
+
+sub is_known {
+	my $self = shift;
+
+	my $dir = $self->_dirname();
+	return 0 if (!-d $dir);
+	return 1;
+}
+
+# ---------------------------------------------------------------------------
 # Read data from a file, store it in a string and this object's attributes
 # ---------------------------------------------------------------------------
 
