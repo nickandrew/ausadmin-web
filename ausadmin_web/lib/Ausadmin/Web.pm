@@ -8,7 +8,7 @@ use Mojo::Base 'Mojolicious';
 sub startup {
 	my $self = shift;
 
-	$self->app->secrets(['El Mojo Application']);
+	$self->secrets(['El Mojo Application']);
 
 	# Router
 	my $r = $self->routes;
