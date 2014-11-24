@@ -42,16 +42,18 @@ div.box {
 div.lhs {
 	background: #ffffe0;
 	border: solid;
-	border-width: thin;
+	border-radius: 25px;
+	border-width: 2px;
 	float: left;
 	width: 160px auto;
 	font-size: 90%;
 	margin: 0;
+	padding: 1em;
 }
 
 div.rhs {
 	float: left;
 	width: 600px;
 	border-width: thin;
-	padding: 5px;
+	padding: 1em;
 }
