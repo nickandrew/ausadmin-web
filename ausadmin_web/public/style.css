@@ -1,4 +1,4 @@
-body {
+#container {
 	color: black;
 	background: white;
 	margin-left: 2%;
@@ -37,4 +37,21 @@ div.box {
 	border: solid;
 	border-width: thin;
 	width: 100%;
+}
+
+div.lhs {
+	background: #ffffe0;
+	border: solid;
+	border-width: thin;
+	float: left;
+	width: 160px auto;
+	font-size: 90%;
+	margin: 0;
+}
+
+div.rhs {
+	float: left;
+	width: 600px;
+	border-width: thin;
+	padding: 5px;
 }
