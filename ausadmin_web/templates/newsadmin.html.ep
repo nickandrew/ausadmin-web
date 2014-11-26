@@ -15,7 +15,7 @@
 
   <td bgcolor=#000000><br>
    <center>
-    <img src="news-admin.jpg" width=461 height=55 alt="news-admin.org logo">
+    <img src="/news-admin.jpg" width=461 height=55 alt="news-admin.org logo">
    </center><br>
   </td>
  </tr>
@@ -33,7 +33,7 @@
 
     <tr>
      <td>
-      <p>This site <a href="http://news-admin.org/">http://news-admin.org/</a>
+      <p>This site <a href="http://www.news-admin.org/">http://www.news-admin.org/</a>
 	has been set up by news hierarchy maintainers (that is, the persons
 	responsible for managing one or more of the top-level newsgroup
 	hierarchies) for use by other maintainers and by users of USENET.
