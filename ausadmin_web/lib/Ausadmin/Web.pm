@@ -22,6 +22,9 @@ sub startup {
 	$r->get('/groupinfo.cgi/*newsgroup')->to('newsgroup#groupinfo');
 	$r->get('/article_rate_png.cgi')->to('newsgroup#article_rate');
 
+	# www.news-admin.org
+	$r->get('/news-admin')->to('newsadmin');
+
 	# REST API
 	$r->get('/api/newsgroup')->to('API#newsgroups');
 	$r->get('/api/newsgroup/*newsgroup')->to('API#newsgroup');

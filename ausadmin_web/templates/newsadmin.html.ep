@@ -1,0 +1,137 @@
+<!-- $Revision: 1.8 $ -->
+<!-- $Date: 2002/05/07 13:43:34 $ -->
+
+<html>
+<head>
+ <title>USENET News Administration</title>
+</head>
+
+<body bgcolor=#ffffff>
+
+<table width=600 cellpadding=0 cellspacing=0 border=0>
+ <tr>
+  <td bgcolor=#000000 width=100 valign=bottom align=center rowspan=2>
+   <font size=-1 color=#cccccc>visitors</font><br>
+   <img src="http://www.zeta.org.au/cgi-bin/count.cgi?df=ausadmin&dd=D" border=0>
+  </td>
+
+  <td bgcolor=#000000><br>
+   <center>
+    <img src="news-admin.jpg" width=461 height=55 alt="news-admin.org logo">
+   </center><br>
+  </td>
+ </tr>
+
+ <tr>
+  <td>
+   <table cellpadding=5 cellspacing=10 width=100%>
+    <tr bgcolor=#000000>
+     <td>
+      <font color=#ffaa00 size=+1 face="sans-serif">
+       <b>Purpose of this site</b>
+      </font>
+     </td>
+    </tr>
+
+    <tr>
+     <td>
+      <p>This site <a href="http://news-admin.org/">http://news-admin.org/</a>
+	has been set up by news hierarchy maintainers (that is, the persons
+	responsible for managing one or more of the top-level newsgroup
+	hierarchies) for use by other maintainers and by users of USENET.
+      </p>
+
+      <p>This site contains links to all known top-level hierarchies, any of 
+	which may register a subdomain of news-admin.org for their hierarchy.
+      </p>
+
+      <p>The hierarchies which are presently using this system are:
+       <ul>
+	<li><a href="http://aus.news-admin.org/">aus.news-admin.org</a>
+	<li><a href="http://bc.news-admin.org/">bc.news-admin.org</a>
+	<li><a href="http://de.news-admin.org/">de.news-admin.org</a>
+	<li><a href="http://bbs.cn.news-admin.org/">bbs.cn.news-admin.org</a>
+	<li><a href="http://europa.news-admin.org/">europa.news-admin.org</a>
+	<li><a href="http://england.news-admin.org/">england.news-admin.org</a>
+	<li><a href="http://idoctra.news-admin.org/">idoctra.news-admin.org</a>
+	<li><a href="http://malta.news-admin.org/">malta.news-admin.org</a>
+	<li><a href="http://nl.news-admin.org/">nl.news-admin.org</a>
+	<li><a href="http://no.news-admin.org/">no.news-admin.org</a>
+	<li><a href="http://nrw.news-admin.org/">nrw.news-admin.org</a>
+	<li><a href="http://nz.news-admin.org/">nz.news-admin.org</a>
+	<li><a href="http://scot.news-admin.org/">scot.news-admin.org</a>
+	<li><a href="http://van.news-admin.org/">van.news-admin.org</a>
+       </ul>
+      </p>
+
+      <h3>Getting a subdomain of aus.news-admin.org</h3>
+      <p>If you are a recognised news hierarchy maintainer (in other
+      words, if your email address is on one of the following Top-level
+      hierarchies lists) then Nick Andrew would like to offer you a
+      subdomain of <b>news-admin.org</b> to assist in maintaining
+      your hierarchy.
+      </p>
+
+      <p>A subdomain of <b>news-admin.org</b> is useful because it
+      is easy to for people to remember. It's also permanent so when
+      you change providers or jobs the subdomain does not also change.
+      And if you decide to pass the role to somebody else, there is no
+      need for the contact addresses to change either.
+      </p>
+
+      <p>Each subdomain is offered for free forever (so long as there
+      is enough interest to keep news-admin.org registered and
+      properly delegated, of course).
+      </p>
+
+      <p>If you would like to start using a subdomain of
+      <b>news-admin.org</b> for your hierarchy then please email
+      Nick Andrew &lt;ausadmin@aus.news-admin.org&gt; to get the
+      process started.
+      </p>
+
+      <h3>Top-level hierarchies</h3>
+      <ul>
+       <li><a href="http://www.magma.ca/~leisen/mlnh/">Lewis Eisen's "Master List of Newsgroup Hierarchies"</a>
+        <p>This document lists newsgroup hierarchy names and a short
+	description of whom or what the hierarchy is about, but provides
+	no contact or website details.
+	</p>
+       <li><a href="http://www.faqs.org/faqs/usenet/hierarchies-config/">Usenet Hierarchies: Config Files FAQ</a>
+        <p>Unfortunately this FAQ appears to have been last updated in 1999.
+	Do <b>not</b> use the control.ctl file within, as it is obsolete.
+	See below.
+	</p>
+       <li><a href="ftp://ftp.isc.org/pub/usenet/CONFIG/control.ctl">Rone's unified control.ctl file</a>
+        <p>This file is probably the most up-to-date list of hierarchies and
+	their control information. It is now maintained by Russ Allbery. If
+	yours is a new hierarchy, you really need your entry in this file.
+	</p>
+      </ul>
+     </td>
+    </tr>
+
+    <tr bgcolor=#000000>
+     <td>
+      <font color=#ffaa00 size=+1 face="sans-serif">
+       <b>Links</b>
+      </font>
+     </td>
+    </tr>
+
+    <tr>
+     <td>
+      <ul>
+       <li><a href="http://groups.google.com/">Google groups</a> searchable archive of 20+ years of USENET messages.
+       <li><a href="http://sunsite.unc.edu/usenet-i/">Usenet Info Center Launch Pad</a>
+       <li><a href="http://www.geocities.com/ResearchTriangle/Lab/6882/ncreate.html">NNQ: Creating New Newsgroups</a> (a very popular resource on newsgroup creation).
+      </ul>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+</body>
+</html>
