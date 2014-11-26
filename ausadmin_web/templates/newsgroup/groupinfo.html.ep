@@ -1,8 +1,8 @@
 % layout 'groupinfo';
 % title "Newsgroup $newsgroup";
-<center><h1><%= $newsgroup %></h1></center>
+<h1><%= $newsgroup %></h1>
 <hr />
-<center><h1><%= $ngline %></h1></center>
+<h2><%= $ngline %></h2>
 <hr />
 <h3>Charter of <%= $newsgroup %></h3>
 <blockquote>
@@ -10,19 +10,15 @@
 </blockquote>
 
 <h3>Activity graph of <%= $newsgroup %> (articles posted per day)</h3>
-<center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=day" alt="Article posting rate graph for <%= $newsgroup %>" />
-</center>
-<p>The above graph is a moving average of the number of articles
+<img class="activity" src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=day" alt="Article posting rate graph for <%= $newsgroup %>" />
+
+<p>
+The above graph is a moving average of the number of articles
 posted into <%= $newsgroup %> per day.
 The top of the green area counts the number
 of articles posted in the last 24 hours, whereas the blue line counts
 the number of articles posted in the last 2 hours, times 12.</p>
 <h4>Weekly activity graph</h4>
-<center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&type=week" alt="Last 7 days article posting rates for <%= $newsgroup %>" />
-</center>
+<img class="activity" src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&type=week" alt="Last 7 days article posting rates for <%= $newsgroup %>" />
 <h4>Monthly activity graph</h4>
-<center>
-<img src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=month" alt="Last 4 weeks article posting rates for <%= $newsgroup %>" />
-</center>
+<img class="activity" src="/article_rate_png.cgi?newsgroup=<%= $newsgroup %>&amp;type=month" alt="Last 4 weeks article posting rates for <%= $newsgroup %>" />
