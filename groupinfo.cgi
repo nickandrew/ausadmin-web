@@ -18,6 +18,7 @@ my $cgi = new CGI();
 
 # Figure out which newsgroup we're talking about here
 my $request_uri = $ENV{REQUEST_URI};
+
 # Look for "/newsgroup_name/something"
 $request_uri =~ s/.*groupinfo.cgi//;
 

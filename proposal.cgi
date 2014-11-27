@@ -15,14 +15,14 @@ use Vote qw();
 use View::MainPage qw();
 use View::Proposal qw();
 
-my $cgi = new CGI();
+my $cgi      = new CGI();
 my $proposal = $cgi->param('proposal');
 
 $proposal =~ s/[^a-z0-9.:-]/_/g;
 
 my $vote = new Vote(
 	vote_dir => "$ENV{AUSADMIN_HOME}/vote",
-	name => $proposal
+	name     => $proposal
 );
 
 die "No vote" if (!defined $vote);

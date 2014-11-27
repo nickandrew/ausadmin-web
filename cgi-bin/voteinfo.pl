@@ -10,6 +10,7 @@ my $AUSADMIN_HOME = "/home/ausadmin";
 my $query = new CGI();
 
 if (!-d "$AUSADMIN_HOME/vote") {
+
 	# barf - KLUDGE
 	print "Content-Type: text/plain\n";
 	print "\n";
@@ -27,20 +28,22 @@ my $ng = $query->param('vote') || $query->param('newsgroup');
 my $doc = $query->param('doc');
 
 # Check supplied newsgroup for validity
-if (! ($ng =~ /^[a-z][a-z0-9]{1,13}(\.[a-z0-9][a-z0-9-]{0,13})+(:\d\d\d\d-\d\d-\d\d)?$/)) {
+if (!($ng =~ /^[a-z][a-z0-9]{1,13}(\.[a-z0-9][a-z0-9-]{0,13})+(:\d\d\d\d-\d\d-\d\d)?$/)) {
+
 	# barf
 	print "Newsgroup <$ng> does not verify\n";
 	exit(2);
 }
 
 if ($ng =~ /(-\.)|(-$)/) {
+
 	# barf
 	print "Newsgroup <$ng> has trailing dash\n";
 	exit(2);
 }
 
 # Otherwise, check if there is a vote
-if (! -d "$ng") {
+if (!-d "$ng") {
 	print "There is no vote known for the newsgroup $ng\n";
 	exit(2);
 }
@@ -77,12 +80,14 @@ if ($doc eq 'rfd' && -f "$ng/rfd") {
 }
 
 if ($doc eq 'cfv' && -f "$ng/cfv.signed") {
+
 	# Output the signed call for votes
 	output("$ng/cfv.signed");
 	exit(0);
 }
 
 if ($doc eq 'cfv' && -f "$ng/cfv") {
+
 	# Output the unsigned call for votes if there is no signed one
 	output("$ng/cfv");
 	exit(0);
