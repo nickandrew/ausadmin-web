@@ -37,5 +37,4 @@ server {
 
 Future changes will involve further separation of aus-specific data
 (FAQ and so on) from the site. aus-specific data is published in
-
-	https://github.com/nickandrew/ausadmin-aus-data
+https://github.com/nickandrew/ausadmin-aus-data
