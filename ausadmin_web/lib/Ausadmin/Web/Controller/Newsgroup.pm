@@ -20,6 +20,7 @@ sub groupinfo {
 	my $newsgroup = $self->stash('newsgroup');
 
 	if ($newsgroup =~ /\//) {
+
 		# Remove anything following a slash
 		$newsgroup =~ s/\/.*//;
 		$self->stash('newsgroup', $newsgroup);
@@ -31,7 +32,7 @@ sub groupinfo {
 		return;
 	}
 
-	$self->stash('ngline', $ngroup->get_attr('ngline') || "");
+	$self->stash('ngline',  $ngroup->get_attr('ngline')  || "");
 	$self->stash('charter', $ngroup->get_attr('charter') || "No charter is available for the group $newsgroup, sorry!");
 	$self->newsgroupList();
 	$self->relatedVotesList($newsgroup);
@@ -53,7 +54,7 @@ sub article_rate {
 	my $self = shift;
 
 	my $newsgroup = $self->param('newsgroup');
-	my $type = $self->param('type');
+	my $type      = $self->param('type');
 
 	if ($newsgroup !~ /^([a-z0-9.-]{1,50})$/) {
 		print STDERR "Bad newsgroup name $newsgroup\n";
@@ -68,6 +69,7 @@ sub article_rate {
 	my $path = "$ENV{AUSADMIN_HOME}/Mrtg/arrival/${newsgroup}-${type}.png";
 
 	if (-f $path && -r _) {
+
 		# Reply with a file not under the application directory
 		$self->reply->asset(Mojo::Asset::File->new(path => $path));
 		return;
@@ -79,7 +81,7 @@ sub article_rate {
 }
 
 sub relatedVotesList {
-	my $c = shift;
+	my $c  = shift;
 	my $ng = shift;
 
 	my @contents;

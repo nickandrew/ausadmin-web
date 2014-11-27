@@ -66,7 +66,7 @@ sub newsgroup {
 	my $ngline = $ng->get_attr('ngline') || '';
 	chomp($ngline);
 
-	return $self->render(json => { newsgroup => $newsgroup, ngline => $ngline, charter => $charter});
+	return $self->render(json => { newsgroup => $newsgroup, ngline => $ngline, charter => $charter });
 }
 
 =back

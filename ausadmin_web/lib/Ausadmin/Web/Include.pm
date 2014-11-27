@@ -15,11 +15,11 @@ sub html {
 
 	my $path = "$ENV{AUSADMIN_DATA}/Html/$file";
 
-	if (defined($ENV{AUSADMIN_WEB}) && (!-f $path || ! -r _)) {
+	if (defined($ENV{AUSADMIN_WEB}) && (!-f $path || !-r _)) {
 		$path = "$ENV{AUSADMIN_WEB}/Html/$file";
 	}
 
-	if (!-f $path || ! -r _) {
+	if (!-f $path || !-r _) {
 		print STDERR "Error: $path\n";
 		return undef;
 	}

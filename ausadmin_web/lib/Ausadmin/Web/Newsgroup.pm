@@ -39,7 +39,7 @@ use Carp qw(confess);
 
 # use Ausadmin;
 
-$Newsgroup::DEFAULT_HIERARCHY	= 'aus';
+$Newsgroup::DEFAULT_HIERARCHY = 'aus';
 
 # ---------------------------------------------------------------------------
 # Constructor
@@ -47,7 +47,7 @@ $Newsgroup::DEFAULT_HIERARCHY	= 'aus';
 
 sub new {
 	my $class = shift;
-	my $self = { @_ };
+	my $self  = {@_};
 	bless $self, $class;
 
 	die "No name" if (!exists $self->{name});
@@ -118,7 +118,7 @@ sub _dirname {
 	my $self = shift;
 
 	my $datadir = datadir($self->{hier});
-	my $path = "$datadir/Newsgroups/$self->{name}";
+	my $path    = "$datadir/Newsgroups/$self->{name}";
 	return $path;
 }
 
@@ -139,13 +139,13 @@ sub is_known {
 # ---------------------------------------------------------------------------
 
 sub get_attr {
-	my $self = shift;
+	my $self      = shift;
 	my $attr_name = shift;
 
 	return $self->{$attr_name} if (exists $self->{$attr_name});
 
 	my $datadir = datadir($self->{hier});
-	my $path = "$datadir/Newsgroups/$self->{name}/$attr_name";
+	my $path    = "$datadir/Newsgroups/$self->{name}/$attr_name";
 	return undef if (!-f $path);
 
 	my $fh = new IO::File;
@@ -165,18 +165,19 @@ sub get_attr {
 }
 
 sub set_attr {
-	my $self = shift;
+	my $self      = shift;
 	my $attr_name = shift;
-	my $string = shift;
-	my $reason = shift;
+	my $string    = shift;
+	my $reason    = shift;
 
 	my $datadir = datadir($self->{hier});
-	my $path = "$datadir/Newsgroups/$self->{name}/$attr_name";
+	my $path    = "$datadir/Newsgroups/$self->{name}/$attr_name";
 
 	my $exists;
 	if (-f $path) {
 		$exists = 1;
 		if (!-f "$datadir/Newsgroups/$self->{name}/RCS/$attr_name,v") {
+
 			# check it in for the first time
 			my $rc = system("ci -l $path < /dev/null");
 			if ($rc) {
@@ -193,16 +194,18 @@ sub set_attr {
 	}
 
 	print $fh $string;
-	
+
 	close($fh);
 
 	if ($exists) {
+
 		# Check in an update, with that message
 		my $rc = system("ci", "-l", "-m$reason", $path);
 		if ($rc) {
 			print "checkin existing rc $rc\n";
 		}
 	} else {
+
 		# Check in initial version, use -t-string
 		my $rc = system("ci", "-l", "-t-$reason", $path);
 		if ($rc) {
@@ -226,26 +229,26 @@ sub gen_newgroup {
 	my $control_type = shift || confess('Missing parameter in call to gen_newgroup');
 
 	my $hier_name = $self->{hier_name};
-	my $name = $self->{name};
+	my $name      = $self->{name};
 
-	my $template_path = "config/${control_type}.template";
+	my $template_path  = "config/${control_type}.template";
 	my $template2_path = "config/${hier_name}.control.ctl";
-	my $datadir = datadir($self->{hier});
-	my $ngline_path = "$datadir/Newsgroups/$self->{name}/ngline";
+	my $datadir        = datadir($self->{hier});
+	my $ngline_path    = "$datadir/Newsgroups/$self->{name}/ngline";
 
-	if (! -f $template_path) {
+	if (!-f $template_path) {
 		confess("$control_type template file does not exist");
 	}
 
-	if (! -f $ngline_path) {
+	if (!-f $ngline_path) {
 		confess("$ngline_path does not exist, required for a newgroup");
 	}
 
-	my $template = Ausadmin::readfile($template_path);
+	my $template    = Ausadmin::readfile($template_path);
 	my $control_ctl = Ausadmin::readfile($template2_path);
-	my $ngline = Ausadmin::read1line($ngline_path);
+	my $ngline      = Ausadmin::read1line($ngline_path);
 
-	my $moderated = 0;		# FIXME ... a safe assumption!
+	my $moderated = 0;    # FIXME ... a safe assumption!
 
 	my $control;
 	my $modname;
@@ -273,7 +276,7 @@ sub sign_control {
 
 	my $fh_r = new IO::File;
 	my $fh_w = new IO::File;
-	my $pid = open2($fh_r, $fh_w, "signcontrol");
+	my $pid  = open2($fh_r, $fh_w, "signcontrol");
 
 	# Output the unsigned text to the write file handle
 
@@ -292,25 +295,26 @@ sub sign_control {
 # ---------------------------------------------------------------------------
 
 sub list_newsgroups {
-	my $args = { @_ };
+	my $args = {@_};
 
 	$args->{hier} ||= $Newsgroup::DEFAULT_HIERARCHY;
 	my $datadir = datadir($args->{hier});
 
-	if (! $datadir) {
+	if (!$datadir) {
 		confess "No datadir";
 	}
 
 	# Ignore newsgroup names not containing a dot, and . and ..
 	opendir(D, "$datadir/Newsgroups");
-	my @files = grep { ! /^\.|^[a-zA-Z0-9-]+$/ } readdir(D);
+	my @files = grep { !/^\.|^[a-zA-Z0-9-]+$/ } readdir(D);
 	closedir(D);
 
 	my @list;
 
 	foreach my $f (sort @files) {
 		my $path = "$datadir/Newsgroups/$f";
-		next if (! -d $path);
+		next if (!-d $path);
+
 		# It is not a newsgroup if there's no "ngline" file
 		# (later) next if (! -f "$path/ngline");
 		push(@list, $f);
